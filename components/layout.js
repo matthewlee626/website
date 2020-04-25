@@ -1,12 +1,25 @@
 import Head from 'next/head'
 import styles from './layout.module.sass'
 import Link from 'next/link'
-import { FaInstagram, FaGithub, FaLinkedin} from "react-icons/fa";
+import { FaInstagram, FaGithub, FaLinkedin, FaFile} from "react-icons/fa";
 
 const name = 'Matthew Lee'
 export const siteTitle = 'Matthew Lee'
 
 const topLevel = ["meet"]
+
+/*
+<header className={styles.header}>
+  <Link href={`/`} key={'home'}>
+    <a>home</a>
+  </Link>
+  {topLevel.map((name) => (
+      <Link href={`/${name}`} key={name}>
+          <a>{name}</a>
+      </Link>
+  ))}
+</header>
+*/
 
 export default function Layout({ children, main }) {
   return (
@@ -27,29 +40,20 @@ export default function Layout({ children, main }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <section>
-        <header className={styles.header}>
-          <Link href={`/`} key={'home'}>
-            <a>home</a>
-          </Link>
-          {topLevel.map((name) => (
-              <Link href={`/${name}`} key={name}>
-                  <a>{name}</a>
-              </Link>
-          ))}
-        </header>
-        <main className={styles.main}>{children}</main>
-        {!main && (
-          <div className={styles.backtoBlog}>
-            <Link href="/blog">
-              <a>← Back to blog</a>
-            </Link>
-          </div>
-        )}
+        
+        <main className={styles.main}>
+          {children}
+          <section> 
+            <a href="/resume.pdf" ><FaFile alt="My resume."/></a>
+            <a href="https://github.com/matthewlee626"><FaGithub alt="My GitHub."/></a>      
+            <a href="https://instagram.com/mlee36177"><FaInstagram alt="My Instagram."/></a>
+            <a href="https://linkedin.com/in/matthewlee626"><FaLinkedin alt="My LinkedIn."/></a>
+          </section>
+         
+        </main>
+      
       </section>
       <footer className={styles.footer}>
-        <a href="https://github.com/matthewlee626"><FaGithub /></a>      
-        <a href="https://instagram.com/mlee36177"><FaInstagram /></a>
-        <a href="https://linkedin.com/in/matthewlee626"><FaLinkedin /></a>
       </footer>
     </div>
   )

@@ -39,7 +39,7 @@ const theme = {
     512
   ],
   fonts: {
-    body: 'Nanum Gothic, Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
+    body: 'Lato, Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
     heading: 'inherit',
     monospace: 'Nanum Gothic, Montserrat, Menlo, monospace'
   },

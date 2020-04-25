@@ -9,7 +9,7 @@ export default function blog() {
       </Head>
       <section >
         <h2>Let's Meet</h2>
-        <p>Interested in talking? Want to just chat? Register below; I'll be in touch soon.</p>
+        <p>interested in talking? want to just chat? register below; i'll be in touch soon.</p>
         <ul style={{ height: "400px" }}>
             <iframe
                 src="https://calendly.com/matthewlee626"
