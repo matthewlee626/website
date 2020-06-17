@@ -1,14 +1,45 @@
-.container 
-  max-width: 36rem
-  padding: 0 1rem
-  margin: 3rem auto
+@use '../styles/const'
 
-.header 
+%centered
   display: flex
   flex-direction: row
-  justify-content: flex-end
+  justify-content: center
+
+.container 
+  max-width: 30rem
+  padding: 0 1rem
+  margin: 0.75rem auto
+
+.header 
+  @extend %centered
+  a
+    letter-spacing: const.$wide-space
+    margin: 0 0.75rem
+    text-transform: uppercase
+    text-decoration: none
+    position: relative
+
+    &:after 
+      background: none repeat scroll 0 0 transparent
+      bottom: 0
+      content: ""
+      display: block
+      height: 2px
+      left: 50%
+      position: absolute
+      background: const.$strawberry
+      transition: width 0.3s ease 0s, left 0.3s ease 0s
+      width: 0
+
+    &:hover:after 
+      width: 100%
+      left: 0
+  
+.footer
+  @extend %centered
   a
     margin: 0 0.75rem
+    font-size: 150%
 
-.backToHome 
-  margin: 3rem 0 0
+.backtoBlog 
+  margin: 1.5rem 0 1.5rem

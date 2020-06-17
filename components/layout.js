@@ -1,13 +1,14 @@
 import Head from 'next/head'
 import styles from './layout.module.sass'
 import Link from 'next/link'
+import { FaInstagram, FaGithub, FaLinkedin} from "react-icons/fa";
 
 const name = 'Matthew Lee'
 export const siteTitle = 'Matthew Lee'
 
 const topLevel = ["blog"]
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, main }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -27,22 +28,27 @@ export default function Layout({ children, home }) {
       </Head>
       <header className={styles.header}>
         <Link href={`/`}>
-          <a>Home</a>
+          <a>home</a>
         </Link>
         {topLevel.map((name) => (
-            <Link href={`${name}`}>
-                <a>{name.charAt(0).toUpperCase() + name.slice(1)}</a>
+            <Link href={`/${name}`}>
+                <a>{name}</a>
             </Link>
         ))}
       </header>
       <main>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">
+      {!main && (
+        <div className={styles.backtoBlog}>
+          <Link href="/blog">
             <a>← Back to home</a>
           </Link>
         </div>
       )}
+      <footer className={styles.footer}>
+        <a href="https://github.com/matthewlee626"><FaGithub /></a>      
+        <a href="https://instagram.com/mlee36177"><FaInstagram /></a>
+        <a href="https://linkedin.com/in/matthewlee626"><FaLinkedin /></a>
+      </footer>
     </div>
   )
 }
