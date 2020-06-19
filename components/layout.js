@@ -6,7 +6,7 @@ import { FaInstagram, FaGithub, FaLinkedin} from "react-icons/fa";
 const name = 'Matthew Lee'
 export const siteTitle = 'Matthew Lee'
 
-const topLevel = ["blog"]
+const topLevel = ["blog"] // , "works"]
 
 export default function Layout({ children, main }) {
   return (
@@ -26,24 +26,26 @@ export default function Layout({ children, main }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
-        <Link href={`/`}>
-          <a>home</a>
-        </Link>
-        {topLevel.map((name) => (
-            <Link href={`/${name}`}>
-                <a>{name}</a>
-            </Link>
-        ))}
-      </header>
-      <main>{children}</main>
-      {!main && (
-        <div className={styles.backtoBlog}>
-          <Link href="/blog">
-            <a>← Back to blog</a>
+      <section>
+        <header className={styles.header}>
+          <Link href={`/`}>
+            <a>home</a>
           </Link>
-        </div>
-      )}
+          {topLevel.map((name) => (
+              <Link href={`/${name}`}>
+                  <a>{name}</a>
+              </Link>
+          ))}
+        </header>
+        <main className={styles.main}>{children}</main>
+        {!main && (
+          <div className={styles.backtoBlog}>
+            <Link href="/blog">
+              <a>← Back to blog</a>
+            </Link>
+          </div>
+        )}
+      </section>
       <footer className={styles.footer}>
         <a href="https://github.com/matthewlee626"><FaGithub /></a>      
         <a href="https://instagram.com/mlee36177"><FaInstagram /></a>

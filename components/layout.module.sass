@@ -7,14 +7,17 @@
 
 .container 
   max-width: 30rem
-  padding: 0 1rem
-  margin: 0.75rem auto
+  margin: 0 auto
+  min-height: 100%
+  display: flex
+  flex-direction: column
+  justify-content: space-between
 
 .header 
   @extend %centered
   a
     letter-spacing: const.$wide-space
-    margin: 0 0.75rem
+    margin: 1rem 0.75rem
     text-transform: uppercase
     text-decoration: none
     position: relative
@@ -34,11 +37,11 @@
     &:hover:after 
       width: 100%
       left: 0
-  
+
 .footer
   @extend %centered
   a
-    margin: 0 0.75rem
+    margin: 1rem 0.75rem
     font-size: 150%
 
 .backtoBlog 
