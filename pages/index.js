@@ -9,7 +9,7 @@ export default function Home() {
       </Head>
       <h2>I'm Matthew Lee. </h2>
       <section>
-        <p>Burgeoning programmer. Robotics aficionado. Amatuer sinologist. I attend San Marino High School in San Marino, CA as a rising senior.</p>
+        <p>I attend San Marino High School in San Marino, CA as a rising senior.</p>
         <p>You might know me from:</p>
         <ul>
           <li>
