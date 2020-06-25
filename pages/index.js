@@ -19,7 +19,7 @@ export default function Home() {
             Titan Hacks: I taught CS workshops in the San Marino community and ran TitanHacks, an online hackathon.
           </li>
           <li>
-            RMP @ UCSB: I'm currently researching with TBD about TBD.
+            RMP @ UCSB: I'm currently researching with Yi Ding about Multimodal Signals for EEG-based Interaction.
           </li>
           <li>
             CSP @ Stanford SPICE: I learned about the close and dynamic relationship between the USA and China.
