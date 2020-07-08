@@ -28,11 +28,11 @@ export default function Layout({ children, main }) {
       </Head>
       <section>
         <header className={styles.header}>
-          <Link href={`/`}>
+          <Link href={`/`} key={'home'}>
             <a>home</a>
           </Link>
           {topLevel.map((name) => (
-              <Link href={`/${name}`}>
+              <Link href={`/${name}`} key={name}>
                   <a>{name}</a>
               </Link>
           ))}
