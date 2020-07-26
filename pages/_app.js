@@ -1,5 +1,16 @@
-import '../styles/global.sass'
+import * as React from 'react'
+import NextApp from 'next/app'
 
-export default function App({ Component, pageProps }) {
-    return <Component {...pageProps} />
+import { ThemeProvider } from 'theme-ui'
+import theme from '../components/theme'
+
+export default class App extends NextApp {
+  render() {
+    const { Component, pageProps } = this.props
+    return (
+      <ThemeProvider theme={theme}>
+        <Component {...pageProps} />
+      </ThemeProvider>
+    )
+  }
 }
