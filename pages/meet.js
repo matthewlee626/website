@@ -8,7 +8,8 @@ export default function blog() {
         <title>{siteTitle}</title>
       </Head>
       <section >
-        <h2>Meet</h2>
+        <h2>Let's Meet</h2>
+        <p>Interested in talking? Want to just chat? Register below; I'll be in touch soon.</p>
         <ul style={{ height: "400px" }}>
             <iframe
                 src="https://calendly.com/matthewlee626"
