@@ -1,9 +1,23 @@
 @use '../styles/const'
 
+.workCards
+  display: grid
+  grid-template-columns: repeat(auto-fit, minmax(200px, 10fr))
+
 .workOverlay 
+  &:hover
+    outline: #333 double 4px
+  text-align: center
+
+
+.card
+  text-align: center
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  width: 100%
   p
-    letter-spacing: const.$wide-space
-    margin: 5rem 0.75rem
-    text-transform: uppercase
-    text-decoration: none
-    position: relative
+    text-emphasis: bold
+  img
+    object-fit: cover
+    

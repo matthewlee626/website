@@ -39,9 +39,9 @@ const theme = {
     512
   ],
   fonts: {
-    body: 'Ubuntu, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
+    body: 'Nanum Gothic, Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
     heading: 'inherit',
-    monospace: 'Ubuntu Monospace, Menlo, monospace'
+    monospace: 'Nanum Gothic, Montserrat, Menlo, monospace'
   },
   fontSizes: [
     12,
@@ -77,6 +77,19 @@ const theme = {
       secondary: colors.blue,
       muted: colors.offblack,
     }
+  },
+  cards: {
+    primary: {
+      padding: 2,
+      borderRadius: 4,
+      boxShadow: '0 0 8px rgba(0, 0, 0, 0.125)',
+    },
+    compact: {
+      padding: 1,
+      borderRadius: 2,
+      border: '1px solid',
+      borderColor: 'muted',
+    },
   },
   styles: {
     root: {

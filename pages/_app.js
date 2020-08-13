@@ -6,7 +6,6 @@ import theme from '../components/theme'
 
 import '../styles/global.sass'
 
-
 export default class App extends NextApp {
   render() {
     const { Component, pageProps } = this.props
