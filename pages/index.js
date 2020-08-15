@@ -9,23 +9,23 @@ export default function Home() {
       </Head>
       <h2>I'm Matthew Lee. </h2>
       <section>
-        <p>I attend San Marino High School in San Marino, CA as a rising senior.</p>
+        <p>I attend San Marino High School in San Marino, CA as a current senior.</p>
         <p>You might know me from:</p>
         <ul>
           <li>
             Titanium Robotics: I serve as the Engineering President of FRC 1160, running an online engineering academy. 
           </li>
           <li>
-            Titan Hacks: I taught CS workshops in the San Marino community and ran TitanHacks, an online hackathon.
+            Titan Hacks: I teach CS workshops in the San Marino community and ran TitanHacks, an online hackathon.
           </li>
           <li>
-            RMP @ UCSB: I'm currently researching with Yi Ding about Multimodal Signals for EEG-based Interaction.
+            RMP @ UCSB: I researched with Yi Ding about Multimodal Signals for EEG-based Interaction.
           </li>
           <li>
             CSP @ Stanford SPICE: I learned about the close and dynamic relationship between the USA and China.
           </li>
         </ul>
-        <p>Feel free to contact me through any of the mediums below. If you prefer email, reach me at matthewlee626 at gmail dot com.</p>
+        <p>Feel free to contact me through any of the mediums below. If you prefer email, reach me at matthewlee626 at gmail dot com. Send any book recommendations; I'm always looking for a good read!</p>
       </section>
     </Layout>
   )
