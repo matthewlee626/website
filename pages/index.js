@@ -19,7 +19,7 @@ export default function Home() {
             Titan Hacks: I teach CS workshops in the San Marino community and ran TitanHacks, an online hackathon.
           </li>
           <li>
-            RMP @ UCSB: I researched with Yi Ding about Multimodal Signals for EEG-based Interaction.
+            RMP @ UCSB: I researched with Yi Ding about using multimodal signals for EEG-based authentication.
           </li>
           <li>
             CSP @ Stanford SPICE: I learned about the close and dynamic relationship between the USA and China.
