@@ -6,6 +6,13 @@ import styles from './works.module.sass'
 const works = {
     'items': [
         {
+          'name': "HH",
+          'blurb': "Artwork analyzed.",
+          'id': 0,
+          'img': '/noimage.png',
+          'url': ''
+        },
+        {
           'name': "Zoom-In",
           'blurb': "A skribbl.io-like visual guessing game. Date TBA.",
           'id': 0,
