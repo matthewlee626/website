@@ -6,7 +6,7 @@ import styles from './works.module.sass'
 const works = {
     'items': [
         {
-          'name': "HH",
+          'name': "Hunt",
           'blurb': "Artwork analyzed.",
           'id': 0,
           'img': '/noimage.png',
