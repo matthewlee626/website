@@ -28,10 +28,10 @@ const works = {
         },
         {
           'name': "CCSM",
-          'blurb': "A website for sharing programming materials for a mentoring program. Release 8/20.",
+          'blurb': "A website for sharing programming materials for a mentoring program. Released 8/20.",
           'id': 0,
-          'img': '/noimage.png',
-          'url': ''
+          'img': '/ccsm.png',
+          'url': 'https://ccsm.vercel.app/'
         },
         {
           'name': "ABLS",
