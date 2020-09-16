@@ -25,7 +25,7 @@ export default function Home() {
             China Scholar Program: I learned about the close and dynamic relationship between the USA and China, especially in the context of China's modern economic, political, and cultural growth.
           </li>
         </ul>
-        <p>Feel free to contact me through any of the mediums below. If you prefer email, reach me at matthewlee626 at gmail dot com. Send any book recommendations; I'm always looking for a good read!</p>
+        <p>Feel free to contact me through any of the mediums below. If you prefer email, reach me at matthewlee626 at gmail dot com.  Please send any over book recommendations; I'm always looking for a good read!</p>
       </section>
     </Layout>
   )
