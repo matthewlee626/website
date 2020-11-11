@@ -6,7 +6,7 @@ import { FaInstagram, FaGithub, FaLinkedin} from "react-icons/fa";
 const name = 'Matthew Lee'
 export const siteTitle = 'Matthew Lee'
 
-const topLevel = ["meet"]
+const topLevel = ["blog", "work", "meet"]
 
 export default function Layout({ children, main }) {
   return (
