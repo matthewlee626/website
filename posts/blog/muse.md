@@ -3,10 +3,10 @@ title: 'Untitled #1'
 date: '2020-09-02'
 ---
 
-What even is time in forever?
+What is a moment during forever?
 
 The quarantine has progressed for a year.
 
-Friends and clubs offer endeavors
+Friends and clubs let virtual endeavors
 
-With unpredictability.
+Grant us some unpredictability.
