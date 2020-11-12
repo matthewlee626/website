@@ -6,6 +6,13 @@ import styles from './works.module.sass'
 const works = {
     'items': [
         {
+          'name': "CVM",
+          'blurb': "A simple dashboard for unbiased COVID-19 study data.",
+          'id': 0,
+          'img': '/cvm.png',
+          'url': 'https://cvm.matthewlee.xyz'
+        },
+        {
           'name': "Hunt",
           'blurb': "Artwork analyzed.",
           'id': 0,
@@ -21,7 +28,7 @@ const works = {
         },
         {
           'name': "Notebook",
-          'blurb': "Caligraphy style notebook. Publish to the world! Date TBA.",
+          'blurb': "Caligraphy style notebook. Publish to the world! Currently retooling for MongoDB.",
           'id': 0,
           'img': '/noimage.png',
           'url': ''
