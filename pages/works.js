@@ -13,13 +13,6 @@ const works = {
           'url': 'https://cvm.matthewlee.xyz'
         },
         {
-          'name': "Hunt",
-          'blurb': "Artwork analyzed.",
-          'id': 0,
-          'img': '/noimage.png',
-          'url': ''
-        },
-        {
           'name': "Zoom-In",
           'blurb': "A skribbl.io-like visual guessing game. Date TBA.",
           'id': 0,
@@ -68,6 +61,20 @@ const works = {
           'img': '/ttt.png',
           'url': 'https://play.google.com/store/apps/details?id=com.matthewlee626.TicTacToe'
         },
+        {
+          'name': "TitanHacks",
+          'blurb': "The website for my April 2020 online hackathon.",
+          'id': 0,
+          'img': '/titanhacks.png',
+          'url': 'https://titanhacks.net'
+        },
+        {
+          'name': "Titan Dev Club",
+          'blurb': "The website for my San Marino web development club.",
+          'id': 0,
+          'img': '/titan.png',
+          'url': 'https://titanhacks.club'
+        },
     ]
 }
 
@@ -101,7 +108,7 @@ export default function blog() {
 
 const Work = props => (
     <Card className={styles.card}>
-        <Image src={props.img}></Image>
+        <Image src={props.img} className={styles.cardIm}></Image>
         <h3>{props.name}</h3>
         <Text>{props.blurb}</Text>
     </Card>

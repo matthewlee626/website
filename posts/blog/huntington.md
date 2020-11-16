@@ -1,5 +1,5 @@
 ---
-title: 'Hungtington Visit'
+title: 'Huntington Visit'
 date: '2020-10-21'
 ---
 
