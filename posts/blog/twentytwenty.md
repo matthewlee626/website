@@ -21,12 +21,10 @@ It's no secret that Facebook, Twitter, Instagram, and the like have played a pla
 
 Surprise! Average global temperatures are still rising! The Great Barrier Reef continue to die. While the pandemic briefly gave Mother Earth some respite, the desire to come back roaring has meant that mankind is back on track to roasting ourselves alive. This issue, of all three, is frankly going to be the most difficult to tackle. When you don't have a job, are afraid of a deathly plague, and are faced with uncertain and incompetent governments, the polar bears and penguins seem to diminish in importance. All the more importance to Build Back Better with clean infrastructure so that the world's leading governments can pave the way for an end to massive consumptions. Right?
 
-### Bonus US Issue: BLM
+### BLM
 
-Breaking from my own self imposed rule, I as an American have a duty to acknowledge and support the efforts of activists who have painstakingly fought for the continued fight for equality. The pandemic has created a massive surge of inequality that only widens the gap between America's many and few. Social media has become both a tool to spread awareness and a weapon to organize movements. Environmental failures continue to wreak havoc on poorer neighborhoods. And this is certainly global as well.
+I as an American acknowledge and support the efforts of activists who have painstakingly fought for the continued fight for equality. The pandemic has created a massive surge of inequality that only widens the gap between America's many and few. Social media has become both a tool to spread awareness and a weapon to organize insurgent movements. Environmental failures continue to wreak havoc on poorer neighborhoods -- a global issue as well.
 
 ### Closing Remarks
 
 It's been tough. It is tough. It will be tough. Let's become better. Onwards to 2021, and good riddance to a year for the ages.
-
--M
