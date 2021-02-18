@@ -13,16 +13,16 @@ export default function Home() {
         <p>You might know me from:</p>
         <ul>
           <li>
-            Titanium Robotics: I serve as the Engineering President of FRC Team 1160, San Marino High School's robotics team. I am currently organizing an online engineering academy. 
+            Titanium Robotics: I serve as the Engineering President of FRC Team 1160, San Marino High School's robotics team. I am currently organizing our efforts in virtual FRC competitions. 
           </li>
           <li>
-            Titan Hacks: I teach CS workshops to students in the Greater Pasadena community, and ran TitanHacks, an online hackathon for high schoolers across the globe.
+            Titan Hacks: I teach CS classes to students in the Greater Pasadena community, and ran TitanHacks, an online hackathon for high schoolers across the globe.
           </li>
           <li>
-            Research Mentorship Program (RMP): I researched with Yi Ding, a graduate student at the University of California Santa Barbara, on using multimodal signals for EEG-based authentication.
+            Research Mentorship Program (RMP): I researched with Yi Ding, a graduate student at the University of California Santa Barbara, on using multimodal signals for EEG-based neural net authentication.
           </li>
           <li>
-            China Scholar Program: I learned about the close and dynamic relationship between the USA and China, especially in the context of China's modern economic, political, and cultural growth.
+            China Scholars Program: I learned about the close and dynamic relationship between the USA and China, especially in the context of China's modern economic, political, and cultural growth.
           </li>
         </ul>
         <p>Feel free to contact me through any of the mediums below. If you prefer email, reach me at matthewlee626 at gmail dot com.  Please send any over book recommendations; I'm always looking for a good read!</p>
