@@ -12,7 +12,7 @@ export default function Home() {
       <section>
         <p>i am currently a senior at San Marino High.</p>
         <p>i will attend UC Berkeley this coming fall.</p>
-        <p>i plan to study computer science and business, and maybe dabble in public policy.</p>
+        <p>i plan to study computer science + other miscellaneous subjects.</p>
         <p>i code, design, and envision.</p>
         <p>English/中文</p>
       </section>
