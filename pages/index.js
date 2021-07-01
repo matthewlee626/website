@@ -10,11 +10,10 @@ export default function Home() {
       </Head>
       <h1>Matthew Lee</h1>
       <section>
-        <p>i am currently a senior at San Marino High.</p>
-        <p>i will attend UC Berkeley this coming fall.</p>
-        <p>i plan to study computer science + other miscellaneous subjects.</p>
-        <p>i code, design, and envision.</p>
-        <p>English/中文</p>
+        <p>i am currently a freshman at UC Berkeley.</p>
+        <p>i intend to study computer science and data science.</p>
+        <p>i also plan to dabble in design and entrepreneurship.</p>
+        <p>i learn, code, and explore.</p>
       </section>
     </Layout>
   )
