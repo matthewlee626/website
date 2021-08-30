@@ -47,7 +47,7 @@ export default function Layout({ children, main }) {
             <a href="/resume.pdf" ><FaFile alt="My resume."/></a>
             <a href="https://github.com/matthewlee626"><FaGithub alt="My GitHub."/></a>      
             <FaEye/>
-            <a href="https://instagram.com/mlee36177"><FaInstagram alt="My Instagram."/></a>
+            <a href="https://instagram.com/matthewlee.626"><FaInstagram alt="My Instagram."/></a>
             <a href="https://linkedin.com/in/matthewlee626"><FaLinkedin alt="My LinkedIn."/></a>
           </section>
          
