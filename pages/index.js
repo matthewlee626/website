@@ -13,7 +13,6 @@ export default function Home() {
         <p>i am currently a freshman at UC Berkeley.</p>
         <p>i intend to study computer science and data science.</p>
         <p>i also plan to dabble in design and entrepreneurship.</p>
-        <p>i learn, code, and explore.</p>
       </section>
     </Layout>
   )
