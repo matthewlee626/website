@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from './layout.module.sass'
 import Link from 'next/link'
-import { FaInstagram, FaGithub, FaLinkedin, FaFile, FaEye} from "react-icons/fa";
+import { FaInstagram, FaGithub, FaLinkedin, FaFile, FaEye, FaTwitter} from "react-icons/fa";
 
 const name = 'Matthew Lee'
 export const siteTitle = 'Matthew Lee'
@@ -44,15 +44,12 @@ export default function Layout({ children, main }) {
         <main className={styles.main}>
           {children}
           <section> 
-            <a href="/resume.pdf" ><FaFile alt="My resume."/></a>
             <a href="https://github.com/matthewlee626"><FaGithub alt="My GitHub."/></a>      
-            <FaEye/>
-            <a href="https://instagram.com/matthewlee.626"><FaInstagram alt="My Instagram."/></a>
             <a href="https://linkedin.com/in/matthewlee626"><FaLinkedin alt="My LinkedIn."/></a>
+            <a href="https://twitter.com/matthewlee626"><FaTwitter alt="My Twitter."/></a>
+            <a href="https://instagram.com/matthewlee.626"><FaInstagram alt="My Instagram."/></a>
           </section>
-         
-        </main>
-      
+        </main> 
       </section>
       <footer className={styles.footer}>
       </footer>
