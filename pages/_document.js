@@ -1,5 +1,4 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import { InitializeColorMode } from 'theme-ui'
 
 export default class extends Document {
   static async getInitialProps(ctx) {
@@ -15,7 +14,6 @@ export default class extends Document {
           <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet"/> 
         </Head>
         <body>
-          <InitializeColorMode />
           <Main />
           <NextScript />
         </body>

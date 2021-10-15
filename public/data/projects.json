@@ -1,0 +1,39 @@
+{
+    "data": [
+        {
+            "image": "/blocker.svg",
+            "alt": "Unify",
+            "title": "Unify",
+            "description": "A platform that connects high school students with current college students to prove personalized insight on finances, major curriculums, and holistic university experiences. Built with React, Node.js, and Firebase.",
+            "linkTo": "https://devpost.com/software/unity-qd6jbc"
+        },
+        {
+            "image": "/blocker.svg",
+            "alt": "Book Rank Predictor",
+            "title": "Book Rank Predictor",
+            "description": "A random forest model that utilizes the metadata of a book (i.e. title, author, publication date) to forecast whether it reaches the New York Times Best Sellers or not, coupled with a regression model that predicts the rank trajectory of the book across weeks. Built with Scikit-learn and Pandas.",
+            "linkTo": "https://github.com/matthewlee626/NYTimesPredictor"
+        },
+        {
+            "image": "/blocker.svg",
+            "alt": "An[Ti]lles",
+            "title": "An[Ti]lles",
+            "description": "Control system for FIRST Robotics Competition robot with vision pipeline for automated target detection, and PID controller guided drive and mechanism operation. Built with Java and OpenCV.",
+            "linkTo": "https://github.com/FRC-Team-1160/2020-Infinite-Recharge"
+        },
+        {
+            "image": "/blocker.svg",
+            "alt": "test",
+            "title": "Title",
+            "description": "LLLLLLLLL",
+            "linkTo": "https://google.com"
+        },
+        {
+            "image": "/blocker.svg",
+            "alt": "test",
+            "title": "Title",
+            "description": "LLLLLLLLL",
+            "linkTo": "https://google.com"
+        }
+    ]
+}
