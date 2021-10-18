@@ -21,6 +21,7 @@ const styles = {
       alignItems: 'center',
     },    
   },
+
   worksOrganizingContainer: {
     width: 'calc(100% - 350px)',
     minWidth: '350px',
@@ -30,6 +31,12 @@ const styles = {
     margin: '-0.5em 0 0 0',
     gap: '2em 0',
     overflowY: 'auto',
+    ['@media only screen and (max-device-width: 800px) and (orientation: portrait)']: { // eslint-disable-line no-useless-computed-key
+      overflowY: 'visible'
+    },
+    ['@media (max-width: 1000px)']: { // eslint-disable-line no-useless-computed-key
+      overflowY: 'visible'
+    },    
     '::-webkit-scrollbar': {
       width: '10px',
     },

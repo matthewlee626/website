@@ -17,12 +17,16 @@ const styles = {
         ['@media only screen and (max-device-width: 800px) and (orientation: portrait)']: { // eslint-disable-line no-useless-computed-key
             flexDirection: 'column',
             alignItems: 'center',
+            justifyContent: 'center',
+            padding: '0 2em',
             marginTop: '2em'
         },
         ['@media (max-width: 1000px)']: { // eslint-disable-line no-useless-computed-key
             flexDirection: 'column',
             alignItems: 'center',
             marginTop: '2em',
+            justifyContent: 'center',
+            padding: '0 2em',
         },  
     },
     worksContainer: {
@@ -31,6 +35,12 @@ const styles = {
         justifyContent: 'flex-start',
         alignItems: 'flex-start',
         gap: '2.5em 2.5em',
+        ['@media only screen and (max-device-width: 800px) and (orientation: portrait)']: { // eslint-disable-line no-useless-computed-key
+            justifyContent: 'center',
+        },
+        ['@media (max-width: 1000px)']: { // eslint-disable-line no-useless-computed-key
+            justifyContent: 'center',
+        },  
     }
 }
 

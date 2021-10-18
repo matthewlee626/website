@@ -21,6 +21,12 @@ const styles = {
       },
       '> p': {
           fontSize: '1.14em',
+          ['@media only screen and (max-device-width: 800px) and (orientation: portrait)']: { // eslint-disable-line no-useless-computed-key
+            textAlign: 'center',
+        },
+        ['@media (max-width: 1000px)']: { // eslint-disable-line no-useless-computed-key
+            textAlign: 'center',
+        },  
       }
     },
     iconContainer: {
@@ -38,7 +44,7 @@ const styles = {
         height:'275px',
         background: 'url(/pfpMain.jpg) no-repeat',
         backgroundSize: 'contain',
-        '&:hover': {
+        '&:hover, &:active': {
             background: 'url(/pfpAlt.jpg) no-repeat',
             backgroundSize: 'contain',
         }
