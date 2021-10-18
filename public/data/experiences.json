@@ -1,39 +1,25 @@
 {
     "data": [
         {
-            "image": "/blocker.svg",
-            "alt": "test",
-            "title": "Title",
-            "description": "LLLLLLLLL",
-            "linkTo": "https://google.com"
+            "image": "/data/experiences/hackplus.svg",
+            "alt": "Hack+ Logo",
+            "title": "Software Engineering Intern  @ Hack+",
+            "description": "Hack+ supports organizations and events with legal backend, banking services, equipment, and more. Developed client portal for finances and logistics management.",
+            "linkTo": "https://hackplus.io/"
         },
         {
-            "image": "/blocker.svg",
-            "alt": "test",
-            "title": "Title",
-            "description": "LLLLLLLLL",
-            "linkTo": "https://google.com"
+            "image": "/data/experiences/ucsb.jpg",
+            "alt": "UCSB Logo",
+            "title": "Machine Learning Researcher @ UCSB",
+            "description": "Architected a convolutional neural network EEG-based authentication system with P300 event-related potential as input by using PyTorch and Jupyter Notebooks.",
+            "linkTo": "https://github.com/matthewlee626/EEG-auth"
         },
         {
-            "image": "/blocker.svg",
-            "alt": "test",
-            "title": "Title",
-            "description": "LLLLLLLLL",
-            "linkTo": "https://google.com"
-        },
-        {
-            "image": "/blocker.svg",
-            "alt": "test",
-            "title": "Title",
-            "description": "LLLLLLLLL",
-            "linkTo": "https://google.com"
-        },
-        {
-            "image": "/blocker.svg",
-            "alt": "test",
-            "title": "Title",
-            "description": "LLLLLLLLL",
-            "linkTo": "https://google.com"
+            "image": "/data/experiences/caltech.png",
+            "alt": "Caltech Logo",
+            "title": "Network Theory Researcher @ Caltech",
+            "description": "Researched methods on clustering using crowdsourced data with antagonistic actors using MATLAB and studied algorithms in network theory.",
+            "linkTo": "https://github.com/matthewlee626/strawberry-processing"
         }
     ]
 }

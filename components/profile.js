@@ -62,6 +62,7 @@ const Profile = () => {
                 I'm a student at UC Berkeley, majoring in Computer Science and Data Science with a minor in Global Studies. 
                 I’m broadly interested in all things HCI, web development, entrepreneurship, and design. 
                 When I’m not building cool projects, I enjoy hiking, visiting museums, and watching basketball games.
+                Want to reach out? Feel free to contact me at hello (aa tt) matthewlee.xyz!
             </p>
             <Box sx={styles.iconContainer}>
                 <Link href="https://linkedin.com/in/matthewlee626">

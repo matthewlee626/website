@@ -32,10 +32,10 @@ const styles = {
     gap: '2em 0',
     overflowY: 'auto',
     ['@media only screen and (max-device-width: 800px) and (orientation: portrait)']: { // eslint-disable-line no-useless-computed-key
-      overflowY: 'visible'
+      overflowY: 'initial'
     },
     ['@media (max-width: 1000px)']: { // eslint-disable-line no-useless-computed-key
-      overflowY: 'visible'
+      overflowY: 'initial'
     },    
     '::-webkit-scrollbar': {
       width: '10px',
@@ -51,51 +51,6 @@ const styles = {
     }
   }
 }
-
-const dummyData = [
-  {
-    image: '/blocker.svg',
-    alt: 'test',
-    title: 'Title',
-    description: 'LLLLLLLLL',
-    linkTo: 'https://google.com'
-  },
-  {
-    image: '/blocker.svg',
-    alt: 'test',
-    title: 'Title',
-    description: 'LLLLLLLLL',
-    linkTo: 'https://google.com'
-  },
-  {
-    image: '/blocker.svg',
-    alt: 'test',
-    title: 'Title',
-    description: 'LLLLLLLLL',
-    linkTo: 'https://google.com'
-  },
-  {
-    image: '/blocker.svg',
-    alt: 'test',
-    title: 'Title',
-    description: 'LLLLLLLLL',
-    linkTo: 'https://google.com'
-  },
-  {
-    image: '/blocker.svg',
-    alt: 'test',
-    title: 'Title',
-    description: 'LLLLLLLLL',
-    linkTo: 'https://google.com'
-  },
-  {
-    image: '/blocker.svg',
-    alt: 'test',
-    title: 'Title',
-    description: 'LLLLLLLLL',
-    linkTo: 'https://google.com'
-  },
-]
 
 const Home = ({projects, experiences}) => {
   return (
