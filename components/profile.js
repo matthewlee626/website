@@ -57,7 +57,7 @@ const Profile = () => {
                 I'm Matthew, and I'm studying computer science and data science at the University of California, Berkeley.
             </p>
             <p>
-                Currently, I'm a software engineer at <Link href="https://www.spatial.io/">Spatial</Link>, building the metaverse for culture and collaboration.
+                Currently, I'm a SWE intern at <Link href="https://www.spatial.io/">Spatial</Link>, building the metaverse for culture and collaboration.
             </p>
             <p>
             In my free time, I enjoy chess, museums, maps, basketball, and good food.
