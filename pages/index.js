@@ -1,25 +1,14 @@
-import Box from '@mui/material/Box';
-
 import Profile from '../components/profile'
-import Works from '../components/works'
-
+import { Box } from '@chakra-ui/react'
 const styles = {
   rootContainer: {
     height: '100%',
     width: '100%',
     display: 'flex',
-    flexDirection: 'row',
+    flexDirection: 'column',
     justifyContent: 'space-between',
+    alignItems: 'center',
     padding: '4em',
-
-    ['@media only screen and (max-device-width: 800px) and (orientation: portrait)']: { // eslint-disable-line no-useless-computed-key
-      flexDirection: 'column',
-      alignItems: 'center',
-    },
-    ['@media (max-width: 1000px)']: { // eslint-disable-line no-useless-computed-key
-      flexDirection: 'column',
-      alignItems: 'center',
-    },    
   },
 
   worksOrganizingContainer: {
@@ -52,31 +41,12 @@ const styles = {
   }
 }
 
-const Home = ({projects, experiences}) => {
+const Home = () => {
   return (
     <Box sx={styles.rootContainer}>
        <Profile />
-       <Box sx={styles.worksOrganizingContainer}>
-          <Works title={"Experiences"} works={experiences.data} />
-          <Works title={"Projects"} works={projects.data} />
-       </Box>
     </Box>
   )
-}
-
-export async function getStaticProps() {
-
-  const projects = require('../public/data/projects.json');
-  const experiences = require('../public/data/experiences.json');
-
-  // By returning { props: { posts } }, the Blog component
-  // will receive `posts` as a prop at build time
-  return {
-    props: {
-      projects,
-      experiences,
-    },
-  }
 }
 
 export default Home;

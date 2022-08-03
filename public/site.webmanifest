@@ -1,6 +1,7 @@
 {
-  "name": "",
-  "short_name": "",
+  "name": "Matthew Lee",
+  "short_name": "Matthew Lee",
+  "description": "Matthew Lee is a CS + DS student at UC Berkeley.",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

@@ -2,8 +2,8 @@ import React from 'react'
 import Head from 'next/head'
 import NextApp from 'next/app'
 
-import { ThemeProvider } from '@mui/material'
-import { theme } from '../components/theme'
+import { ChakraProvider } from '@chakra-ui/react'
+
 
 import '../styles/global.sass'
 
@@ -15,7 +15,9 @@ export default class App extends NextApp {
         <Head>
           <title>Matthew Lee</title>
         </Head>
-        <Component {...pageProps} />
+        <ChakraProvider>
+          <Component {...pageProps} />
+        </ChakraProvider>
       </>
     )
   }

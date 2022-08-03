@@ -1,10 +1,11 @@
-import Box from '@mui/material/Box';
-import Link from '@mui/material/Link'
+import { Box} from '@chakra-ui/react'
+import Link from 'next/link'; 
 import Image from 'next/image';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
 
 const styles = {
     profileContainer: {
@@ -15,18 +16,13 @@ const styles = {
       justifyContent: 'flex-start',
       alignItems: 'center',
       textAlign: 'justify',
+      gap: "1em",
       '> h1': {
-          margin: '1.8em 0 0.4em 0',
+          margin: '1em 0 0.4em 0',
           fontSize: '1.6em',
       },
       '> p': {
           fontSize: '1.14em',
-          ['@media only screen and (max-device-width: 800px) and (orientation: portrait)']: { // eslint-disable-line no-useless-computed-key
-            textAlign: 'center',
-        },
-        ['@media (max-width: 1000px)']: { // eslint-disable-line no-useless-computed-key
-            textAlign: 'center',
-        },  
       }
     },
     iconContainer: {
@@ -54,15 +50,20 @@ const styles = {
 const Profile = () => {
     return (
         <Box sx={styles.profileContainer}>
-            <Box sx={styles.pfpImage}>
-            </Box>
+            <Box sx={styles.pfpImage} />
             <h1>Matthew Lee</h1>
             <p>
                 Hi there! 
-                I'm a student at UC Berkeley, majoring in Computer Science and Data Science with a minor in Global Studies. 
-                I’m broadly interested in all things HCI, web development, entrepreneurship, and design. 
-                When I’m not building cool projects, I enjoy hiking, visiting museums, and watching basketball games.
-                Want to reach out? Feel free to contact me at hello (aa tt) matthewlee.xyz!
+                I'm Matthew, and I'm studying computer science and data science at the University of California, Berkeley.
+            </p>
+            <p>
+                Currently, I'm a software engineer at <Link href="https://www.spatial.io/">Spatial</Link>, building the metaverse for culture and collaboration.
+            </p>
+            <p>
+            In my free time, I enjoy chess, museums, maps, basketball, and good food.
+            </p>
+            <p>
+              Want to reach out? Feel free to contact me at hello (at) matthewlee.xyz!
             </p>
             <Box sx={styles.iconContainer}>
                 <Link href="https://linkedin.com/in/matthewlee626">
@@ -76,6 +77,9 @@ const Profile = () => {
                 </Link>
                 <Link href="https://instagram.com/matthewlee.626">
                     <InstagramIcon sx={{fontSize: '2em'}} />
+                </Link>
+                <Link href="/resume">
+                    <InsertDriveFileIcon sx={{fontSize: '2em'}} />
                 </Link>
             </Box>
         </Box>
