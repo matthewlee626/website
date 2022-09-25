@@ -32,7 +32,13 @@ const styles = {
         flexDirection: 'row',
         justifyContent: 'space-around',
         'svg': {
-            color: '#33507b'
+            color: '#33507b',
+            '&:hover, &:active': {
+                cursor: "pointer"
+            },
+            // '&:active': {
+            //     cursor: "grab"
+            // }
         },
     },
     pfpImage: {
