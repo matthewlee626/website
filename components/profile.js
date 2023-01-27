@@ -63,14 +63,14 @@ const Profile = () => {
                 I'm Matthew, and I'm studying computer science and data science at the University of California, Berkeley.
             </p>
             <p>
-                This past summer, I was a SWE intern at <Link href="https://www.spatial.io/">Spatial</Link>, building the metaverse for culture and collaboration.
+                I'm currently a SWE intern at Figma. I also do HCI research.
             </p>
             <p>
             In my free time, I enjoy chess, museums, maps, basketball, and good food.
             </p>
-            <p>
+            {/* <p>
               Want to reach out? Feel free to contact me at hello (at) matthewlee.xyz!
-            </p>
+            </p> */}
             <Box sx={styles.iconContainer}>
                 <Link href="https://linkedin.com/in/matthewlee626">
                     <LinkedInIcon sx={{fontSize: '2em'}} />
