@@ -8,6 +8,18 @@ import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
 import Head from 'next/head';
 
 const styles = {
+    overallContainer: {
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'flex-start',
+      alignItems: 'center',
+      textAlign: 'center',
+      gap: "1em",
+    },
+    textContainer: {
+      // left aligned text
+      textAlign: 'justify',
+    },
     profileContainer: {
       width: '350px',
       padding: '0 25px',
@@ -57,7 +69,8 @@ const styles = {
         }
     },
     name: {
-      fontSize: "48px",
+      fontSize: "38px",
+      fontFamily: "Arial",
       color: "white",
       fontStyle: "normal",
       fontWeight: "400",
@@ -73,11 +86,19 @@ const Profile = () => {
           <Head>
             <link rel="preload" href="/pfpAlt.jpg" as="image" />
           </Head>
-            <Box>
+            <Box sx={styles.overallContainer}>
               <Box>
                 <Box sx={styles.pfpImage} />
-                <Heading sx={styles.name}>Matthew Lee</Heading>
-                <Box sx={styles.iconContainer}>
+
+              </Box>
+              <Heading sx={styles.name}>Matthew Lee</Heading>
+
+              <Box sx={styles.textContainer}>
+                <p>
+                  I'm Matthew, and I'm studying computer science and data science at the University of California, Berkeley. My research interests are in the intersection of HCI and ML; I've explored learnings in <Link href="https://doi.org/10.1145/3563657.3596138" external>iterative prompt design for chatbots</Link> and novel interfaces for manipulating dictated text on mobile devices with LLMs. I also run <Link href="https://calhacks.io/" external>Cal Hacks</Link>, UC Berkeley's largest hackathon. I’ve interned at some great companies, including Uber, Figma, and Spatial. In my free time, I enjoy playing chess, learning languages (Korean, Spanish), building interesting maps, and trying good food of all kinds.
+                </p>
+              </Box>
+              <Box sx={styles.iconContainer}>
                   <Link href="https://linkedin.com/in/matthewlee626" external>
                       <LinkedInIcon sx={{fontSize: '2em'}} />
                   </Link>
@@ -94,16 +115,6 @@ const Profile = () => {
                       <InsertDriveFileIcon sx={{fontSize: '2em'}} />
                   </Link>
                 </Box>
-              </Box>
-              <Box>
-                <p>
-                  I'm Matthew, and I'm studying computer science and data science at the University of California, Berkeley. My research interests are in the intersection of HCI and ML, and I've worked on project. I also run Cal Hacks, UC Berkeley's largest hackathon. I’ve interned at some great companies, including Uber, Figma, and Spatial.
-                </p>
-                <p>
-                  In my free time, I enjoy playing chess, learning languages (Korean, Spanish), building interesting maps, and trying good food of all kinds.
-                </p>
-              </Box>
-
             </Box>
 
         </Box>
