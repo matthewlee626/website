@@ -1,4 +1,4 @@
-import { Box} from '@chakra-ui/react';
+import { Box, Heading } from '@chakra-ui/react';
 import { Link } from './link';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -55,6 +55,15 @@ const styles = {
             backgroundSize: 'contain', 
             boxShadow: '0 0 10px 0 rgba(0, 0, 0, 0.8)',
         }
+    },
+    name: {
+      fontSize: "48px",
+      color: "white",
+      fontStyle: "normal",
+      fontWeight: "400",
+      lineHeight: "normal",
+      letterSpacing: "2.4px",
+      "-webkit-text-stroke": "1px #33507b"
     }
 }
 
@@ -64,38 +73,39 @@ const Profile = () => {
           <Head>
             <link rel="preload" href="/pfpAlt.jpg" as="image" />
           </Head>
-            <Box sx={styles.pfpImage} />
-            <h1>Matthew Lee</h1>
-            <p>
-                Hi there! 
-                I'm Matthew, and I'm studying computer science and data science at the University of California, Berkeley.
-            </p>
-            <p>
-                I do HCI research and run Cal Hacks, and have been interning at Uber and Figma.
-            </p>
-            <p>
-              In my free time, I enjoy chess, museums, maps, basketball, and good food.
-            </p>
-            {/* <p>
-              Want to reach out? Feel free to contact me at hello (at) matthewlee.xyz!
-            </p> */}
-            <Box sx={styles.iconContainer}>
-                <Link href="https://linkedin.com/in/matthewlee626" external>
-                    <LinkedInIcon sx={{fontSize: '2em'}} />
-                </Link>
-                <Link href="https://github.com/matthewlee626" external>
-                    <GitHubIcon sx={{fontSize: '2em'}} />
-                </Link>
-                <Link href="https://twitter.com/matthewlee626" external>
-                    <TwitterIcon sx={{fontSize: '2em'}} />
-                </Link>
-                <Link href="https://instagram.com/matthewlee.626" external>
-                    <InstagramIcon sx={{fontSize: '2em'}} />
-                </Link>
-                <Link href="/resume" external>
-                    <InsertDriveFileIcon sx={{fontSize: '2em'}} />
-                </Link>
+            <Box>
+              <Box>
+                <Box sx={styles.pfpImage} />
+                <Heading sx={styles.name}>Matthew Lee</Heading>
+                <Box sx={styles.iconContainer}>
+                  <Link href="https://linkedin.com/in/matthewlee626" external>
+                      <LinkedInIcon sx={{fontSize: '2em'}} />
+                  </Link>
+                  <Link href="https://github.com/matthewlee626" external>
+                      <GitHubIcon sx={{fontSize: '2em'}} />
+                  </Link>
+                  <Link href="https://twitter.com/matthewlee626" external>
+                      <TwitterIcon sx={{fontSize: '2em'}} />
+                  </Link>
+                  <Link href="https://instagram.com/matthewlee.626" external>
+                      <InstagramIcon sx={{fontSize: '2em'}} />
+                  </Link>
+                  <Link href="/resume" external>
+                      <InsertDriveFileIcon sx={{fontSize: '2em'}} />
+                  </Link>
+                </Box>
+              </Box>
+              <Box>
+                <p>
+                  I'm Matthew, and I'm studying computer science and data science at the University of California, Berkeley. My research interests are in the intersection of HCI and ML, and I've worked on project. I also run Cal Hacks, UC Berkeley's largest hackathon. I’ve interned at some great companies, including Uber, Figma, and Spatial.
+                </p>
+                <p>
+                  In my free time, I enjoy playing chess, learning languages (Korean, Spanish), building interesting maps, and trying good food of all kinds.
+                </p>
+              </Box>
+
             </Box>
+
         </Box>
     )
 }
