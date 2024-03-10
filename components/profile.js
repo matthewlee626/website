@@ -111,12 +111,12 @@ const Profile = () => {
                   <Link href="https://twitter.com/matthewlee626" external>
                       <TwitterIcon sx={{fontSize: '2em'}} />
                   </Link>
-                  <Link href="https://instagram.com/matthewlee.626" external>
+                  {/* <Link href="https://instagram.com/matthewlee.626" external>
                       <InstagramIcon sx={{fontSize: '2em'}} />
                   </Link>
                   <Link href="/resume" external>
                       <InsertDriveFileIcon sx={{fontSize: '2em'}} />
-                  </Link>
+                  </Link> */}
                 </Box>
             </Box>
 
