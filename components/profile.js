@@ -18,7 +18,7 @@ const styles = {
     },
     textContainer: {
       // left aligned text
-      textAlign: 'justify',
+      textAlign: 'left',
     },
     profileContainer: {
       width: '350px',
@@ -56,12 +56,12 @@ const styles = {
     pfpImage: {
         width: '275px',
         height:'275px',
-        background: 'url(/pfpMain.jpg) no-repeat',
+        background: 'url(/pfp.jpg) no-repeat',
         backgroundSize: 'contain',
         borderRadius: '8px',
-        transition: 'all 0.2s ease-in-out',
+        transition: 'all 0.1s ease-in-out',
         // delay
-        transitionDelay: '150ms',
+        transitionDelay: '100ms',
         '&:hover, &:active': {
             background: 'url(/pfpAlt.jpg) no-repeat',
             backgroundSize: 'contain', 
@@ -76,7 +76,8 @@ const styles = {
       fontWeight: "400",
       lineHeight: "normal",
       letterSpacing: "2.4px",
-      "-webkit-text-stroke": "1px #33507b"
+      "-webkit-text-stroke": "1.5px #33507b",
+      color: "transparent"
     }
 }
 
@@ -94,9 +95,11 @@ const Profile = () => {
               <Heading sx={styles.name}>Matthew Lee</Heading>
 
               <Box sx={styles.textContainer}>
+                <p><b>Currently: </b>big bets on Figma's prototyping team + CS and DS at UC Berkeley</p>
                 <p>
-                  I'm Matthew, and I'm studying computer science and data science at the University of California, Berkeley. My research interests are in the intersection of HCI and ML; I've explored learnings in <Link href="https://doi.org/10.1145/3563657.3596138" external>iterative prompt design for chatbots</Link> and novel interfaces for manipulating dictated text on mobile devices with LLMs. I also run <Link href="https://calhacks.io/" external>Cal Hacks</Link>, UC Berkeley's largest hackathon. I’ve interned at some great companies, including Uber, Figma, and Spatial. In my free time, I enjoy playing chess, learning languages (Korean, Spanish), building interesting maps, and trying good food of all kinds.
+                <b>Previously: </b>research in <Link href="https://arxiv.org/abs/2401.10838">LLM-powered interfaces for manipulating dictated text</Link> + learnings in <Link href="https://doi.org/10.1145/3563657.3596138" external>iterative prompt design for chatbots</Link> + hacker community with <Link href="https://calhacks.io/" external>Cal Hacks</Link>
                 </p>
+                <p><b>Casually: </b>♟️ + 🔭 + 🗺️</p>
               </Box>
               <Box sx={styles.iconContainer}>
                   <Link href="https://linkedin.com/in/matthewlee626" external>
