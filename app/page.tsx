@@ -31,8 +31,6 @@ export default function Home() {
               href="https://www.instagram.com/matthewlee.xyz" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="transition-colors duration-200"
-              aria-label="Visit our Instagram page"
             >
               <InstagramLogoIcon className="h-6 w-6" />
               <span className="sr-only">Instagram</span>
@@ -41,8 +39,6 @@ export default function Home() {
               href="https://www.linkedin.com/in/matthewlee626" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="transition-colors duration-200"
-              aria-label="Visit our LinkedIn page"
             >
               <LinkedInLogoIcon className="h-6 w-6" />
               <span className="sr-only">LinkedIn</span>
@@ -51,8 +47,6 @@ export default function Home() {
               href="https://twitter.com/matthewlee626" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="transition-colors duration-200"
-              aria-label="Visit our Twitter page"
             >
               <TwitterLogoIcon className="h-6 w-6" />
               <span className="sr-only">Twitter</span>
@@ -65,7 +59,7 @@ export default function Home() {
               How&apos;s it going!
             </h1>
             <p>
-              I&apos;m a software engineer, travel addict, and social-put-together-er based in the lovely city of Stanford, CA. I&apos;m currently completing my MS in Computer Science at Stanford University and graduated with a BA in Computer Science + Data Science at UC Berkeley. Before that, I grew up in the sunny Socal suburbs of the San Gabriel Valley and even before that, was born in beautiful Beijing.
+              I&apos;m a software engineer, travel addict, and social-put-together-er based in the lovely city of Stanford, CA. I&apos;m currently completing my MS in Computer Science at Stanford University and graduated with a BA in Computer Science + Data Science at UC Berkeley. Before that, I grew up in the sunny SoCal suburbs of the San Gabriel Valley and even before that, was born in beautiful Beijing.
             </p>
             <p>
               Right now, I&apos;m interning on Vercel&apos;s v0 team, building the best prompt-to-website developer platform in the game. I previously engineered tools for automated creator growth at Patreon, explored the future of prototyping at Figma, and made infrastructure better at Uber.
