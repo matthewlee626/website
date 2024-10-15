@@ -14,6 +14,7 @@ export default function Home() {
               alt="A picture of me. Taken in Hakone."
               width={200}
               height={200}
+              priority={true}
             />
             <p>📍 Hakone, Kantō</p>
           </div>
