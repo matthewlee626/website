@@ -10,7 +10,7 @@ export default function Home() {
         <div className="col-span-1 flex flex-col gap-4 justify-center h-full">
           <div className="flex flex-col items-center text-center border-4 border-dashed border-white rounded-lg p-4 gap-4">
             <Image
-              src="/pfp.jpeg"
+              src="/pfp.png"
               alt="A picture of me. Taken in Hakone."
               width={200}
               height={200}
