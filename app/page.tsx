@@ -71,7 +71,7 @@ export default function Home() {
               Right now, I&apos;m interning on Vercel&apos;s v0 team, building the best prompt-to-website developer platform in the game. I previously engineered tools for automated creator growth at Patreon, explored the future of prototyping at Figma, and made infrastructure better at Uber.
             </p>
             <p>
-              My academic research explores the potential and limitations of machine learning technologies in influencing human cognition. Currently, I&apos;m investigating the impact of algorithmic social media on political polarization. My previous work includes developing LLM-enabled tools for writing with speech and investigating case studies on the prompt design process.
+              My academic research explores the potential and limitations of machine learning technologies in influencing human cognition. Currently, I&apos;m investigating the impact of algorithmic social media on political polarization. My previous work includes developing LLM-enabled tools for writing with speech and analyzing case studies on the prompt design process.
             </p>
             <p>
               At Berkeley, I was particularly proud of running Cal Hacks, my favorite hackathon organizing club. In my free time, I love stargazing with my trusty AWB OneSky reflector telescope and collecting tasty teas (currently a fan of 春水堂&apos;s 金萱oolong). Oh, and did I mention that I love traveling?
