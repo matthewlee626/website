@@ -56,7 +56,7 @@ export default function Home() {
         <div className="col-span-2">
           <div className="flex flex-col gap-2">
             <h1 className="text-xl">
-              How&apos;s it going!
+              How&apos;s it going? While you&apos;re here...
             </h1>
             <p>
               I&apos;m a software engineer, travel addict, and social-put-together-er based in the lovely city of Stanford, CA. I&apos;m currently completing my MS in Computer Science at Stanford University and graduated with a BA in Computer Science + Data Science at UC Berkeley. Before that, I grew up in the sunny SoCal suburbs of the San Gabriel Valley and even before that, was born in beautiful Beijing.
@@ -68,7 +68,7 @@ export default function Home() {
               My academic research explores the potentials and limitations of machine learning technologies in influencing human cognition. Currently, I&apos;m investigating the impact of algorithmic social media on political polarization. My previous work includes developing LLM-enabled tools for writing with speech and analyzing case studies on the prompt design process.
             </p>
             <p>
-              I'm particularly fond of Cal Hacks, Berkeley's best hackathon organizing club, for all that it gave me when I was a director. In my free time, I love stargazing with my trusty AWB OneSky reflector telescope and collecting tasty teas — currently a fan of the 春水堂高山金萱乌龙茶. Oh, and did I mention that I love traveling?
+              I&apos;m particularly fond of Cal Hacks, Berkeley&apos;s best hackathon organizing club, for all that it gave me when I was a director. In my free time, I love stargazing with my trusty AWB OneSky reflector telescope and collecting tasty teas — currently a fan of the 春水堂高山金萱乌龙茶. Oh, and did I mention that I love traveling?
             </p>
           </div>
         </div>
