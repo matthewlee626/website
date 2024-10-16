@@ -73,7 +73,7 @@ export default function Home() {
             </h1>
             <p>
               I&apos;m a software engineer, travel addict, and social-put-together-er based in the lovely city of Stanford, CA. I&apos;m currently completing my MS in Computer Science at <TextLink text="Stanford University" href="https://www.stanford.edu"/>, and graduated with a BA in Computer Science + Data Science at <TextLink text="UC Berkeley" href="https://www.berkeley.edu"/>. Before that, I grew up in the sunny SoCal suburbs of the&nbsp;
-              <HoverCardSmallImage text="San Gabriel Valley" imageSrc="/beijing.jpg" alt="San Gabriel Valley" caption="Best Chinese food in the USA." /> 
+              <HoverCardSmallImage text="San Gabriel Valley" imageSrc="/sgv.jpg" alt="San Gabriel Valley" caption="Best Chinese food in the USA." /> 
               &nbsp;and even before that, was born in&nbsp;
               <HoverCardSmallImage text="beautiful Beijing" imageSrc="/beijing.jpg" alt="Beijing" caption="If you know 崇文门, shoot me a message!" />.
             </p>
