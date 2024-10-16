@@ -84,7 +84,10 @@ export default function Home() {
               My <TextLink text="academic research" href="https://orcid.org/0000-0002-0863-7415" /> explores the potentials and limitations of machine learning technologies in influencing human cognition. Currently, I&apos;m investigating the impact of algorithmic social media on political polarization. My previous work includes <TextLink text="developing LLM-enabled tools for writing with speech" href="https://doi.org/10.1145/3613904.3642217"/> and <TextLink text="analyzing case studies on the prompt design process" href="https://doi.org/10.1145/3563657.3596138"/>.
             </p>
             <p>
-              I&apos;m particularly fond of <TextLink text="Cal Hacks" href="https://hackberkeley.org/"/>, Berkeley&apos;s best hackathon organizing club, for all that it gave me when I was a director. In my free time, I love stargazing with my trusty <TextLink text="AWB OneSky reflector telescope" href="https://shop.astronomerswithoutborders.org/products/awb-onesky-reflector-telescope"/>, drinking tasty teas (currently a fan of the <TextLink text="春水堂高山金萱乌龙茶" href="https://www.chunshuitang.com.tw/drink/pot-of-tea/"/>), and adding new flights on Flighty + new places on Apple Maps. Oh, and did I mention that I love traveling?
+              I&apos;m particularly fond of <TextLink text="Cal Hacks" href="https://hackberkeley.org/"/>, Berkeley&apos;s best hackathon organizing club, for all that it gave me when I was a director. In my free time, I love stargazing with my trusty <TextLink text="AWB OneSky reflector telescope" href="https://shop.astronomerswithoutborders.org/products/awb-onesky-reflector-telescope"/>, drinking tasty teas (currently a fan of the <TextLink text="春水堂高山金萱乌龙茶" href="https://www.chunshuitang.com.tw/drink/pot-of-tea/"/>), and adding new flights on Flighty + new places on Apple Maps. 
+            </p>
+            <p>
+              Oh, and did I mention that I love traveling?
             </p>
           </div>
         </div>
