@@ -25,10 +25,10 @@ export default function Home() {
                 <li>
                   <TextLink 
                     text="Travels." 
-                    href="https://matthewlee626.notion.site/travels?v=8180fa83ff574b919fcca7d1ed4dd730" 
+                    href="/travels" 
                   />
                 </li>
-                <li><TextLink text="Projects." href="/" /></li>
+                <li><TextLink text="Thoughts." href="/thoughts" /></li>
               </ul>
             </div>
             <div className="border-4 border-solid border-white rounded-lg p-4 flex flex-row justify-center gap-5">
