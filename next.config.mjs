@@ -18,10 +18,6 @@ const nextConfig = {
                 source: '/travels',
                 destination: 'https://matthewlee626.notion.site/travels',
                 permanent: true,
-            },{
-                source: '/concise-cognition-demo',
-                destination: 'https://c32f7935a5c46ea22c.gradio.live/',
-                permanent: true,
             }
         ]
       },
