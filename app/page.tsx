@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { InstagramLogoIcon, LinkedInLogoIcon, TwitterLogoIcon, GitHubLogoIcon} from "@radix-ui/react-icons"
+import { LinkedInLogoIcon, TwitterLogoIcon, GitHubLogoIcon} from "@radix-ui/react-icons"
 import { TextLink } from "@/components/text-link";
 
 
@@ -84,7 +84,7 @@ export default function Home() {
               <li>running to new photo spots around the Bay Area</li>
               <li>exploring the Bay Area with my dog, <TextLink text="Momo" href="https://www.instagram.com/momo_the_doggo/"/></li>
             </ul>
-            <strong>Previously, I've side quested:</strong>
+            <strong>Previously, I&apos;ve side quested:</strong>
             <ul className="list-disc pl-5 space-y-2">
               <li>teaching CS to high schoolers in Ethiopia with <TextLink text="AddisCoder" href="https://www.addiscoder.com/"/></li>
               <li>interviewing with the SF Chronicle about my <TextLink text="food influencing" href="https://www.sfchronicle.com/food/article/beli-restaurants-bay-area-app-20772802.php"/> </li>
