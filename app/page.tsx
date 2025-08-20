@@ -7,7 +7,7 @@ import { TextLink } from "@/components/text-link";
 export default function Home() {
   return (
     <div className={`flex flex-cols justify-center items-center w-full p-8 md:h-screen font-sans`}>
-      <div className="flex flex-col md:grid md:grid-cols-3 gap-12 md:max-w-3xl md:place-items-center p-12 md:p-4">
+      <div className="flex flex-col md:grid md:grid-cols-3 gap-12 md:max-w-3xl p-12 md:p-4">
         <div className="col-span-1 flex flex-row justify-center h-full">
           <div className="flex flex-col gap-4 justify-center h-full">
             <div className="flex flex-col items-center text-center border-4 border-dashed border-white rounded-lg p-4 gap-4">
@@ -32,14 +32,6 @@ export default function Home() {
               </ul>
             </div>
             <div className="border-4 border-solid border-white rounded-lg p-4 flex flex-row justify-center gap-5">
-              <Link 
-                href="https://www.instagram.com/matthewlee.xyz" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <InstagramLogoIcon className="h-6 w-6" />
-                <span className="sr-only">Instagram</span>
-              </Link>
               <Link 
                 href="https://www.linkedin.com/in/matthewlee626" 
                 target="_blank" 
@@ -72,18 +64,32 @@ export default function Home() {
             <h1 className="text-xl">
               How&apos;s it going? While you&apos;re here...
             </h1>
-            <p>
-              I&apos;m a software engineer, travel addict, and social-put-together-er based in the lovely city of Stanford, CA. I&apos;m currently completing my MS in Computer Science at <TextLink text="Stanford University" href="https://www.stanford.edu"/> and graduated with a BA in Computer Science + Data Science at <TextLink text="UC Berkeley" href="https://www.berkeley.edu"/>. Before that, I grew up in the sunny SoCal suburbs of the San Gabriel Valley.
-            </p>
-            <p>
-              I previously helped build the best prompt-to-website developer platform at <TextLink text="v0 by Vercel" href="https://v0.dev"/>, engineered tools for automated creator growth at <TextLink text="Patreon" href="https://www.patreon.com"/>, explored the future of prototyping at <TextLink text="Figma" href="https://www.figma.com"/>, and made infrastructure better at <TextLink text="Uber" href="https://www.uber.com"/>.
-            </p>
-            <p>
-              My <TextLink text="academic interests" href="https://orcid.org/0000-0002-0863-7415" /> center around developing human-centric representations of AI models to enhance their integration and effectiveness in end-user systems. Currently, I&apos;m building infrastructure to test algorithmic impacts in social media. My previous work includes <TextLink text="developing LLM-enabled tools for writing with speech" href="https://doi.org/10.1145/3613904.3642217"/> and <TextLink text="analyzing case studies on the prompt design process" href="https://doi.org/10.1145/3563657.3596138"/>.
-            </p>
-            <p>
-              I&apos;m particularly fond of my time directing <TextLink text="Cal Hacks" href="https://hackberkeley.org/"/>, Berkeley&apos;s best hackathon organizing club. In my free time, I love <TextLink text="stargazing" href="https://shop.astronomerswithoutborders.org/products/awb-onesky-reflector-telescope"/>, collecting <TextLink text="tasty tea" href="https://www.chunshuitang.com.tw/drink/pot-of-tea/"/>, and adding new flights on Flighty, new places on Apple Maps, and new eats on Beli. Oh, and did I mention that I love traveling?
-            </p>
+            I&apos;m a software engineer at Figma in the curious city of San Francisco, CA, working on bringing design and code ever closer together.
+            <strong>I received my:</strong>
+            <ul className="list-disc pl-5 space-y-2">
+              <li>
+                MS in Computer Science at <TextLink text="Stanford University" href="https://www.stanford.edu"/>
+              </li>
+              <li>
+                BA in Computer Science + Data Science at <TextLink text="UC Berkeley" href="https://www.berkeley.edu"/>
+              </li>
+              <li>
+                formative beginnings in the San Gabriel Valley suburbs of LA
+              </li>
+            </ul>
+            <strong>In my free time, I love:</strong>
+            <ul className="list-disc pl-5 space-y-2">
+              <li>stargazing in the wild</li>
+              <li>brewing tasty tea leaves and coffee beans for friends</li>
+              <li>running to new photo spots around the Bay Area</li>
+              <li>exploring the Bay Area with my dog, <TextLink text="Momo" href="https://www.instagram.com/momo_the_doggo/"/></li>
+            </ul>
+            <strong>Previously, I've side quested:</strong>
+            <ul className="list-disc pl-5 space-y-2">
+              <li>teaching CS to high schoolers in Ethiopia with <TextLink text="AddisCoder" href="https://www.addiscoder.com/"/></li>
+              <li>interviewing with the SF Chronicle about my <TextLink text="food influencing" href="https://www.sfchronicle.com/food/article/beli-restaurants-bay-area-app-20772802.php"/> </li>
+              <li>directing Berkeley&apos;s flagship hackathon, <TextLink text="Cal Hacks" href="https://hackberkeley.org"/></li>
+            </ul>
           </div>
         </div>
       </div>
