@@ -81,12 +81,12 @@ export default function Home() {
             <ul className="list-disc pl-5 space-y-2">
               <li>stargazing in the wild</li>
               <li>brewing tasty tea leaves and coffee beans for friends</li>
-              <li>running to new photo spots around the Bay Area</li>
-              <li>exploring the Bay Area with my dog, <TextLink text="Momo" href="https://www.instagram.com/momo_the_doggo/"/></li>
+              <li>running to new photo spots around San Francisco (thanks Strava)</li>
             </ul>
-            <strong>Previously, I&apos;ve side quested:</strong>
+            <strong>Three truths and a lie! I&apos;ve side quested:</strong>
             <ul className="list-disc pl-5 space-y-2">
               <li>teaching CS to high schoolers in Ethiopia with <TextLink text="AddisCoder" href="https://www.addiscoder.com/"/></li>
+              <li>exploring the Bay Area with my dog, <TextLink text="Momo" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"/></li>
               <li>interviewing with the SF Chronicle about my <TextLink text="food influencing" href="https://www.sfchronicle.com/food/article/beli-restaurants-bay-area-app-20772802.php"/> </li>
               <li>directing Berkeley&apos;s flagship hackathon, <TextLink text="Cal Hacks" href="https://hackberkeley.org"/></li>
             </ul>
