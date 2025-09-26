@@ -79,7 +79,7 @@ export default function Home() {
             </ul>
             <strong>In my free time, I love:</strong>
             <ul className="list-disc pl-5 space-y-2">
-              <li>stargazing in the wild</li>
+              <li>stargazing in the wild with my tabletop telescope</li>
               <li>brewing tasty tea leaves and coffee beans for friends</li>
               <li>running to new photo spots around San Francisco (thanks Strava)</li>
             </ul>
