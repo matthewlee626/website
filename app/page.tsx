@@ -10,7 +10,7 @@ export default function Home() {
       <div className="flex flex-col md:grid md:grid-cols-3 gap-12 md:max-w-3xl p-12 md:p-4">
         <div className="col-span-1 flex flex-row justify-center h-full">
           <div className="flex flex-col gap-4 justify-center h-full">
-            <div className="flex flex-col items-center text-center border-4 border-dashed border-white rounded-lg p-4 gap-4">
+            <div className="flex flex-col items-center text-center border-4 border-white rounded-lg p-0 gap-4">
               <Image
                 src="/pfp.png"
                 alt="stamp of my name"
