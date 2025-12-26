@@ -13,12 +13,11 @@ export default function Home() {
             <div className="flex flex-col items-center text-center border-4 border-dashed border-white rounded-lg p-4 gap-4">
               <Image
                 src="/pfp.png"
-                alt="A picture of me taken in Hakone. 我的棨子。"
+                alt="stamp of my name"
                 width={200}
                 height={200}
                 priority={true}
               />
-              <p>📍 Hakone, Kantō</p>
             </div>
             <div className="border-4 border-solid border-white rounded-lg p-4 text-center">
               <ul>
@@ -64,7 +63,7 @@ export default function Home() {
             <h1 className="text-xl">
               How&apos;s it going? While you&apos;re here...
             </h1>
-            I&apos;m a software engineer at Figma in the curious city of San Francisco, CA, working on bringing design and code ever closer together.
+            I&apos;m a software engineer at Figma in the curious city of San Francisco, CA, working on bringing design and code ever closer together with Figma Make.
             <strong>I received my:</strong>
             <ul className="list-disc pl-5 space-y-2">
               <li>
