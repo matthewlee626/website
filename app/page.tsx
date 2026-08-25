@@ -28,6 +28,7 @@ export default function Home() {
                   />
                 </li>
                 <li><TextLink text="Thoughts." href="/thoughts" /></li>
+                <li><TextLink text="Library." href="/library" /></li>
               </ul>
             </div>
             <div className="border-4 border-solid border-white rounded-lg p-4 flex flex-row justify-center gap-5">

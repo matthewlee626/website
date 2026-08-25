@@ -1,0 +1,811 @@
+[
+  {
+    "title": "Dissolving Classroom",
+    "author": "Junji Ito",
+    "slug": "01-dissolving-classroom",
+    "cover": "/library/covers/01-dissolving-classroom.webp",
+    "width": 367,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL21136242W"
+  },
+  {
+    "title": "Eureka Seven, Vol. 1",
+    "author": "Jinsei Kataoka and Kazuma Kondou",
+    "slug": "02-eureka-seven-vol-1",
+    "cover": "/library/covers/02-eureka-seven-vol-1.webp",
+    "width": 702,
+    "height": 1080,
+    "source": "https://cdn.kobo.com/book-images/a8fae927-bd44-4dd7-909b-3a1158d57b6e/1200/1200/False/eureka-seven-vol-1.jpg"
+  },
+  {
+    "title": "Kaguya-sama: Love Is War, Vol. 1",
+    "author": "Aka Akasaka",
+    "isbn": "9781974700301",
+    "slug": "03-kaguya-sama-love-is-war-vol-1",
+    "cover": "/library/covers/03-kaguya-sama-love-is-war-vol-1.webp",
+    "width": 667,
+    "height": 1000,
+    "source": "https://highfivebooks.org/cdn/shop/files/9781974700301.jpg?v=1737400423&width=960"
+  },
+  {
+    "title": "Demon Slayer: Kimetsu no Yaiba, Vol. 1",
+    "author": "Koyoharu Gotouge",
+    "isbn": "9781974700523",
+    "slug": "04-demon-slayer-kimetsu-no-yaiba-vol-1",
+    "cover": "/library/covers/04-demon-slayer-kimetsu-no-yaiba-vol-1.webp",
+    "width": 720,
+    "height": 720,
+    "source": "https://rhbooks.com.ng/wp-content/uploads/2025/09/Untitled-design-2025-09-22T163934.735.png"
+  },
+  {
+    "title": "Attack on Titan, Vol. 1",
+    "author": "Hajime Isayama",
+    "slug": "05-attack-on-titan-vol-1",
+    "cover": "/library/covers/05-attack-on-titan-vol-1.webp",
+    "width": 263,
+    "height": 400,
+    "source": "https://openlibrary.org/works/OL17384069W"
+  },
+  {
+    "title": "My Hero Academia, Vol. 1",
+    "author": "Kohei Horikoshi",
+    "slug": "06-my-hero-academia-vol-1",
+    "cover": "/library/covers/06-my-hero-academia-vol-1.webp",
+    "width": 300,
+    "height": 450,
+    "source": "https://openlibrary.org/works/OL19664578W"
+  },
+  {
+    "title": "Space Boy, Vol. 1",
+    "author": "Stephen McCranie",
+    "slug": "07-space-boy-vol-1",
+    "cover": "/library/covers/07-space-boy-vol-1.webp",
+    "width": 600,
+    "height": 861,
+    "source": "https://d2lzb5v10mb0lj.cloudfront.net/covers/600/30/3001932.jpg"
+  },
+  {
+    "title": "Uzumaki",
+    "author": "Junji Ito",
+    "slug": "08-uzumaki",
+    "cover": "/library/covers/08-uzumaki.webp",
+    "width": 300,
+    "height": 430,
+    "source": "https://openlibrary.org/works/OL19720088W"
+  },
+  {
+    "title": "League of Legends: Realms of Runeterra",
+    "author": "Riot Games",
+    "slug": "09-league-of-legends-realms-of-runeterra",
+    "cover": "/library/covers/09-league-of-legends-realms-of-runeterra.webp",
+    "width": 720,
+    "height": 1015,
+    "source": "https://cdn11.bigcommerce.com/s-ngzg0zcz0u/images/stencil/1500x1500/products/15820/1420729/9780316497329__02467.1742980605.jpg"
+  },
+  {
+    "title": "Ramona",
+    "author": "Helen Hunt Jackson",
+    "slug": "10-ramona",
+    "cover": "/library/covers/10-ramona.webp",
+    "width": 317,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL1800220W"
+  },
+  {
+    "title": "Ecotopia",
+    "author": "Ernest Callenbach",
+    "slug": "11-ecotopia",
+    "cover": "/library/covers/11-ecotopia.webp",
+    "width": 286,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL1811933W"
+  },
+  {
+    "title": "Get in Trouble",
+    "author": "Kelly Link",
+    "slug": "12-get-in-trouble",
+    "cover": "/library/covers/12-get-in-trouble.webp",
+    "width": 333,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL18008863W"
+  },
+  {
+    "title": "The Power",
+    "author": "Naomi Alderman",
+    "slug": "13-the-power",
+    "cover": "/library/covers/13-the-power.webp",
+    "width": 316,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL17607742W"
+  },
+  {
+    "title": "Telegraph Avenue",
+    "author": "Michael Chabon",
+    "slug": "14-telegraph-avenue",
+    "cover": "/library/covers/14-telegraph-avenue.webp",
+    "width": 317,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL16499019W"
+  },
+  {
+    "title": "El pequeño Larousse ilustrado",
+    "author": "Larousse",
+    "slug": "15-el-pequen-o-larousse-ilustrado",
+    "cover": "/library/covers/15-el-pequen-o-larousse-ilustrado.webp",
+    "width": 160,
+    "height": 152,
+    "source": "https://openlibrary.org/works/OL9138832W"
+  },
+  {
+    "title": "The Vegetarian",
+    "author": "Han Kang",
+    "slug": "16-the-vegetarian",
+    "cover": "/library/covers/16-the-vegetarian.webp",
+    "width": 700,
+    "height": 1080,
+    "source": "https://images.thalia.media/07/-/439dd069c20c4f1a89f8470ed0555963/the-vegetarian-taschenbuch-han-kang-englisch.jpeg"
+  },
+  {
+    "title": "The Silmarillion",
+    "author": "J. R. R. Tolkien",
+    "slug": "17-the-silmarillion",
+    "cover": "/library/covers/17-the-silmarillion.webp",
+    "width": 271,
+    "height": 475,
+    "source": "https://openlibrary.org/works/OL14933402W"
+  },
+  {
+    "title": "Interior Chinatown",
+    "author": "Charles Yu",
+    "slug": "18-interior-chinatown",
+    "cover": "/library/covers/18-interior-chinatown.webp",
+    "width": 145,
+    "height": 218,
+    "source": "https://openlibrary.org/works/OL20640520W"
+  },
+  {
+    "title": "Artemis",
+    "author": "Andy Weir",
+    "slug": "19-artemis",
+    "cover": "/library/covers/19-artemis.webp",
+    "width": 318,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL17837968W"
+  },
+  {
+    "title": "The Left Hand of Darkness",
+    "author": "Ursula K. Le Guin",
+    "slug": "20-the-left-hand-of-darkness",
+    "cover": "/library/covers/20-the-left-hand-of-darkness.webp",
+    "width": 317,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL19306603W"
+  },
+  {
+    "title": "Hall of Small Mammals",
+    "author": "Thomas Pierce",
+    "slug": "21-hall-of-small-mammals",
+    "cover": "/library/covers/21-hall-of-small-mammals.webp",
+    "width": 331,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL19992814W"
+  },
+  {
+    "title": "Kindred",
+    "author": "Octavia E. Butler",
+    "slug": "22-kindred",
+    "cover": "/library/covers/22-kindred.webp",
+    "width": 337,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL35616W"
+  },
+  {
+    "title": "Between the World and Me",
+    "author": "Ta-Nehisi Coates",
+    "slug": "23-between-the-world-and-me",
+    "cover": "/library/covers/23-between-the-world-and-me.webp",
+    "width": 324,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL17201654W"
+  },
+  {
+    "title": "The Immortal Life of Henrietta Lacks",
+    "author": "Rebecca Skloot",
+    "slug": "24-the-immortal-life-of-henrietta-lacks",
+    "cover": "/library/covers/24-the-immortal-life-of-henrietta-lacks.webp",
+    "width": 309,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL13850788W"
+  },
+  {
+    "title": "Where We Go from Here",
+    "author": "Bernie Sanders",
+    "slug": "25-where-we-go-from-here",
+    "cover": "/library/covers/25-where-we-go-from-here.webp",
+    "width": 500,
+    "height": 387,
+    "source": "https://openlibrary.org/works/OL20664187W"
+  },
+  {
+    "title": "The Sixth Man",
+    "author": "Andre Iguodala",
+    "slug": "26-the-sixth-man",
+    "cover": "/library/covers/26-the-sixth-man.webp",
+    "width": 331,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL20922669W"
+  },
+  {
+    "title": "The War on Normal People",
+    "author": "Andrew Yang",
+    "slug": "27-the-war-on-normal-people",
+    "cover": "/library/covers/27-the-war-on-normal-people.webp",
+    "width": 332,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL19747355W"
+  },
+  {
+    "title": "Too Much and Never Enough",
+    "author": "Mary L. Trump",
+    "slug": "28-too-much-and-never-enough",
+    "cover": "/library/covers/28-too-much-and-never-enough.webp",
+    "width": 331,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL20870755W"
+  },
+  {
+    "title": "John Adams",
+    "author": "David McCullough",
+    "slug": "29-john-adams",
+    "cover": "/library/covers/29-john-adams.webp",
+    "width": 321,
+    "height": 475,
+    "source": "https://openlibrary.org/works/OL2820749W"
+  },
+  {
+    "title": "A Promised Land",
+    "author": "Barack Obama",
+    "slug": "30-a-promised-land",
+    "cover": "/library/covers/30-a-promised-land.webp",
+    "width": 329,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL22235242W"
+  },
+  {
+    "title": "Le Petit Prince",
+    "author": "Antoine de Saint-Exupéry",
+    "slug": "31-le-petit-prince",
+    "cover": "/library/covers/31-le-petit-prince.webp",
+    "width": 298,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL10263W"
+  },
+  {
+    "title": "Why Nations Fail",
+    "author": "Daron Acemoglu and James A. Robinson",
+    "slug": "32-why-nations-fail",
+    "cover": "/library/covers/32-why-nations-fail.webp",
+    "width": 720,
+    "height": 720,
+    "source": "https://martinsfontespaulista.vteximg.com.br/arquivos/ids/590642-800-800/724758_ampliada.jpg"
+  },
+  {
+    "title": "Graphic Design, Referenced",
+    "author": "Bryony Gomez-Palacio and Armin Vit",
+    "slug": "33-graphic-design-referenced",
+    "cover": "/library/covers/33-graphic-design-referenced.webp",
+    "width": 421,
+    "height": 500,
+    "source": "https://pictures.abebooks.com/isbn/9781592537426-us.jpg"
+  },
+  {
+    "title": "Practice: A Book About Design & Craft",
+    "author": "Figma",
+    "slug": "34-practice-a-book-about-design-craft",
+    "cover": "/library/covers/34-practice-a-book-about-design-craft.webp",
+    "width": 720,
+    "height": 900,
+    "source": "https://othermeans.us/media/pages/other-means/c68aec19c2-1747769761/other_means_figma-1440x-q95.jpg"
+  },
+  {
+    "title": "Terrible Maps",
+    "author": "Michael Howe",
+    "slug": "35-terrible-maps",
+    "cover": "/library/covers/35-terrible-maps.webp",
+    "width": 350,
+    "height": 391,
+    "source": "https://openlibrary.org/works/OL35719453W"
+  },
+  {
+    "title": "Emotional Design",
+    "author": "Donald A. Norman",
+    "slug": "36-emotional-design",
+    "cover": "/library/covers/36-emotional-design.webp",
+    "width": 339,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL1879160W"
+  },
+  {
+    "title": "The Design of Everyday Things",
+    "author": "Don Norman",
+    "slug": "37-the-design-of-everyday-things",
+    "cover": "/library/covers/37-the-design-of-everyday-things.webp",
+    "width": 600,
+    "height": 600,
+    "source": "https://www.tongbangbooks.com/shopimages/tongbang/0500000077413.jpg"
+  },
+  {
+    "title": "Ametora",
+    "author": "W. David Marx",
+    "slug": "38-ametora",
+    "cover": "/library/covers/38-ametora.webp",
+    "width": 310,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL19670490W"
+  },
+  {
+    "title": "Can You Imagine?",
+    "author": "Sofia Borges",
+    "slug": "39-can-you-imagine",
+    "cover": null,
+    "width": 0,
+    "height": 0,
+    "source": null
+  },
+  {
+    "title": "Chinatown Pretty",
+    "author": "Valerie Luu and Andria Lo",
+    "slug": "40-chinatown-pretty",
+    "cover": "/library/covers/40-chinatown-pretty.webp",
+    "width": 400,
+    "height": 400,
+    "source": "https://target.scene7.com/is/image/Target/GUEST_0428a16f-4576-4808-9bde-8ef145d4f510"
+  },
+  {
+    "title": "Jigger & Pony: Classic. Reimagined.",
+    "author": "Jigger & Pony",
+    "slug": "41-jigger-pony-classic-reimagined",
+    "cover": null,
+    "width": 0,
+    "height": 0,
+    "source": null
+  },
+  {
+    "title": "Tout près, très loin",
+    "author": "Rascal",
+    "slug": "42-tout-pre-s-tre-s-loin",
+    "cover": "/library/covers/42-tout-pre-s-tre-s-loin.webp",
+    "width": 720,
+    "height": 724,
+    "source": "https://www.ricochet-jeunes.org/sites/default/files/2024-08/Tout%20pres%20tres%20loin_couv.jpg"
+  },
+  {
+    "title": "Klara and the Sun",
+    "author": "Kazuo Ishiguro",
+    "slug": "43-klara-and-the-sun",
+    "cover": "/library/covers/43-klara-and-the-sun.webp",
+    "width": 325,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL20883297W"
+  },
+  {
+    "title": "City of Quartz",
+    "author": "Mike Davis",
+    "slug": "44-city-of-quartz",
+    "cover": "/library/covers/44-city-of-quartz.webp",
+    "width": 128,
+    "height": 205,
+    "source": "https://openlibrary.org/works/OL1801116W"
+  },
+  {
+    "title": "Age of Ambition",
+    "author": "Evan Osnos",
+    "slug": "45-age-of-ambition",
+    "cover": "/library/covers/45-age-of-ambition.webp",
+    "width": 266,
+    "height": 400,
+    "source": "https://openlibrary.org/works/OL17081270W"
+  },
+  {
+    "title": "Fateful Ties",
+    "author": "Gordon H. Chang",
+    "slug": "46-fateful-ties",
+    "cover": "/library/covers/46-fateful-ties.webp",
+    "width": 328,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL19999105W"
+  },
+  {
+    "title": "The Addis Ababa House",
+    "author": "Piet Nieder",
+    "slug": "47-the-addis-ababa-house",
+    "cover": "/library/covers/47-the-addis-ababa-house.webp",
+    "width": 720,
+    "height": 792,
+    "source": "https://dom-publishers.ru/UserFiles/Image/books/the-addis-ababa/9783869228679.jpg"
+  },
+  {
+    "title": "The Chinese Exhibition",
+    "author": "National Gallery of Art",
+    "slug": "48-the-chinese-exhibition",
+    "cover": "/library/covers/48-the-chinese-exhibition.webp",
+    "width": 380,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL16990312W"
+  },
+  {
+    "title": "Genki I",
+    "author": "Eri Banno",
+    "slug": "49-genki-i",
+    "cover": "/library/covers/49-genki-i.webp",
+    "width": 282,
+    "height": 400,
+    "source": "https://openlibrary.org/works/OL16279024W"
+  },
+  {
+    "title": "Genki I Workbook",
+    "author": "Eri Banno",
+    "slug": "50-genki-i-workbook",
+    "cover": "/library/covers/50-genki-i-workbook.webp",
+    "width": 720,
+    "height": 995,
+    "source": "https://www.thejapanshop.com/cdn/shop/products/Genkiwkbk_1_1280x.jpg?v=1596038527"
+  },
+  {
+    "title": "The Book Against Death",
+    "author": "Elias Canetti",
+    "isbn": "9780811237994",
+    "slug": "51-the-book-against-death",
+    "cover": "/library/covers/51-the-book-against-death.webp",
+    "width": 300,
+    "height": 463,
+    "source": "https://dynamic.indigoimages.ca/v1/books/books/0811237990/1.jpg"
+  },
+  {
+    "title": "How to Win Friends and Influence People",
+    "author": "Dale Carnegie",
+    "slug": "52-how-to-win-friends-and-influence-people",
+    "cover": "/library/covers/52-how-to-win-friends-and-influence-people.webp",
+    "width": 312,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL27691101W"
+  },
+  {
+    "title": "Algorithms Unlocked",
+    "author": "Thomas H. Cormen",
+    "slug": "53-algorithms-unlocked",
+    "cover": "/library/covers/53-algorithms-unlocked.webp",
+    "width": 332,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL17832792W"
+  },
+  {
+    "title": "The Woke Salaryman Crash Course on Capitalism",
+    "author": "The Woke Salaryman",
+    "slug": "54-the-woke-salaryman-crash-course-on-capitalism",
+    "cover": "/library/covers/54-the-woke-salaryman-crash-course-on-capitalism.webp",
+    "width": 600,
+    "height": 600,
+    "source": "https://www.bookmarked.id/cdn/shop/files/TheWokeSalarymanNEW_600x600_crop_center.jpg?v=1708333016"
+  },
+  {
+    "title": "Flash Teams",
+    "author": "Melissa Valentine and Michael Bernstein",
+    "slug": "55-flash-teams",
+    "cover": "/library/covers/55-flash-teams.webp",
+    "width": 640,
+    "height": 651,
+    "source": "https://lirp.cdn-website.com/0b0e8447/dms3rep/multi/opt/MV_3D_Cover-NBS-2-640w.png"
+  },
+  {
+    "title": "A History of Western Philosophy",
+    "author": "Bertrand Russell",
+    "slug": "56-a-history-of-western-philosophy",
+    "cover": "/library/covers/56-a-history-of-western-philosophy.webp",
+    "width": 304,
+    "height": 475,
+    "source": "https://openlibrary.org/works/OL1088357W"
+  },
+  {
+    "title": "The Art of War",
+    "author": "Sun Tzu",
+    "slug": "57-the-art-of-war",
+    "cover": "/library/covers/57-the-art-of-war.webp",
+    "width": 128,
+    "height": 192,
+    "source": "https://openlibrary.org/works/OL244537W"
+  },
+  {
+    "title": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen",
+    "slug": "58-introduction-to-algorithms",
+    "cover": "/library/covers/58-introduction-to-algorithms.webp",
+    "width": 371,
+    "height": 475,
+    "source": "https://openlibrary.org/works/OL4781294W"
+  },
+  {
+    "title": "Poor Charlie's Almanack",
+    "author": "Charles T. Munger",
+    "isbn": "9781953953230",
+    "slug": "59-poor-charlie-s-almanack",
+    "cover": "/library/covers/59-poor-charlie-s-almanack.webp",
+    "width": 351,
+    "height": 500,
+    "source": "https://openlibrary.org/isbn/9781953953230"
+  },
+  {
+    "title": "The Art of Doing Science and Engineering",
+    "author": "Richard W. Hamming",
+    "isbn": "9781732265172",
+    "slug": "60-the-art-of-doing-science-and-engineering",
+    "cover": "/library/covers/60-the-art-of-doing-science-and-engineering.webp",
+    "width": 338,
+    "height": 500,
+    "source": "https://openlibrary.org/isbn/9781732265172"
+  },
+  {
+    "title": "The Revolt of the Public",
+    "author": "Martin Gurri",
+    "isbn": "9781732265141",
+    "slug": "61-the-revolt-of-the-public",
+    "cover": "/library/covers/61-the-revolt-of-the-public.webp",
+    "width": 337,
+    "height": 500,
+    "source": "https://openlibrary.org/isbn/9781732265141"
+  },
+  {
+    "title": "High Growth Handbook",
+    "author": "Elad Gil",
+    "isbn": "9781732265103",
+    "slug": "62-high-growth-handbook",
+    "cover": "/library/covers/62-high-growth-handbook.webp",
+    "width": 338,
+    "height": 500,
+    "source": "https://openlibrary.org/isbn/9781732265103"
+  },
+  {
+    "title": "Working in Public",
+    "author": "Nadia Eghbal",
+    "isbn": "9780578675862",
+    "slug": "63-working-in-public",
+    "cover": "/library/covers/63-working-in-public.webp",
+    "width": 338,
+    "height": 500,
+    "source": "https://openlibrary.org/isbn/9780578675862"
+  },
+  {
+    "title": "Pieces of the Action",
+    "author": "Vannevar Bush",
+    "isbn": "9781953953278",
+    "slug": "64-pieces-of-the-action",
+    "cover": "/library/covers/64-pieces-of-the-action.webp",
+    "width": 342,
+    "height": 500,
+    "source": "https://openlibrary.org/isbn/9781953953278"
+  },
+  {
+    "title": "Get Together",
+    "author": "Bailey Richardson, Kevin Huynh, and Kai Elmer Sotto",
+    "isbn": "9781732265196",
+    "slug": "65-get-together",
+    "cover": "/library/covers/65-get-together.webp",
+    "width": 333,
+    "height": 500,
+    "source": "https://openlibrary.org/isbn/9781732265196"
+  },
+  {
+    "title": "The Origins of Efficiency",
+    "author": "Brian Potter",
+    "isbn": "9781953953520",
+    "slug": "66-the-origins-of-efficiency",
+    "cover": "/library/covers/66-the-origins-of-efficiency.webp",
+    "width": 203,
+    "height": 300,
+    "source": "https://openlibrary.org/isbn/9781953953520"
+  },
+  {
+    "title": "Graphic Languages",
+    "author": "Oliver Häusle",
+    "isbn": "9783948440886",
+    "slug": "67-graphic-languages",
+    "cover": "/library/covers/67-graphic-languages.webp",
+    "width": 600,
+    "height": 600,
+    "source": "https://shop.garagemca.org/thumbs/9f/all_files-2f04-2f58-2f45814_105f73df165655a81d14aa61bee466884482e888.png_ogImage_.png"
+  },
+  {
+    "title": "Stubborn Attachments",
+    "author": "Tyler Cowen",
+    "isbn": "9781732265134",
+    "slug": "68-stubborn-attachments",
+    "cover": "/library/covers/68-stubborn-attachments.webp",
+    "width": 338,
+    "height": 500,
+    "source": "https://openlibrary.org/isbn/9781732265134"
+  },
+  {
+    "title": "The Big Score",
+    "author": "Michael S. Malone",
+    "isbn": "9781953953339",
+    "slug": "69-the-big-score",
+    "cover": "/library/covers/69-the-big-score.webp",
+    "width": 720,
+    "height": 720,
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Publication115/v4/cf/66/40/cf66408f-8bc4-f4dc-68bc-76b78293b2e7/11180041-08f6-4f99-a0d9-a745152e1477_cover_image.jpg/1200x1200wz.jpg"
+  },
+  {
+    "title": "User Experience Design",
+    "author": "Mark Wells",
+    "slug": "70-user-experience-design",
+    "cover": "/library/covers/70-user-experience-design.webp",
+    "width": 281,
+    "height": 400,
+    "source": "https://openlibrary.org/works/OL27411749W"
+  },
+  {
+    "title": "Generative Design in Branding",
+    "author": "Viction:ary",
+    "slug": "71-generative-design-in-branding",
+    "cover": "/library/covers/71-generative-design-in-branding.webp",
+    "width": 720,
+    "height": 720,
+    "source": "https://librairiesanstitre.com/cdn/shop/files/6c4f0086-af6b-458b-96c9-b11aaa2e3814.jpg?v=1770191199"
+  },
+  {
+    "title": "Digital Design",
+    "author": "Stephen J. Eskilson",
+    "slug": "72-digital-design",
+    "cover": "/library/covers/72-digital-design.webp",
+    "width": 720,
+    "height": 878,
+    "source": "https://cdn.shoplightspeed.com/shops/623560/files/62140317/image.jpg"
+  },
+  {
+    "title": "Infographic Design",
+    "author": "Sandu Publishing",
+    "isbn": "9783943330632",
+    "slug": "73-infographic-design",
+    "cover": "/library/covers/73-infographic-design.webp",
+    "width": 720,
+    "height": 978,
+    "source": "https://m.dmpbooks.co.kr/web/product/big/202403/17fea09c40e8d5d5a28d2524270d0e08.jpg"
+  },
+  {
+    "title": "Hybrid: Curiosity in All Things",
+    "author": "Hybrid Design",
+    "isbn": "9789887066002",
+    "slug": "74-hybrid-curiosity-in-all-things",
+    "cover": "/library/covers/74-hybrid-curiosity-in-all-things.webp",
+    "width": 720,
+    "height": 1007,
+    "source": "https://victionary.com/cdn/shop/files/Hybrid_top_1000height_1000x.png?v=1760086917"
+  },
+  {
+    "title": "Boom: Bubbles and the End of Stagnation",
+    "author": "Byrne Hobart and Tobias Huber",
+    "isbn": "9781953953476",
+    "slug": "75-boom-bubbles-and-the-end-of-stagnation",
+    "cover": "/library/covers/75-boom-bubbles-and-the-end-of-stagnation.webp",
+    "width": 333,
+    "height": 500,
+    "source": "https://openlibrary.org/isbn/9781953953476"
+  },
+  {
+    "title": "Where Is My Flying Car?",
+    "author": "J. Storrs Hall",
+    "isbn": "9781953953186",
+    "slug": "76-where-is-my-flying-car",
+    "cover": "/library/covers/76-where-is-my-flying-car.webp",
+    "width": 342,
+    "height": 500,
+    "source": "https://openlibrary.org/isbn/9781953953186"
+  },
+  {
+    "title": "Scaling People",
+    "author": "Claire Hughes Johnson",
+    "isbn": "9781953953216",
+    "slug": "77-scaling-people",
+    "cover": "/library/covers/77-scaling-people.webp",
+    "width": 339,
+    "height": 500,
+    "source": "https://openlibrary.org/isbn/9781953953216"
+  },
+  {
+    "title": "Maps, Annotated",
+    "author": "DK",
+    "slug": "78-maps-annotated",
+    "cover": "/library/covers/78-maps-annotated.webp",
+    "width": 720,
+    "height": 858,
+    "source": "https://cdn2.penguin.com.au/covers/original/9780241682845.jpg"
+  },
+  {
+    "title": "The Dream Machine",
+    "author": "M. Mitchell Waldrop",
+    "isbn": "9781732265110",
+    "slug": "79-the-dream-machine",
+    "cover": "/library/covers/79-the-dream-machine.webp",
+    "width": 338,
+    "height": 500,
+    "source": "https://openlibrary.org/isbn/9781732265110"
+  },
+  {
+    "title": "The Making of Prince of Persia",
+    "author": "Jordan Mechner",
+    "isbn": "9780578627311",
+    "slug": "80-the-making-of-prince-of-persia",
+    "cover": "/library/covers/80-the-making-of-prince-of-persia.webp",
+    "width": 338,
+    "height": 500,
+    "source": "https://openlibrary.org/isbn/9780578627311"
+  },
+  {
+    "title": "The Scaling Era",
+    "author": "Dwarkesh Patel",
+    "isbn": "9781953953551",
+    "slug": "81-the-scaling-era",
+    "cover": "/library/covers/81-the-scaling-era.webp",
+    "width": 300,
+    "height": 444,
+    "source": "https://books.google.com/books/content?id=AeJPEQAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&source=gbs_api"
+  },
+  {
+    "title": "Design and Disability",
+    "author": "Natalie Kane and Reuben Liebeskind",
+    "isbn": "9781838510572",
+    "slug": "82-design-and-disability",
+    "cover": "/library/covers/82-design-and-disability.webp",
+    "width": 720,
+    "height": 865,
+    "source": "https://abramsandchronicle.co.uk/cdn/shop/files/9781838510572_8b228d23-68fe-454b-a608-3a2303f31e12_852x1024.jpg?v=1743428093"
+  },
+  {
+    "title": "Lucian Bernhard",
+    "author": "Christopher Long",
+    "slug": "83-lucian-bernhard",
+    "cover": "/library/covers/83-lucian-bernhard.webp",
+    "width": 720,
+    "height": 960,
+    "source": "https://stoutbooks.com/cdn/shop/files/LucianBernhard-ChristopherLong-Kant-2023.jpg?v=1746767604"
+  },
+  {
+    "title": "Hokusai",
+    "author": "Matthi Forrer",
+    "slug": "84-hokusai",
+    "cover": "/library/covers/84-hokusai.webp",
+    "width": 128,
+    "height": 165,
+    "source": "https://openlibrary.org/works/OL2219432W"
+  },
+  {
+    "title": "Scientific Freedom",
+    "author": "Donald W. Braben",
+    "isbn": "9781953953285",
+    "slug": "85-scientific-freedom",
+    "cover": "/library/covers/85-scientific-freedom.webp",
+    "width": 720,
+    "height": 1066,
+    "source": "https://k9bookshelf.com/cdn/shop/products/ScientificFreedom-frontcover_1875x.jpg?v=1613733556"
+  },
+  {
+    "title": "An Elegant Puzzle",
+    "author": "Will Larson",
+    "isbn": "9781732265189",
+    "slug": "86-an-elegant-puzzle",
+    "cover": "/library/covers/86-an-elegant-puzzle.webp",
+    "width": 338,
+    "height": 500,
+    "source": "https://openlibrary.org/isbn/9781732265189"
+  },
+  {
+    "title": "The Graphic Design Bible",
+    "author": "Theo Inglis",
+    "isbn": "9783791389905",
+    "slug": "87-the-graphic-design-bible",
+    "cover": "/library/covers/87-the-graphic-design-bible.webp",
+    "width": 362,
+    "height": 450,
+    "source": "https://openlibrary.org/isbn/9783791389905"
+  }
+]
