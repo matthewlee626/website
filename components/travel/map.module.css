@@ -1,6 +1,6 @@
 .atlas {
   position: relative;
-  height: 100dvh;
+  height: calc(100dvh - 64px);
   min-height: 540px;
   overflow: hidden;
   background: var(--color-canvas);
@@ -16,7 +16,7 @@
   overflow: hidden;
 }
 
-.placeMarker { width: 30px; height: 30px; border: 2px solid white; border-radius: 50%; background: #33507b; color: white; font: 14px Arial,sans-serif; box-shadow: 0 2px 6px #0004; cursor: pointer; }
+.placeMarker { display:grid;place-items:center;padding:0; width: 30px; height: 30px; border: 2px solid white; border-radius: 50%; background: #33507b; color: white; font: 14px Arial,sans-serif; box-shadow: 0 2px 6px #0004; cursor: pointer; }
 .placeMarker[aria-pressed=true] { background: white; color: #33507b; border: 3px solid #33507b; z-index: 2; }
 .placeSelect { width: 100%; margin-top: 12px; padding: 8px; background: #33507b; color: white; border: 1px solid white; border-radius: 4px; font-size: 14px; }
 .placeNote { margin-top: 12px !important; }

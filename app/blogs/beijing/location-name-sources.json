@@ -1,0 +1,584 @@
+{
+  "checkedOn": "2026-09-06",
+  "scope": "Every entry in the previous label dictionary, including aliases. English-brand means the checked source uses the English name; no invented Chinese category is shown. Names only: this audit does not validate coordinates or venue branch selection.",
+  "locations": {
+    "forbidden palace": {
+      "name": "故宫",
+      "source": "https://www.openstreetmap.org/relation/9511883",
+      "status": "verified"
+    },
+    "national museum of china": {
+      "name": "国博",
+      "source": "https://www.openstreetmap.org/relation/8607825",
+      "status": "verified",
+      "fullName": "中国国家博物馆",
+      "abbreviationSource": "https://www.chnmuseum.cn/"
+    },
+    "the national museum": {
+      "name": "国博",
+      "source": "https://www.openstreetmap.org/relation/8607825",
+      "status": "verified",
+      "fullName": "中国国家博物馆",
+      "abbreviationSource": "https://www.chnmuseum.cn/"
+    },
+    "tiananmen square": {
+      "name": "天安门广场",
+      "source": "https://www.openstreetmap.org/relation/941596",
+      "status": "verified"
+    },
+    "qianmen": {
+      "name": "前门",
+      "source": "https://www.openstreetmap.org/node/701230220",
+      "status": "verified"
+    },
+    "temple of heaven": {
+      "name": "天坛",
+      "source": "https://www.openstreetmap.org/way/24824550",
+      "status": "verified"
+    },
+    "wangfujing": {
+      "name": "王府井",
+      "source": "https://www.openstreetmap.org/node/6617849503",
+      "status": "verified"
+    },
+    "ming city wall relics park": {
+      "name": "北京明城墙遗址公园",
+      "source": "https://www.openstreetmap.org/node/5963885701",
+      "status": "verified"
+    },
+    "the ming dynasty city wall relics": {
+      "name": "北京明城墙遗址公园",
+      "source": "https://www.openstreetmap.org/node/5963885701",
+      "status": "verified"
+    },
+    "chongwenmen": {
+      "name": "崇文门",
+      "source": "https://www.openstreetmap.org/node/5430420858",
+      "status": "verified"
+    },
+    "national art museum of china": {
+      "name": "中国美术馆",
+      "source": "https://www.openstreetmap.org/way/131710744",
+      "status": "verified"
+    },
+    "jingshan park": {
+      "name": "景山公园",
+      "source": "https://www.openstreetmap.org/way/29201967",
+      "status": "verified"
+    },
+    "beihai": {
+      "name": "北海公园",
+      "source": "https://www.openstreetmap.org/way/366464114",
+      "status": "verified"
+    },
+    "beihai park": {
+      "name": "北海公园",
+      "source": "https://www.openstreetmap.org/way/366464114",
+      "status": "verified"
+    },
+    "shichahai": {
+      "name": "什刹海",
+      "source": "https://www.openstreetmap.org/node/5305505993",
+      "status": "verified"
+    },
+    "prince kung’s mansion": {
+      "name": "恭王府",
+      "source": "https://www.openstreetmap.org/way/26514871",
+      "status": "verified"
+    },
+    "nanluoguxiang": {
+      "name": "南锣鼓巷",
+      "source": "https://www.openstreetmap.org/way/4922662",
+      "status": "verified"
+    },
+    "drum": {
+      "name": "鼓楼",
+      "source": "https://www.openstreetmap.org/node/11934496069",
+      "status": "verified"
+    },
+    "drum tower": {
+      "name": "鼓楼",
+      "source": "https://www.openstreetmap.org/node/11934496069",
+      "status": "verified"
+    },
+    "clock towers": {
+      "name": "钟楼",
+      "source": "https://www.openstreetmap.org/node/11934520969",
+      "status": "verified"
+    },
+    "bell tower": {
+      "name": "钟楼",
+      "source": "https://www.openstreetmap.org/node/11934520969",
+      "status": "verified"
+    },
+    "lama temple": {
+      "name": "雍和宫",
+      "source": "https://www.openstreetmap.org/node/1357810270",
+      "status": "verified"
+    },
+    "confucius temple": {
+      "name": "北京孔庙",
+      "source": "https://www.openstreetmap.org/way/24825402",
+      "status": "verified"
+    },
+    "wudaoying": {
+      "name": "五道营胡同",
+      "source": "https://www.openstreetmap.org/way/30662318",
+      "status": "verified"
+    },
+    "wudaoying hutong": {
+      "name": "五道营胡同",
+      "source": "https://www.openstreetmap.org/way/30662318",
+      "status": "verified"
+    },
+    "temple of earth": {
+      "name": "地坛公园",
+      "source": "https://www.openstreetmap.org/way/24825400",
+      "status": "verified"
+    },
+    "miaoying temple": {
+      "name": "妙应寺",
+      "source": "https://www.openstreetmap.org/way/33614641",
+      "status": "verified"
+    },
+    "temple of ancient monarchs": {
+      "name": "历代帝王庙",
+      "source": "https://www.openstreetmap.org/way/30834653",
+      "status": "verified"
+    },
+    "guangji temple": {
+      "name": "广济寺",
+      "source": "https://www.openstreetmap.org/way/233219116",
+      "status": "verified"
+    },
+    "zhongnanhai": {
+      "name": "中南海",
+      "source": "https://www.openstreetmap.org/way/365351685",
+      "status": "verified"
+    },
+    "sanlitun": {
+      "name": "三里屯",
+      "source": "https://www.openstreetmap.org/relation/15887515",
+      "status": "verified"
+    },
+    "workers’ stadium": {
+      "name": "工体",
+      "source": "https://www.openstreetmap.org/way/191693413",
+      "status": "verified",
+      "fullName": "北京工人体育场",
+      "abbreviationSource": "https://zh.wikipedia.org/wiki/北京工人体育场"
+    },
+    "gongti/worker’s stadium": {
+      "name": "工体",
+      "source": "https://www.openstreetmap.org/way/191693413",
+      "status": "verified",
+      "fullName": "北京工人体育场",
+      "abbreviationSource": "https://zh.wikipedia.org/wiki/北京工人体育场"
+    },
+    "chaoyang park": {
+      "name": "朝阳公园",
+      "source": "https://www.openstreetmap.org/way/233205070",
+      "status": "verified"
+    },
+    "china world trade center": {
+      "name": "中国国际贸易中心",
+      "source": "https://www.openstreetmap.org/way/233523264",
+      "status": "verified"
+    },
+    "cctv headquarters": {
+      "name": "中央电视台总部",
+      "source": "https://www.openstreetmap.org/way/345716072",
+      "status": "verified"
+    },
+    "cctv building": {
+      "name": "中央电视台总部",
+      "source": "https://www.openstreetmap.org/way/345716072",
+      "status": "verified"
+    },
+    "chaoyang joy city": {
+      "name": "朝阳大悦城",
+      "source": "https://www.openstreetmap.org/way/220911627",
+      "status": "verified"
+    },
+    "wangjing soho": {
+      "name": "望京SOHO",
+      "source": "https://www.openstreetmap.org/way/1145074158",
+      "status": "verified"
+    },
+    "798 art zone": {
+      "name": "798艺术区",
+      "source": "https://www.openstreetmap.org/way/30663427",
+      "status": "verified"
+    },
+    "summer palace": {
+      "name": "颐和园",
+      "source": "https://www.openstreetmap.org/way/29228773",
+      "status": "verified"
+    },
+    "old summer palace": {
+      "name": "圆明园",
+      "source": "https://www.openstreetmap.org/way/24827108",
+      "status": "verified"
+    },
+    "peking university": {
+      "name": "北大",
+      "source": "https://www.openstreetmap.org/way/1330709889",
+      "status": "verified",
+      "fullName": "北京大学",
+      "abbreviationSource": "https://www.pku.edu.cn/index.html"
+    },
+    "tsinghua university": {
+      "name": "清华",
+      "source": "https://www.openstreetmap.org/relation/7469216",
+      "status": "verified",
+      "fullName": "清华大学",
+      "abbreviationSource": "https://www.tsinghua.edu.cn/"
+    },
+    "mutianyu": {
+      "name": "慕田峪",
+      "source": "https://www.openstreetmap.org/way/756859585",
+      "status": "verified"
+    },
+    "great wall": {
+      "name": "长城",
+      "source": "https://www.openstreetmap.org/way/756859585",
+      "status": "verified"
+    },
+    "badaling": {
+      "name": "八达岭",
+      "source": "https://www.openstreetmap.org/node/7805044408",
+      "status": "verified"
+    },
+    "quanjude": {
+      "name": "全聚德",
+      "source": "https://www.openstreetmap.org/node/4301877989",
+      "status": "verified"
+    },
+    "muji hotel": {
+      "name": "北京无印良品酒店",
+      "source": "https://www.openstreetmap.org/node/5960536786",
+      "status": "verified"
+    },
+    "donglaishun": {
+      "name": "东来顺",
+      "source": "https://www.openstreetmap.org/node/5785996553",
+      "status": "verified"
+    },
+    "kaorouji": {
+      "name": "烤肉季",
+      "source": "https://www.openstreetmap.org/node/4450261096",
+      "status": "verified"
+    },
+    "no. 69 fangzhuanchang noodles": {
+      "name": "方砖厂69号炸酱面",
+      "source": "https://www.openstreetmap.org/node/5875834186",
+      "status": "verified"
+    },
+    "jindingxuan": {
+      "name": "金鼎轩",
+      "source": "https://www.openstreetmap.org/node/854692925",
+      "status": "verified"
+    },
+    "laohuihui": {
+      "name": "老回回小吃",
+      "source": "https://www.openstreetmap.org/node/2614217390",
+      "status": "verified"
+    },
+    "bianyifang": {
+      "name": "便宜坊",
+      "source": "https://en.wikipedia.org/wiki/Bianyifang",
+      "status": "verified"
+    },
+    "cabo coffee": {
+      "name": null,
+      "source": "https://gs.ctrip.com/html5/you/foods/fooddetail/1/78811346.html",
+      "status": "english-brand"
+    },
+    "taohua yin alley": {
+      "name": "桃花印巷",
+      "source": "https://maps.apple.com/place?auid=1118368719887922",
+      "status": "verified"
+    },
+    "cuihualao": {
+      "name": "萃华楼",
+      "source": "https://s.visitbeijing.com.cn/food/16",
+      "status": "verified"
+    },
+    "keneng youshu": {
+      "name": "可能有书",
+      "source": "https://lyzz.visitbeijing.com.cn/news/detail?id=24837",
+      "status": "verified"
+    },
+    "shifter": {
+      "name": null,
+      "source": "https://www.trip.com/restaurant/china/beijing/detail/shifter-79749004/",
+      "status": "english-brand"
+    },
+    "yinsan douzhi": {
+      "name": "尹三豆汁",
+      "source": "https://ditu.amap.com/place/B0KB7CI6W5",
+      "status": "verified"
+    },
+    "modernista": {
+      "name": null,
+      "source": "https://modernistacafe.weebly.com/",
+      "status": "english-brand"
+    },
+    "kaorouwan": {
+      "name": "烤肉宛",
+      "source": "https://s.visitbeijing.com.cn/food/73",
+      "status": "verified"
+    },
+    "fuding coffee": {
+      "name": "福顶咖啡",
+      "source": "https://maps.apple.com/place?auid=1118732337875135&lsp=57879",
+      "status": "verified"
+    },
+    "% arabica": {
+      "name": "阿拉比卡",
+      "source": "https://www.chinaworldmall.cn/goods/detail/148.html",
+      "status": "verified"
+    },
+    "gentle monster": {
+      "name": null,
+      "source": "https://www.gentlemonster.com/cn/zh-CN",
+      "status": "english-brand"
+    },
+    "d.lounge": {
+      "name": null,
+      "source": "https://www.openstreetmap.org/node/13887517001",
+      "status": "english-brand"
+    },
+    "dada": {
+      "name": null,
+      "source": "https://www.openstreetmap.org/node/3903840762",
+      "status": "english-brand"
+    },
+    "ph": {
+      "name": null,
+      "source": "https://www.yexiyou.com/changdi/5717/",
+      "status": "english-brand"
+    },
+    "slowboat": {
+      "name": "悠航鲜啤",
+      "source": "https://slowboatbrewery.yoopay.cn/",
+      "status": "verified"
+    },
+    "oasis lounge": {
+      "name": null,
+      "source": "https://ditu.amap.com/place/B0JRRUVZWC",
+      "status": "english-brand"
+    },
+    "rock & ride": {
+      "name": null,
+      "source": "https://www.ucoo.net.cn/m/view.php?aid=1449",
+      "status": "user-preferred-brand",
+      "displayName": "ROCK&RIDE"
+    },
+    "world trade center / guomao": {
+      "name": "国贸",
+      "source": "https://www.cwtc.com/about.html",
+      "status": "verified"
+    },
+    "the tree": {
+      "name": "大树餐厅",
+      "source": "https://r.visitbeijing.com.cn/leisures?area=7&theme=",
+      "status": "verified"
+    },
+    "agi bar": {
+      "name": "知识蒸馏",
+      "source": "https://agi.bar/",
+      "status": "verified"
+    },
+    "catail backyard": {
+      "name": "Catail小后院",
+      "source": "https://you.ctrip.com/food/beijing1/93757348-dianping.html",
+      "status": "verified"
+    },
+    "long time ago": {
+      "name": "很久以前羊肉串",
+      "source": "https://www.ba-capital.com.cn/en/portfolio/yrc",
+      "status": "verified"
+    },
+    "bistro na": {
+      "name": "那家小馆",
+      "source": "https://www.tripadvisor.co.uk/Restaurant_Review-g33166-d13510172-Reviews-Bistro_Na_s-Temple_City_California.html",
+      "status": "verified"
+    },
+    "mizhong shan": {
+      "name": "芈重山老火锅",
+      "source": "https://maps.apple.com/place?auid=1118551956132412&lsp=57879",
+      "status": "verified"
+    },
+    "san tung": {
+      "name": "山东小馆",
+      "source": "https://news.chinesemenu.com/thelegacyaward/CRFCN/BayArea/The%20Legacy%20Award.html",
+      "status": "verified"
+    },
+    "chairman mao memorial hall": {
+      "name": "毛主席纪念堂",
+      "source": "https://tamgw.beijing.gov.cn/sy/",
+      "status": "verified"
+    },
+    "monument to the people's heroes": {
+      "name": "人民英雄纪念碑",
+      "source": "https://tamgw.beijing.gov.cn/sy/",
+      "status": "verified"
+    },
+    "hall for prayer of good harvests": {
+      "name": "祈年殿",
+      "source": "https://tiantanpark.cn/scenic_spot_list/detail/1254.html",
+      "status": "verified"
+    },
+    "white dagoba": {
+      "name": "白塔",
+      "source": "https://gygl.beijing.gov.cn/whgy/whgy_wsgc/201912/t20191206_885792.html",
+      "status": "verified"
+    },
+    "qianhai": {
+      "name": "前海",
+      "source": "https://wwj.beijing.gov.cn/bjww/362771/362778/364359/",
+      "status": "verified"
+    },
+    "houhai": {
+      "name": "后海",
+      "source": "https://wwj.beijing.gov.cn/bjww/362771/362778/364359/",
+      "status": "verified"
+    },
+    "haiyantang": {
+      "name": "海晏堂",
+      "source": "https://www.yuanmingyuanpark.cn/cgll/zyjd/ccy/201101/t20110105_231507.html",
+      "status": "verified"
+    },
+    "yunnan": {
+      "name": null,
+      "status": "cuisine-context",
+      "source": null
+    },
+    "hainan": {
+      "name": null,
+      "status": "cuisine-context",
+      "source": null
+    },
+    "xi’an": {
+      "name": null,
+      "status": "cuisine-context",
+      "source": null
+    },
+    "chongqing": {
+      "name": null,
+      "status": "cuisine-context",
+      "source": null
+    },
+    "beijing": {
+      "name": "北京",
+      "source": "https://tjj.beijing.gov.cn/tjsj_31433/sjjd_31444/202002/t20200216_1641588.html",
+      "status": "verified"
+    },
+    "new york": {
+      "name": "纽约",
+      "source": "https://tjj.beijing.gov.cn/tjsj_31433/sjjd_31444/202002/t20200216_1641588.html",
+      "status": "verified"
+    },
+    "london": {
+      "name": "伦敦",
+      "source": "https://tjj.beijing.gov.cn/tjsj_31433/sjjd_31444/202002/t20200216_1641588.html",
+      "status": "verified"
+    },
+    "paris": {
+      "name": "巴黎",
+      "source": "https://tjj.beijing.gov.cn/tjsj_31433/sjjd_31444/202002/t20200216_1641588.html",
+      "status": "verified"
+    },
+    "tokyo": {
+      "name": "东京",
+      "source": "https://tjj.beijing.gov.cn/tjsj_31433/sjjd_31444/202002/t20200216_1641588.html",
+      "status": "verified"
+    },
+    "la": {
+      "name": "洛杉矶",
+      "source": "https://wb.beijing.gov.cn/home/gjjwzx/xxzl/202509/P020250924651976869082.pdf",
+      "status": "verified"
+    },
+    "sf": {
+      "name": "旧金山",
+      "source": "https://wb.beijing.gov.cn/home/gjjwzx/zgdt/202509/t20250925_4210192.html",
+      "status": "verified"
+    },
+    "stanford": {
+      "name": "斯坦福大学",
+      "source": "https://hai.stanford.edu/assets/files/hai_ai_index_report_2025_chinese_version_061325.pdf",
+      "status": "verified"
+    },
+    "harvard": {
+      "name": "哈佛大学",
+      "source": "https://ucca.org.cn/program/questions-on-cultural-architecture/",
+      "status": "verified"
+    },
+    "hongqiao pearl market": {
+      "name": "红桥市场",
+      "source": "https://www.chinadaily.com.cn/specials/bj_guide.pdf",
+      "status": "verified"
+    },
+    "beijing railway station": {
+      "name": "北京站",
+      "source": "https://www.chinahighlights.com/china-trains/pdf/beijingrailwaystation.pdf",
+      "status": "verified"
+    },
+    "heytea": {
+      "name": "喜茶",
+      "source": "https://en.wikipedia.org/wiki/Heytea",
+      "status": "verified"
+    },
+    "pink wall": {
+      "name": null,
+      "source": "https://fashionista.com/2017/04/paul-smith-pink-wall",
+      "status": "no-verified-chinese-name"
+    },
+    "changan street": {
+      "name": "长安街",
+      "source": "https://scjgj.beijing.gov.cn/hdjl/myzj/bzzxdyjzj/202310/P020231027509106680473.pdf",
+      "status": "verified"
+    },
+    "labubu theme park": {
+      "name": "泡泡玛特城市乐园",
+      "source": "https://www.weibo.com/1726303567/NjqJ6zoVk?pagetype=profilefeed",
+      "status": "verified"
+    },
+    "liangma river canal": {
+      "name": "亮马河",
+      "source": "https://www.ctnews.com.cn/paper/att/202510/21/20af26d4-275e-4741-a737-231749823a16.pdf",
+      "status": "verified"
+    },
+    "ucca center for contemporary art": {
+      "name": "UCCA尤伦斯当代艺术中心",
+      "source": "https://ucca.org.cn/about/",
+      "status": "verified"
+    },
+    "wanshoushan": {
+      "name": "万寿山",
+      "source": "https://www.beijing.gov.cn/tsbj/sys/ylx/202012/t20201210_2161094.html",
+      "status": "verified"
+    },
+    "long corridor": {
+      "name": "长廊",
+      "source": "https://gygl.beijing.gov.cn/mlgy/mlgy_gyjg01/201912/t20191211_1048116.html",
+      "status": "verified"
+    },
+    "zhongguancun": {
+      "name": "中关村",
+      "source": "https://open.beijing.gov.cn/html/haidian/tsyq/2026/8/1785998955373.html",
+      "status": "verified"
+    },
+    "wudaokou": {
+      "name": "五道口",
+      "source": "https://open.beijing.gov.cn/html/haidian/tsyq/2026/8/1785998955373.html",
+      "status": "verified"
+    },
+    "haidian": {
+      "name": "海淀",
+      "source": "https://open.beijing.gov.cn/html/haidian/tsyq/2026/8/1785998955373.html",
+      "status": "verified"
+    }
+  }
+}

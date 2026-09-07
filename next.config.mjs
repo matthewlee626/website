@@ -16,10 +16,6 @@ const nextConfig = {
                 destination: 'https://matthewlee626.notion.site/a2gs',
                 permanent: true,
             },{
-                source: '/thoughts',
-                destination: 'https://matthewlee626.notion.site/thoughts',
-                permanent: true,
-            },{
                 source: '/travels',
                 destination: 'https://matthewlee626.notion.site/travels',
                 permanent: true,

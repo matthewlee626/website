@@ -1,4 +1,4 @@
-.reader { display:grid;grid-template-columns:52% 48%;align-items:start;background:var(--color-canvas);color:var(--color-text);min-height:100dvh;font-family:var(--font-body);text-transform:lowercase; }
+.reader { display:grid;grid-template-columns:52% 48%;align-items:start;background:var(--color-canvas);color:var(--color-text);min-height:calc(100dvh - 64px);font-family:var(--font-body);text-transform:lowercase; }
 .mapPane { position:sticky;top:64px;height:calc(100dvh - 64px);min-width:0; }
 .notes { padding:32px clamp(26px,4vw,64px) 80px;min-width:0;font-family:var(--font-body);font-size:var(--text-body);line-height:var(--leading-body); }
 .notes nav { display:flex;gap:12px;font-size:14px;margin-bottom:48px; }
@@ -15,8 +15,6 @@
 .notes :focus-visible { outline:2px solid var(--color-text);outline-offset:4px; }
 @media(max-width:760px) { .reader { grid-template-columns:1fr; }.mapPane { height:42dvh;z-index:3; }.notes { padding:28px 24px 64px; }.notes nav { margin-bottom:30px; }.notes section { scroll-margin-top:calc(45dvh + 64px); } }
 
-.breadcrumb { grid-column:1 / -1;position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:12px;min-height:64px;padding:16px 28px;background:var(--color-canvas);border-bottom:1px solid #ffffff33;color:var(--color-link);font-family:var(--font-body);font-size:var(--text-sm);line-height:var(--leading-body); }
-.breadcrumb a { text-decoration:underline;text-underline-offset:3px; }
 .bulletHeading { display:inline;text-align:left;font:inherit;font-weight:700;color:inherit;cursor:pointer;text-decoration:underline;text-decoration-color:#ffffff55;text-underline-offset:4px; }
 .bulletHeading:hover,.bulletHeading[aria-pressed=true] { text-decoration-color:white; }
 .inlineMapLink { display:block;color:var(--color-link);text-decoration:underline;font-size:13px;cursor:pointer;margin-top:8px; }
@@ -25,3 +23,15 @@
 
 /* Form-control resets override inherited text-transform. */
 .reader button { text-transform:lowercase; }
+
+.notes h4 { font-size:1rem;font-weight:400;margin:28px 0 18px; }
+.notes figure { margin:24px 0; }
+.notes figure img { display:block;width:100%;height:auto;border:3px solid white;border-radius:8px; }
+.notes li > ul { margin-top:18px; }
+
+.notes li + li { margin-top:18px; }
+
+/* Keep selected note text below the sticky mobile map when scrolling to a pin. */
+@media(max-width:760px) { .notes [data-map-location], .notes [data-inline-location] { scroll-margin-top:calc(42dvh + 64px); } }
+
+.inlineMapIcon { display:inline;padding:0 4px;margin-left:4px;color:var(--color-link);font:inherit;cursor:pointer; }

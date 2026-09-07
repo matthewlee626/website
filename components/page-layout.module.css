@@ -1,6 +1,1 @@
 .page { background: var(--color-canvas); color: var(--color-text); font-family: var(--font-body); }
-.breadcrumb { display: flex; flex-wrap: wrap; gap: 10px; font-size: var(--text-sm); line-height: 1.5; }
-.breadcrumb > span { display: inline-flex; gap: 10px; }
-.breadcrumb a { text-decoration: underline; text-underline-offset: 4px; }
-.breadcrumb a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
-.separator { opacity: .6; }

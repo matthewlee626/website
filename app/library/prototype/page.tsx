@@ -1,3 +1,3 @@
-import { redirect } from "next/navigation";
+import { permanentRedirect } from "next/navigation";
 
-export default function ShelfPrototype() { redirect("/library"); }
+export default function ShelfPrototype() { permanentRedirect("/blogs/library"); }

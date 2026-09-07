@@ -13,7 +13,8 @@
     "note": "Mentioned in the Beijing field notes.",
     "locationSource": "https://www.openstreetmap.org/node/4301877989",
     "precision": "venue",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "food"
   },
   {
     "id": "40",
@@ -29,7 +30,8 @@
     "note": "Mentioned in the Beijing field notes.",
     "locationSource": "https://www.openstreetmap.org/node/5960536786",
     "precision": "venue",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "hotel"
   },
   {
     "id": "41",
@@ -45,7 +47,8 @@
     "note": "Mentioned in the Beijing field notes.",
     "locationSource": "https://www.openstreetmap.org/node/5785996553",
     "precision": "venue",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "food"
   },
   {
     "id": "42",
@@ -61,7 +64,8 @@
     "note": "Mentioned in the Beijing field notes.",
     "locationSource": "https://www.openstreetmap.org/node/4450261096",
     "precision": "venue",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "food"
   },
   {
     "id": "43",
@@ -77,7 +81,8 @@
     "note": "Mentioned in the Beijing field notes.",
     "locationSource": "https://www.openstreetmap.org/node/5875834186",
     "precision": "venue",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "food"
   },
   {
     "id": "44",
@@ -93,7 +98,8 @@
     "note": "Mentioned in the Beijing field notes.",
     "locationSource": "https://www.openstreetmap.org/node/4500362189",
     "precision": "venue",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "bar"
   },
   {
     "id": "45",
@@ -109,7 +115,8 @@
     "note": "Mentioned in the Beijing field notes.",
     "locationSource": "https://www.openstreetmap.org/node/854692925",
     "precision": "venue",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "food"
   },
   {
     "id": "46",
@@ -125,7 +132,8 @@
     "note": "Mentioned in the Beijing field notes.",
     "locationSource": "https://www.openstreetmap.org/node/13887517001",
     "precision": "venue",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "bar"
   },
   {
     "id": "47",
@@ -141,7 +149,8 @@
     "note": "Mentioned in the Beijing field notes.",
     "locationSource": "https://www.openstreetmap.org/node/3903840762",
     "precision": "venue",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "bar"
   },
   {
     "id": "48",
@@ -157,7 +166,8 @@
     "note": "Mentioned in the Beijing field notes.",
     "locationSource": "https://www.openstreetmap.org/node/12642848372",
     "precision": "venue",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "food"
   },
   {
     "id": "49",
@@ -173,7 +183,8 @@
     "note": "Mentioned in the Beijing field notes.",
     "locationSource": "https://www.openstreetmap.org/node/2614217390",
     "precision": "venue",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "food"
   },
   {
     "id": "50",
@@ -189,7 +200,8 @@
     "note": "Mentioned in the Beijing field notes. Approximate location at 中关村创业大街.",
     "locationSource": "https://agi.bar/",
     "precision": "street or complex",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "bar"
   },
   {
     "id": "51",
@@ -205,7 +217,8 @@
     "note": "Mentioned in the Beijing field notes. Approximate location at 前炒面胡同.",
     "locationSource": "https://lyzz.visitbeijing.com.cn/news/detail?id=24837",
     "precision": "street or complex",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "coffee"
   },
   {
     "id": "52",
@@ -222,6 +235,7 @@
     "locationSource": "https://you.ctrip.com/food/beijing1/93757348-dianping.html",
     "precision": "venue",
     "coordinateSystem": "gcj02",
-    "address": "中关村东路16号院龙湖唐宁ONE2号A126号商铺"
+    "address": "中关村东路16号院龙湖唐宁ONE2号A126号商铺",
+    "category": "bar"
   }
 ]

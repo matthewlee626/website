@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { SiteHeader } from "@/components/site-header";
 
 const PPNikkeiMaru = localFont({
   src: "./fonts/PPNikkeiMaru-Regular.otf",
@@ -20,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={PPNikkeiMaru.variable}>
       <body className="antialiased">
+        <SiteHeader />
         {children}
       </body>
     </html>

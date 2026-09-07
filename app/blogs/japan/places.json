@@ -1,0 +1,1012 @@
+[
+  {
+    "id": "1",
+    "name": "Tokyo",
+    "area": "Tokyo",
+    "coordinates": [
+      139.7638947,
+      35.6768601
+    ],
+    "aliases": [
+      "Tokyo"
+    ],
+    "note": "Neighborhood or city overview from the Japan field notes.",
+    "precision": "area",
+    "locationSource": "https://www.openstreetmap.org/relation/1543125",
+    "category": "area"
+  },
+  {
+    "id": "2",
+    "name": "Ginza",
+    "area": "Ginza",
+    "coordinates": [
+      139.7647202,
+      35.6720135
+    ],
+    "aliases": [
+      "Ginza"
+    ],
+    "note": "Neighborhood or city overview from the Japan field notes.",
+    "precision": "area",
+    "locationSource": "https://www.openstreetmap.org/relation/4859036",
+    "category": "area"
+  },
+  {
+    "id": "3",
+    "name": "Roppongi",
+    "area": "Roppongi",
+    "coordinates": [
+      139.7334981,
+      35.6624568
+    ],
+    "aliases": [
+      "Roppongi"
+    ],
+    "note": "Neighborhood or city overview from the Japan field notes.",
+    "precision": "area",
+    "locationSource": "https://www.openstreetmap.org/relation/8421156",
+    "category": "area"
+  },
+  {
+    "id": "4",
+    "name": "Shibuya",
+    "area": "Shibuya",
+    "coordinates": [
+      139.6964952,
+      35.6633709
+    ],
+    "aliases": [
+      "Shibuya"
+    ],
+    "note": "Neighborhood or city overview from the Japan field notes.",
+    "precision": "area",
+    "locationSource": "https://www.openstreetmap.org/relation/1759477",
+    "category": "area"
+  },
+  {
+    "id": "5",
+    "name": "Shinjuku",
+    "area": "Shinjuku",
+    "coordinates": [
+      139.7036319,
+      35.6937632
+    ],
+    "aliases": [
+      "Shinjuku"
+    ],
+    "note": "Neighborhood or city overview from the Japan field notes.",
+    "precision": "area",
+    "locationSource": "https://www.openstreetmap.org/relation/1758858",
+    "category": "area"
+  },
+  {
+    "id": "6",
+    "name": "Ikebukuro",
+    "area": "Ikebukuro",
+    "coordinates": [
+      139.7084043,
+      35.7358426
+    ],
+    "aliases": [
+      "Ikebukuro"
+    ],
+    "note": "Neighborhood or city overview from the Japan field notes.",
+    "precision": "area",
+    "locationSource": "https://www.openstreetmap.org/relation/4869702",
+    "category": "area"
+  },
+  {
+    "id": "7",
+    "name": "Ueno",
+    "area": "Ueno",
+    "coordinates": [
+      139.775362,
+      35.7106288
+    ],
+    "aliases": [
+      "Ueno"
+    ],
+    "note": "Neighborhood or city overview from the Japan field notes.",
+    "precision": "area",
+    "locationSource": "https://www.openstreetmap.org/relation/18158684",
+    "category": "area"
+  },
+  {
+    "id": "8",
+    "name": "Ningyocho",
+    "area": "Ningyocho",
+    "coordinates": [
+      139.782191,
+      35.684835
+    ],
+    "aliases": [
+      "Ningyocho"
+    ],
+    "note": "Neighborhood or city overview from the Japan field notes.",
+    "precision": "area",
+    "locationSource": "https://www.openstreetmap.org/relation/16184503",
+    "category": "area"
+  },
+  {
+    "id": "9",
+    "name": "Shimokitazawa",
+    "area": "Shimokitazawa",
+    "coordinates": [
+      139.6663345,
+      35.6616779
+    ],
+    "aliases": [
+      "Shimokitazawa"
+    ],
+    "note": "Neighborhood or city overview from the Japan field notes.",
+    "precision": "area",
+    "locationSource": "https://www.openstreetmap.org/node/6808377675",
+    "category": "area"
+  },
+  {
+    "id": "10",
+    "name": "Tsukishima",
+    "area": "Tsukishima",
+    "coordinates": [
+      139.7822568,
+      35.6632293
+    ],
+    "aliases": [
+      "Tsukishima"
+    ],
+    "note": "Neighborhood or city overview from the Japan field notes.",
+    "precision": "area",
+    "locationSource": "https://www.openstreetmap.org/relation/3788739",
+    "category": "area"
+  },
+  {
+    "id": "11",
+    "name": "Hakone",
+    "area": "Hakone",
+    "coordinates": [
+      139.1068849,
+      35.2323662
+    ],
+    "aliases": [
+      "Hakone"
+    ],
+    "note": "Neighborhood or city overview from the Japan field notes.",
+    "precision": "area",
+    "locationSource": "https://www.openstreetmap.org/relation/2689439",
+    "category": "area"
+  },
+  {
+    "id": "12",
+    "name": "Yokohama",
+    "area": "Yokohama",
+    "coordinates": [
+      139.6343802,
+      35.4503381
+    ],
+    "aliases": [
+      "Yokohama"
+    ],
+    "note": "Neighborhood or city overview from the Japan field notes.",
+    "precision": "area",
+    "locationSource": "https://www.openstreetmap.org/relation/2689482",
+    "category": "area"
+  },
+  {
+    "id": "13",
+    "name": "Kamakura",
+    "area": "Kamakura",
+    "coordinates": [
+      139.5469627,
+      35.3192808
+    ],
+    "aliases": [
+      "Kamakura"
+    ],
+    "note": "Neighborhood or city overview from the Japan field notes.",
+    "precision": "area",
+    "locationSource": "https://www.openstreetmap.org/relation/2689445",
+    "category": "area"
+  },
+  {
+    "id": "14",
+    "name": "Osaka",
+    "area": "Osaka",
+    "coordinates": [
+      135.5014539,
+      34.6937569
+    ],
+    "aliases": [
+      "Osaka"
+    ],
+    "note": "Neighborhood or city overview from the Japan field notes.",
+    "precision": "area",
+    "locationSource": "https://www.openstreetmap.org/relation/358674",
+    "category": "area"
+  },
+  {
+    "id": "15",
+    "name": "Kyoto",
+    "area": "Kyoto",
+    "coordinates": [
+      135.7681441,
+      35.0115754
+    ],
+    "aliases": [
+      "Kyoto"
+    ],
+    "note": "Neighborhood or city overview from the Japan field notes.",
+    "precision": "area",
+    "locationSource": "https://www.openstreetmap.org/relation/357794",
+    "category": "area"
+  },
+  {
+    "id": "16",
+    "name": "The East Gardens of the Imperial Palace",
+    "area": "Ginza",
+    "coordinates": [
+      139.7573959,
+      35.6867006
+    ],
+    "aliases": [
+      "The East Gardens of the Imperial Palace"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/relation/5415394",
+    "category": "history"
+  },
+  {
+    "id": "17",
+    "name": "Kabukiza",
+    "area": "Ginza",
+    "coordinates": [
+      139.7681111,
+      35.6696572
+    ],
+    "aliases": [
+      "Kabukiza"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/relation/4859313",
+    "category": "entertainment"
+  },
+  {
+    "id": "18",
+    "name": "Tsukiji Market",
+    "area": "Ginza",
+    "coordinates": [
+      139.7704732,
+      35.6653884
+    ],
+    "aliases": [
+      "Tsukiji Market"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/way/606978548",
+    "category": "food"
+  },
+  {
+    "id": "19",
+    "name": "Tokyo Tower",
+    "area": "Roppongi",
+    "coordinates": [
+      139.745536,
+      35.6584491
+    ],
+    "aliases": [
+      "Tokyo Tower"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/relation/4247312",
+    "category": "landmark"
+  },
+  {
+    "id": "20",
+    "name": "Roppongi Hills",
+    "area": "Roppongi",
+    "coordinates": [
+      139.7292768,
+      35.6604561
+    ],
+    "aliases": [
+      "Roppongi Hills"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/way/153924771",
+    "category": "shopping"
+  },
+  {
+    "id": "21",
+    "name": "Toranomon Hills",
+    "area": "Roppongi",
+    "coordinates": [
+      139.7478206,
+      35.6674931
+    ],
+    "aliases": [
+      "Toranomon Hills"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/node/8014829817",
+    "category": "shopping"
+  },
+  {
+    "id": "22",
+    "name": "Hie-Jinja Shrine",
+    "area": "Roppongi",
+    "coordinates": [
+      139.7398822,
+      35.674685
+    ],
+    "aliases": [
+      "Hie-Jinja Shrine"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/way/509411458",
+    "category": "history"
+  },
+  {
+    "id": "23",
+    "name": "Meiji Jingu",
+    "area": "Shibuya",
+    "coordinates": [
+      139.6996266,
+      35.6748417
+    ],
+    "aliases": [
+      "Meiji Jingu"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/way/469908925",
+    "category": "history"
+  },
+  {
+    "id": "24",
+    "name": "Yoyogi Park",
+    "area": "Shibuya",
+    "coordinates": [
+      139.6951716,
+      35.6714052
+    ],
+    "aliases": [
+      "Yoyogi Park"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/relation/19862716",
+    "category": "park"
+  },
+  {
+    "id": "25",
+    "name": "Shibuya Scramble",
+    "area": "Shibuya",
+    "coordinates": [
+      139.7004982,
+      35.6594951
+    ],
+    "aliases": [
+      "Shibuya Scramble"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/way/1335178864",
+    "category": "area"
+  },
+  {
+    "id": "26",
+    "name": "Shibuya Sky",
+    "area": "Shibuya",
+    "coordinates": [
+      139.7022617,
+      35.6582857
+    ],
+    "aliases": [
+      "Shibuya Sky"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/node/6952876785",
+    "category": "landmark"
+  },
+  {
+    "id": "27",
+    "name": "Kabukicho",
+    "area": "Shinjuku",
+    "coordinates": [
+      139.7027105,
+      35.6945429
+    ],
+    "aliases": [
+      "Kabukicho"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/relation/17081657",
+    "category": "area"
+  },
+  {
+    "id": "28",
+    "name": "Shinjuku Gyoen Garden",
+    "area": "Shinjuku",
+    "coordinates": [
+      139.7095466,
+      35.6850716
+    ],
+    "aliases": [
+      "Shinjuku Gyoen Garden"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/way/15772074",
+    "category": "park"
+  },
+  {
+    "id": "29",
+    "name": "Senso-ji",
+    "area": "Ueno",
+    "coordinates": [
+      139.7955265,
+      35.7134032
+    ],
+    "aliases": [
+      "Senso-ji"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/way/173154847",
+    "category": "history"
+  },
+  {
+    "id": "30",
+    "name": "Ueno Park",
+    "area": "Ueno",
+    "coordinates": [
+      139.7738278,
+      35.7152915
+    ],
+    "aliases": [
+      "Ueno Park"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/relation/18158889",
+    "category": "park"
+  },
+  {
+    "id": "31",
+    "name": "Akihabara",
+    "area": "Ueno",
+    "coordinates": [
+      139.7743684,
+      35.7018928
+    ],
+    "aliases": [
+      "Akihabara"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/relation/18158693",
+    "category": "shopping"
+  },
+  {
+    "id": "32",
+    "name": "Tokyo Skytree",
+    "area": "Ueno",
+    "coordinates": [
+      139.8107141,
+      35.7100543
+    ],
+    "aliases": [
+      "Tokyo Skytree"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/way/288269147",
+    "category": "landmark"
+  },
+  {
+    "id": "33",
+    "name": "Osaka Castle",
+    "area": "Osaka",
+    "coordinates": [
+      135.5253958,
+      34.6871828
+    ],
+    "aliases": [
+      "Osaka Castle"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/way/1550234049",
+    "category": "history"
+  },
+  {
+    "id": "34",
+    "name": "Dotonburi",
+    "area": "Osaka",
+    "coordinates": [
+      135.5015715,
+      34.6690306
+    ],
+    "aliases": [
+      "Dotonburi"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/node/4029007869",
+    "category": "area"
+  },
+  {
+    "id": "35",
+    "name": "Universal Studios Osaka",
+    "area": "Osaka",
+    "coordinates": [
+      135.4324527,
+      34.6656393
+    ],
+    "aliases": [
+      "Universal Studios Osaka"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/way/32560852",
+    "category": "entertainment"
+  },
+  {
+    "id": "36",
+    "name": "Osaka Aquarium",
+    "area": "Osaka",
+    "coordinates": [
+      135.4289211,
+      34.6545464
+    ],
+    "aliases": [
+      "Osaka Aquarium"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/relation/6994284",
+    "category": "aquarium"
+  },
+  {
+    "id": "37",
+    "name": "Araishiyama",
+    "area": "Kyoto",
+    "coordinates": [
+      135.6744961,
+      35.0090473
+    ],
+    "aliases": [
+      "Araishiyama"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/node/4648090890",
+    "category": "park"
+  },
+  {
+    "id": "38",
+    "name": "Kinkaku-ji",
+    "area": "Kyoto",
+    "coordinates": [
+      135.7295373,
+      35.0395293
+    ],
+    "aliases": [
+      "Kinkaku-ji"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/way/98115917",
+    "category": "history"
+  },
+  {
+    "id": "39",
+    "name": "Ginkaku-ji",
+    "area": "Kyoto",
+    "coordinates": [
+      135.7983714,
+      35.0268996
+    ],
+    "aliases": [
+      "Ginkaku-ji"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/way/105817561",
+    "category": "history"
+  },
+  {
+    "id": "40",
+    "name": "Yasaka Shrine",
+    "area": "Kyoto",
+    "coordinates": [
+      135.7782611,
+      35.0036027
+    ],
+    "aliases": [
+      "Yasaka Shrine"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/way/328903218",
+    "category": "history"
+  },
+  {
+    "id": "41",
+    "name": "Kiyomizu-dera Temple",
+    "area": "Kyoto",
+    "coordinates": [
+      135.7844389,
+      34.994303
+    ],
+    "aliases": [
+      "Kiyomizu-dera Temple"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/way/336641107",
+    "category": "history"
+  },
+  {
+    "id": "42",
+    "name": "Fushimi-Inari",
+    "area": "Kyoto",
+    "coordinates": [
+      135.7797101,
+      34.9675192
+    ],
+    "aliases": [
+      "Fushimi-Inari",
+      "Fushimi Inari"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/way/96291583",
+    "category": "history"
+  },
+  {
+    "id": "43",
+    "name": "Kyoto Imperial Palace",
+    "area": "Kyoto",
+    "coordinates": [
+      135.7623445,
+      35.0252635
+    ],
+    "aliases": [
+      "Kyoto Imperial Palace"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/way/554879249",
+    "category": "history"
+  },
+  {
+    "id": "44",
+    "name": "Nishiki Market",
+    "area": "Kyoto",
+    "coordinates": [
+      135.7655699,
+      35.0050244
+    ],
+    "aliases": [
+      "Nishiki Market"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/way/772134672",
+    "category": "food"
+  },
+  {
+    "id": "45",
+    "name": "Higashi Hongan-ji",
+    "area": "Kyoto",
+    "coordinates": [
+      135.7583925,
+      34.9912258
+    ],
+    "aliases": [
+      "Higashi Hongan-ji"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/way/619901207",
+    "category": "history"
+  },
+  {
+    "id": "46",
+    "name": "Omotesando Hills",
+    "area": "Shibuya",
+    "coordinates": [
+      139.7089044,
+      35.6672123
+    ],
+    "aliases": [
+      "Omotesando Hills"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "venue",
+    "locationSource": "https://www.openstreetmap.org/way/139070534",
+    "category": "shopping"
+  },
+  {
+    "id": "47",
+    "name": "Ginza SIX",
+    "area": "Ginza",
+    "coordinates": [
+      139.764049,
+      35.6695326
+    ],
+    "aliases": [
+      "Ginza SIX"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "venue",
+    "locationSource": "https://www.openstreetmap.org/way/488225309",
+    "category": "shopping"
+  },
+  {
+    "id": "48",
+    "name": "Uniqlo Flagship",
+    "area": "Ginza",
+    "coordinates": [
+      139.7634253,
+      35.6701983
+    ],
+    "aliases": [
+      "Uniqlo Flagship"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "venue",
+    "locationSource": "https://www.openstreetmap.org/way/195551649",
+    "category": "shopping"
+  },
+  {
+    "id": "49",
+    "name": "MUJI Flagship",
+    "area": "Ginza",
+    "coordinates": [
+      139.7655211,
+      35.6733818
+    ],
+    "aliases": [
+      "MUJI Flagship"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "venue",
+    "locationSource": "https://www.openstreetmap.org/node/7263246185",
+    "category": "shopping"
+  },
+  {
+    "id": "50",
+    "name": "Wako",
+    "area": "Ginza",
+    "coordinates": [
+      139.765007,
+      35.6717352
+    ],
+    "aliases": [
+      "Wako"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "venue",
+    "locationSource": "https://www.openstreetmap.org/way/103509469",
+    "category": "shopping"
+  },
+  {
+    "id": "51",
+    "name": "Glitch Coffee",
+    "area": "Ginza",
+    "coordinates": [
+      139.7686729,
+      35.668888
+    ],
+    "aliases": [
+      "Glitch Coffee"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "venue",
+    "locationSource": "https://www.openstreetmap.org/node/12508568356",
+    "category": "coffee"
+  },
+  {
+    "id": "52",
+    "name": "NOA Cafe",
+    "area": "Ginza",
+    "coordinates": [
+      139.7653564,
+      35.6706927
+    ],
+    "aliases": [
+      "NOA Cafe"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "venue",
+    "locationSource": "https://www.openstreetmap.org/node/13567041141",
+    "category": "coffee"
+  },
+  {
+    "id": "53",
+    "name": "Tempura Abe Honten",
+    "area": "Ginza",
+    "coordinates": [
+      139.7645175,
+      35.6720682
+    ],
+    "aliases": [
+      "Tempura Abe Honten"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "venue",
+    "locationSource": "https://www.openstreetmap.org/node/7440039118",
+    "category": "food"
+  },
+  {
+    "id": "54",
+    "name": "Oniyamma",
+    "area": "Ginza",
+    "coordinates": [
+      139.7566259,
+      35.6658145
+    ],
+    "aliases": [
+      "Oniyamma"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "venue",
+    "locationSource": "https://www.openstreetmap.org/node/4736500125",
+    "category": "food"
+  },
+  {
+    "id": "55",
+    "name": "Ninenzaka",
+    "area": "Kyoto",
+    "coordinates": [
+      135.7808091,
+      34.9980101
+    ],
+    "aliases": [
+      "Ninenzaka"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/way/550360170",
+    "category": "history"
+  },
+  {
+    "id": "56",
+    "name": "Sannenzaka",
+    "area": "Kyoto",
+    "coordinates": [
+      135.7810498,
+      34.9972858
+    ],
+    "aliases": [
+      "Sannenzaka"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "landmark",
+    "locationSource": "https://www.openstreetmap.org/way/526198271",
+    "category": "history"
+  },
+  {
+    "id": "57",
+    "name": "Tenryu-ji",
+    "area": "Kyoto",
+    "coordinates": [
+      135.6729408,
+      35.0162243
+    ],
+    "aliases": [
+      "Tenryu-ji"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "venue",
+    "locationSource": "https://www.openstreetmap.org/way/409723494",
+    "category": "history"
+  },
+  {
+    "id": "58",
+    "name": "Hakone Kowakien Yunessun",
+    "area": "Hakone",
+    "coordinates": [
+      139.0451608,
+      35.2393532
+    ],
+    "aliases": [
+      "Hakone Kowakien Yunessun"
+    ],
+    "note": "Mentioned in the Japan field notes.",
+    "precision": "venue",
+    "locationSource": "https://www.openstreetmap.org/node/4711713689",
+    "category": "spa"
+  },
+  {
+    "id": "59",
+    "name": "Shibuya 109",
+    "area": "Shibuya",
+    "coordinates": [
+      139.6986799,
+      35.6596004
+    ],
+    "aliases": [
+      "Shibuya 109"
+    ],
+    "note": "Shopping in Shibuya.",
+    "precision": "venue",
+    "locationSource": "https://www.openstreetmap.org/way/55895868",
+    "category": "shopping"
+  },
+  {
+    "id": "60",
+    "name": "First Arrows",
+    "area": "Shibuya",
+    "coordinates": [
+      139.706392,
+      35.668699
+    ],
+    "aliases": [
+      "First Arrows"
+    ],
+    "note": "Harajuku store: 4-31-4 Jingumae, Aiwa Building 2F.",
+    "precision": "venue",
+    "locationSource": "https://www.first-arrows.com/en/store-2",
+    "coordinateSource": "Store marker in the official Harajuku map embed.",
+    "category": "shopping"
+  },
+  {
+    "id": "61",
+    "name": "Koffee Mameya",
+    "area": "Shibuya",
+    "coordinates": [
+      139.7108953,
+      35.6684763
+    ],
+    "aliases": [
+      "Koffee Mameya"
+    ],
+    "note": "Original Omotesando coffee shop, not the Kakeru branch.",
+    "precision": "venue",
+    "locationSource": "https://www.openstreetmap.org/node/5941077285",
+    "category": "coffee"
+  },
+  {
+    "id": "62",
+    "name": "Gentle Monster Aoyama",
+    "area": "Shibuya",
+    "coordinates": [
+      139.7147207,
+      35.6635464
+    ],
+    "aliases": [
+      "Gentle Monster Aoyama"
+    ],
+    "note": "Aoyama flagship at 5-3-2 Minamiaoyama.",
+    "precision": "venue",
+    "locationSource": "https://www.gentlemonster.com/jp/ja/stores/detail/779149704689218100",
+    "category": "shopping"
+  },
+  {
+    "id": "63",
+    "name": "Theused",
+    "area": "Shibuya",
+    "coordinates": [
+      139.7067252,
+      35.6693534
+    ],
+    "aliases": [
+      "Theused"
+    ],
+    "note": "Harajuku shop at 4-32-6 Jingumae.",
+    "precision": "venue",
+    "locationSource": "https://www.theused.online/contact",
+    "category": "shopping"
+  }
+]

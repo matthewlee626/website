@@ -6,6 +6,7 @@ import { LinkedInLogoIcon, TwitterLogoIcon, GitHubLogoIcon} from "@radix-ui/reac
 import { TextLink } from "@/components/text-link";
 
 
+
 export default function Home() {
   return (
     <div className="flex justify-center items-center w-full p-8 md:h-screen font-sans lowercase">
@@ -23,15 +24,8 @@ export default function Home() {
             </Panel>
             <Panel className="text-center">
               <ul>
-                <li>
-                  <TextLink 
-                    text="Travels." 
-                    href="/travels" 
-                  />
-                </li>
-                <li><TextLink text="Thoughts." href="/thoughts" /></li>
-                <li><TextLink href="/blogs" target="_self">Blogs.</TextLink></li>
-                <li><TextLink text="Library." href="/library" /></li>
+                <li><TextLink href="/thoughts" target="_self">thoughts</TextLink></li>
+                <li><TextLink href="/blogs/library" target="_self">library</TextLink></li>
               </ul>
             </Panel>
             <Panel className="flex flex-row justify-center gap-5">

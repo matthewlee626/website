@@ -9,7 +9,8 @@
     ],
     "note": "The imperial seat of the Ming and Qing dynasties. The field notes point foreign visitors to the separate Palace Museum booking website.",
     "locationSource": "https://www.openstreetmap.org/relation/9511883",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "history"
   },
   {
     "id": "2",
@@ -21,7 +22,8 @@
     ],
     "note": "Artifacts tracing Chinese civilization through its major dynasties. A pick for a big China history buff; the field notes recommend booking through the mini-app.",
     "locationSource": "https://www.openstreetmap.org/relation/8607825",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "history"
   },
   {
     "id": "3",
@@ -33,7 +35,8 @@
     ],
     "note": "A busy central stop, with the Chairman Mao Memorial Hall and the Monument to the People’s Heroes.",
     "locationSource": "https://www.openstreetmap.org/relation/941596",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "history"
   },
   {
     "id": "4",
@@ -45,7 +48,8 @@
     ],
     "note": "Touristy shopping, famous Peking duck spots Bianyifang and Quanjude, and hutongs to the east. The MUJI hotel caught my eye.",
     "locationSource": "https://www.openstreetmap.org/node/701230220",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "shopping"
   },
   {
     "id": "5",
@@ -57,7 +61,8 @@
     ],
     "note": "A huge park and imperial ritual complex. The Hall of Prayer for Good Harvests is the highlight; also a place to watch people playing chess. Nearby: CABO Coffee. My verdict on Hongqiao Pearl Market: skip it.",
     "locationSource": "https://www.openstreetmap.org/way/24824550",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "history"
   },
   {
     "id": "6",
@@ -69,7 +74,8 @@
     ],
     "note": "Shopping from luxury to anime and manga. Donglaishun for lamb hotpot with sesame paste is my dinner recommendation.",
     "locationSource": "https://www.openstreetmap.org/node/6617849503",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "shopping"
   },
   {
     "id": "7",
@@ -81,7 +87,8 @@
     ],
     "note": "A surviving section of the old city wall beside Beijing Railway Station. A fun place to watch different trains pass.",
     "locationSource": "https://www.openstreetmap.org/node/5963885701",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "history"
   },
   {
     "id": "8",
@@ -93,7 +100,8 @@
     ],
     "note": "My usual base. Lots of Heytea; Taohua Yin Alley and Cuihualao are my tasty nearby picks.",
     "locationSource": "https://www.openstreetmap.org/node/5430420858",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "area"
   },
   {
     "id": "9",
@@ -105,7 +113,8 @@
     ],
     "note": "On my list, but I haven’t visited yet. Elsewhere in the eastern hutongs: Keneng Youshu for bookstore/cafe co-working, and Shifter for a bar.",
     "locationSource": "https://www.openstreetmap.org/way/131710744",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "art"
   },
   {
     "id": "10",
@@ -117,7 +126,8 @@
     ],
     "note": "Climb the hill for a spectacular city view. The field notes connect its construction to the Forbidden Palace moats and recall the last Ming emperor.",
     "locationSource": "https://www.openstreetmap.org/way/29201967",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "park"
   },
   {
     "id": "11",
@@ -129,7 +139,8 @@
     ],
     "note": "A beautiful lake park with the White Dagoba. My memorable moment: a security guard watching videos at maximum volume.",
     "locationSource": "https://www.openstreetmap.org/way/366464114",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "park"
   },
   {
     "id": "12",
@@ -141,7 +152,8 @@
     ],
     "note": "Crowded lakeside bars and live music, often streamed online. Kaorouji’s thinly sliced lamb with onions and spices is one of my favorite dishes. Also: Yinsan Douzhi.",
     "locationSource": "https://www.openstreetmap.org/node/5305505993",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "park"
   },
   {
     "id": "13",
@@ -153,7 +165,8 @@
     ],
     "note": "A luxurious traditional Chinese residence beyond the Palace.",
     "locationSource": "https://www.openstreetmap.org/way/26514871",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "history"
   },
   {
     "id": "14",
@@ -165,7 +178,8 @@
     ],
     "note": "A very touristy hutong. My food highlight is No. 69 Fangzhuanchang Noodles for zhajiangmian. Modernista is another bar recommendation in this part of town.",
     "locationSource": "https://www.openstreetmap.org/way/4922662",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "shopping"
   },
   {
     "id": "15",
@@ -177,7 +191,8 @@
     ],
     "note": "Climb for the view, and photograph the red walls. Paired with the nearby Bell Tower in the field notes.",
     "locationSource": "https://www.openstreetmap.org/node/11934496069",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "history"
   },
   {
     "id": "16",
@@ -189,7 +204,8 @@
     ],
     "note": "The companion to the Drum Tower, with stairs and views over the surrounding hutongs.",
     "locationSource": "https://www.openstreetmap.org/node/11934520969",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "history"
   },
   {
     "id": "17",
@@ -201,7 +217,8 @@
     ],
     "note": "A working Tibetan Buddhist temple with spectacular art and statues. Kaorouwan is my nearby lamb recommendation.",
     "locationSource": "https://www.openstreetmap.org/node/1357810270",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "history"
   },
   {
     "id": "18",
@@ -213,7 +230,8 @@
     ],
     "note": "Imagine studying for the imperial examinations. The field notes highlight the stone inscriptions of successful candidates.",
     "locationSource": "https://www.openstreetmap.org/way/24825402",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "history"
   },
   {
     "id": "19",
@@ -225,7 +243,8 @@
     ],
     "note": "Little shops and a rooftop skyline view at Fuding Coffee.",
     "locationSource": "https://www.openstreetmap.org/way/30662318",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "shopping"
   },
   {
     "id": "20",
@@ -237,7 +256,8 @@
     ],
     "note": "A park with a central altar. Nearby Jindingxuan for Cantonese food.",
     "locationSource": "https://www.openstreetmap.org/way/24825400",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "history"
   },
   {
     "id": "21",
@@ -249,7 +269,8 @@
     ],
     "note": "A Yuan-era pagoda. For a photograph, look down the alley by % Arabica. The field notes also mention a cat cafe and bookstore.",
     "locationSource": "https://www.openstreetmap.org/way/33614641",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "history"
   },
   {
     "id": "22",
@@ -261,7 +282,8 @@
     ],
     "note": "Where emperors paid tribute to rulers of previous dynasties.",
     "locationSource": "https://www.openstreetmap.org/way/30834653",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "history"
   },
   {
     "id": "23",
@@ -273,7 +295,8 @@
     ],
     "note": "A Buddhist temple and headquarters of the Buddhist Association of China.",
     "locationSource": "https://www.openstreetmap.org/way/233219116",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "history"
   },
   {
     "id": "24",
@@ -285,7 +308,8 @@
     ],
     "note": "The central government and party compound. The field notes describe passing along Chang’an Street, rather than entering.",
     "locationSource": "https://www.openstreetmap.org/way/365351685",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "history"
   },
   {
     "id": "25",
@@ -297,7 +321,8 @@
     ],
     "note": "Upscale shopping, Gentle Monster, and food. d.lounge is my nearby bar pick.",
     "locationSource": "https://www.openstreetmap.org/relation/15887515",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "shopping"
   },
   {
     "id": "26",
@@ -309,7 +334,8 @@
     ],
     "note": "A nightlife cluster. The field notes describe table-based clubbing; PH is my music favorite. Dada is another recommendation for techno.",
     "locationSource": "https://www.openstreetmap.org/way/191693413",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "entertainment"
   },
   {
     "id": "27",
@@ -321,11 +347,12 @@
     ],
     "note": "A big park and the Labubu theme park. In the wider area: Slowboat for burgers and beer, and Oasis Lounge overlooking the Liangma River.",
     "locationSource": "https://www.openstreetmap.org/way/233205070",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "park"
   },
   {
     "id": "28",
-    "name": "China World Trade Center",
+    "name": "world trade center / guomao",
     "area": "Chaoyang",
     "coordinates": [
       116.4535233,
@@ -333,7 +360,8 @@
     ],
     "note": "Luxury shopping and Rock & Ride, where I found a few pieces.",
     "locationSource": "https://www.openstreetmap.org/way/233523264",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "shopping"
   },
   {
     "id": "29",
@@ -345,7 +373,8 @@
     ],
     "note": "An architectural highlight near the World Trade Center.",
     "locationSource": "https://www.openstreetmap.org/way/345716072",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "landmark"
   },
   {
     "id": "30",
@@ -357,7 +386,8 @@
     ],
     "note": "An enormous ten-story mall. The Tree is one of my aesthetic picks here.",
     "locationSource": "https://www.openstreetmap.org/way/220911627",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "shopping"
   },
   {
     "id": "31",
@@ -369,7 +399,8 @@
     ],
     "note": "An interesting architectural achievement.",
     "locationSource": "https://www.openstreetmap.org/way/1145074158",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "landmark"
   },
   {
     "id": "32",
@@ -381,7 +412,8 @@
     ],
     "note": "A former factory complex now home to contemporary artists and galleries. UCCA Center for Contemporary Art is an anchor.",
     "locationSource": "https://www.openstreetmap.org/way/30663427",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "art"
   },
   {
     "id": "33",
@@ -393,7 +425,8 @@
     ],
     "note": "A sprawling palace landscape. My highlights are Wanshoushan and the Long Corridor, with plenty more to wander through.",
     "locationSource": "https://www.openstreetmap.org/way/29228773",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "history"
   },
   {
     "id": "34",
@@ -405,7 +438,8 @@
     ],
     "note": "Palace ruins; my main highlight is Haiyantang and its Western-style ruins and zodiac fountain.",
     "locationSource": "https://www.openstreetmap.org/way/24827108",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "history"
   },
   {
     "id": "35",
@@ -417,7 +451,8 @@
     ],
     "note": "The field notes suggest arranging an invitation from an affiliate before visiting. Check current campus access rules.",
     "locationSource": "https://www.openstreetmap.org/way/1330709889",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "university"
   },
   {
     "id": "36",
@@ -429,7 +464,8 @@
     ],
     "note": "Another campus visit to arrange with an affiliate. My wider Haidian recommendations include AGI Bar, Catail Backyard, Laohuihui, Long Time Ago, Bistro Na, and Mizhong Shan; branches are not pinned.",
     "locationSource": "https://www.openstreetmap.org/relation/7469216",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "university"
   },
   {
     "id": "37",
@@ -441,7 +477,8 @@
     ],
     "note": "My quieter Great Wall option, with a longer journey to reach it.",
     "locationSource": "https://www.openstreetmap.org/way/756859585",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "history"
   },
   {
     "id": "38",
@@ -453,6 +490,7 @@
     ],
     "note": "My Great Wall option for an easy high-speed rail trip, with bigger crowds.",
     "locationSource": "https://www.openstreetmap.org/node/7805044408",
-    "coordinateSystem": "wgs84"
+    "coordinateSystem": "wgs84",
+    "category": "history"
   }
 ]

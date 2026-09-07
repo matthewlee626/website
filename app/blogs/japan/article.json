@@ -1,0 +1,737 @@
+[
+  {
+    "id": "tl-dr",
+    "title": "tl;dr",
+    "level": 2,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Japan is an amazing place to visit. Great combination of food/transportation/attractions/shopping at a price that is quite favorable from a USD perspective. In specific:"
+      },
+      {
+        "type": "bullet",
+        "text": "**Tokyo** has <span underline=\"true\">everything</span>. The goal there is being specific about what you want to prioritize."
+      },
+      {
+        "type": "bullet",
+        "text": "**Osaka** is fun but in particular has less attractions than Tokyo so IMO it’s best used as a launchpad for Kansai in general.",
+        "children": [
+          {
+            "type": "bullet",
+            "text": "**Kyoto** has beautiful natures and shrine with a nasty over-tourism problem."
+          }
+        ]
+      },
+      {
+        "type": "bullet",
+        "text": "**Sapporo**/**Hiroshima**/**Fukuoka: **can’t speak from personal experience. TBD!"
+      }
+    ]
+  },
+  {
+    "id": "takes-all-takes-my-own",
+    "title": "misc",
+    "level": 2,
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "I’m Chinese American spend most time in the SGV/Bay Area. If you have a similar background, much of the excitement in novelty you hear online may not apply to you. For me, this was most apparent with food and traditional architecture."
+      },
+      {
+        "type": "bullet",
+        "text": "Enjoyment is 1000% better with some Japanese fluency. Being able to pull up anywhere up a lot; most people outside of touristy spots speak very minimal English."
+      },
+      {
+        "type": "bullet",
+        "text": "Japan is exceptionally polite—just look at the service culture—but politeness doesn’t always translate into warmth. That was my experience as a tourist in its megacities."
+      },
+      {
+        "type": "bullet",
+        "text": "You will need cash for smaller restaurants. $20 USD per person per day is likely enough."
+      },
+      {
+        "type": "bullet",
+        "text": "Abuse tax-free for shopping. Assuming 150¥/$1, Japan is probably the cheapest place to buy many goods like clothes!"
+      },
+      {
+        "type": "bullet",
+        "text": "Japanese folks use Tabelog for food rankings. A 3 is average in Japan. Anything above a 3.5 is pretty crazy good. Google Maps rankings are terrible."
+      },
+      {
+        "type": "bullet",
+        "text": "Get a transit card on Apple Wallet and use subway for everything. Apple Maps and Google Maps are both fine. Subways end midnight-ish after which taxis are not cheap in Tokyo."
+      }
+    ]
+  },
+  {
+    "id": "hotels",
+    "title": "Hotels",
+    "level": 2,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Beyond international chains which might be ideal based on your credit card points, some local chains I would recommend are:"
+      },
+      {
+        "type": "bullet",
+        "text": "[Mystays](https://www.mystays.com/en-us/)"
+      },
+      {
+        "type": "bullet",
+        "text": "[the b hotels](https://en.theb-hotels.com/)"
+      },
+      {
+        "type": "bullet",
+        "text": "[Mimaru](https://mimaruhotels.com/en/hotel/): apartment-style, good for larger groups"
+      }
+    ]
+  },
+  {
+    "id": "tokyo",
+    "title": "Tokyo",
+    "level": 2,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Most travel plans typically revolve some downtown where most of the action takes place. Unfortunately, Tokyo doesn’t have a single center! IMO there are six centers, many which you could spend days in if standalone. Where you live depends on where you want to focus, but as long as you are within this ring of centers (i.e. inside the JR Yamanote) you should never be far by subway to elsewhere. Listing out some highlights below, with <span underline=\"true\">underlined</span> key tourists spots as my priorities:"
+      }
+    ],
+    "area": "Tokyo"
+  },
+  {
+    "id": "ginza",
+    "title": "Ginza",
+    "level": 3,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "The most bougie, Ginza is the place you want to be if you are a fan of crazy department stores, luxury brands, and nice omakase."
+      },
+      {
+        "type": "heading",
+        "text": "Key Tourist Spots",
+        "level": 4
+      },
+      {
+        "type": "bullet",
+        "text": "<span underline=\"true\">**The East Gardens of the Imperial Palace**</span>: The only part of the Imperial Palace open to the general public. It’s closed Mondays and Fridays. Very pretty and when you walk outside to the skyscrapers around Tokyo Station you realize how much value this land has."
+      },
+      {
+        "type": "bullet",
+        "text": "**Kabukiza:** principal venue for traditional Japanese theater. If you are a big Japanese history/culture fan and speak Japanese, an interesting go. Otherwise, you’re probably just listening to a dubbed headphone."
+      },
+      {
+        "type": "bullet",
+        "text": "<span underline=\"true\">**Tsukiji Market**</span>**: **Formerly where fish was sold after being hauled in, the majority of the facilities were demolished for redevelopment and moved to **Toyosu. **What remains is basically a tourist trap: worth going to walk around and eat cute small snacks like sushi and wagyu skewers, but you are not getting the best nor the cheapest here."
+      },
+      {
+        "type": "heading",
+        "text": "Food",
+        "level": 4
+      },
+      {
+        "type": "bullet",
+        "text": "[**Hare Nochi Katsu (晴のちカツ)**](https://tabelog.com/en/tokyo/A1301/A130101/13262308/)**:** Insanely good pork katsu. I would honestly go leaner; I had the chef’s rec (medium fatty) and I was praying to God on the last two slices. Cash only."
+      },
+      {
+        "type": "bullet",
+        "text": "[**Glitch Coffee**](glitchcoffee.com): One of the best places for single origin pour overs I’ve been to. Highly recommend sampling a flight there (3 different beans): I had their COLOMBIA RISARALDA MILAN which literally tasted like melon."
+      },
+      {
+        "type": "bullet",
+        "text": "[**NOA Cafe**](noacafe.jp/ginza): Cute cafe after a bit of shopping, down a basement. Yummy waffles!"
+      },
+      {
+        "type": "bullet",
+        "text": "[**Sushi Yoshi Ginza**](https://sushiyoshiginza.com/ja/): As all omakase is, this place is quite pricey (200 USD for dinner, somewhat less for lunch). I note this place because the head chef is actually Taiwanese, which could work to your favor when having the food explained to you. Had a ridiculous situation where we had two Chinese, two Hong Kongers, two Taiwanese, the chef, and the assistant (Taiwanese) all speaking Japanese."
+      },
+      {
+        "type": "bullet",
+        "text": "**Oniyamma**: In nearby Shimbashi, super cheap local udon spot. Order on the kiosk outside, put your ticket on a tray, get served, and eat while standing. I think this was the highest ranked udon place on Tabelog when I looked it up."
+      },
+      {
+        "type": "bullet",
+        "text": "**Tempura Abe Honten**: Tempura yummy yummy. ~$70 pp?"
+      },
+      {
+        "type": "heading",
+        "text": "Shopping",
+        "level": 4
+      },
+      {
+        "type": "bullet",
+        "text": "Uniqlo Flagship: 10 floors of Uniqlo buddy"
+      },
+      {
+        "type": "bullet",
+        "text": "MUJI Flagship: 7 floors of guess what"
+      },
+      {
+        "type": "bullet",
+        "text": "Ginza SIX: Shit ton of luxury"
+      },
+      {
+        "type": "bullet",
+        "text": "Wako: Landmark building, jewelry and watches"
+      },
+      {
+        "type": "bullet",
+        "text": "Ginza Mitsukoshi: All kinds of nicer brands, cafe at the roof"
+      },
+      {
+        "type": "bullet",
+        "text": "In general, every high-end and popular brand is here (Onitsuka, LV, etc)"
+      }
+    ],
+    "area": "Ginza"
+  },
+  {
+    "id": "roppongi",
+    "title": "Roppongi",
+    "level": 3,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "In between some crazier places, Roppongi is definitely quieter and I really enjoyed staying in nearby Akasaka."
+      },
+      {
+        "type": "heading",
+        "text": "Key Tourist Spots",
+        "level": 4
+      },
+      {
+        "type": "bullet",
+        "text": "<span underline=\"true\">**Tokyo Tower**</span>: The red Eiffel Tower. You don’t really need to go to the top. Just the middle level is enough to see how massive Tokyo is."
+      },
+      {
+        "type": "bullet",
+        "text": "**Roppongi Hills/Toranomon Hills**: Massive malls built by Mori. Just walk around and shop (obviously on the pricier side)."
+      },
+      {
+        "type": "bullet",
+        "text": "**Hie-Jinja Shrine**: Right next to the National Diet, it has a nice view from the top of the hill and a series of red torii gates like Fushimi Inari in Kyoto. Fun fact, a white dude said “sumimasen” to me when I walked by???"
+      },
+      {
+        "type": "heading",
+        "text": "Food",
+        "level": 4
+      },
+      {
+        "type": "bullet",
+        "text": "**Sobamae Yamato**: Nicer dinner, good date spot. Reserve earlier. Soba noodles."
+      },
+      {
+        "type": "bullet",
+        "text": "**Meat Man**: Nice yakitori/skewer place"
+      },
+      {
+        "type": "bullet",
+        "text": "**Streamers**: chain coffee place, nice for iced Americano and what not"
+      },
+      {
+        "type": "bullet",
+        "text": "**Kei Collection PARIS**: bit pricey but a bar on the rooftop of Toranomon Hills. Amazing views of the city at night."
+      },
+      {
+        "type": "heading",
+        "text": "Shopping",
+        "level": 4
+      },
+      {
+        "type": "bullet",
+        "text": "Uniqlo Flagship: 10 floors of Uniqlo buddy"
+      },
+      {
+        "type": "bullet",
+        "text": "MUJI Flagship: 7 floors of guess what"
+      },
+      {
+        "type": "bullet",
+        "text": "Ginza SIX: Shit ton of luxury"
+      },
+      {
+        "type": "bullet",
+        "text": "Wako: Landmark building, jewelry and watches"
+      },
+      {
+        "type": "bullet",
+        "text": "Ginza Mitsukoshi: All kinds of nicer brands, cafe at the roof"
+      },
+      {
+        "type": "bullet",
+        "text": "In general, every high-end and popular brand is here (Onitsuka, LV, etc)"
+      }
+    ],
+    "area": "Roppongi"
+  },
+  {
+    "id": "shibuya",
+    "title": "Shibuya",
+    "level": 3,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Clubbing (I have never clubbed but know Shibuya is where they are), fashion (holy), parks"
+      },
+      {
+        "type": "heading",
+        "text": "Key Tourist Spots",
+        "level": 4
+      },
+      {
+        "type": "bullet",
+        "text": "<span underline=\"true\">**Meiji Jingu**</span>**: **Shrine to the deified Shinto spirit of Emperor Meiji and Empress Shoken. Pretty forested shrine complex; very peaceful escape from the city with massive torii gates and traditional architecture."
+      },
+      {
+        "type": "bullet",
+        "text": "**Yoyogi Park:** It’s a park. A nice place to AFK for a bit."
+      },
+      {
+        "type": "bullet",
+        "text": "<span underline=\"true\">**Shibuya Scramble**</span>: Several places around it to watch people crossing. 5 minutes is more than enough! Seriously, it’s only crazy if you’ve never seen Asian megacities. The Hachiko statue is here."
+      },
+      {
+        "type": "bullet",
+        "text": "**Shibuya Sky: **Nice views of the city with the famous escalator"
+      },
+      {
+        "type": "heading",
+        "text": "Food",
+        "level": 4
+      },
+      {
+        "type": "bullet",
+        "text": "**Kiraku**: Highest rated gyoza place on Tokyo. Super lowkey, cash only, line is an hour long with only Japanese people at 12. Two main orders: 1. chukamen 中华面 which is Japanese style Chinese noodles similar shoyu ramen and 2. gyoza."
+      },
+      {
+        "type": "bullet",
+        "text": "**Koffee Mameya**: Tucked in what looks like a house, great place for single origin beans"
+      },
+      {
+        "type": "heading",
+        "text": "Shopping",
+        "level": 4
+      },
+      {
+        "type": "bullet",
+        "text": "Around Shibuya",
+        "children": [
+          {
+            "type": "bullet",
+            "text": "Shibuya 109: Landmark department store. **The entire building is women’s fashion.**"
+          },
+          {
+            "type": "bullet",
+            "text": "United Arrows"
+          },
+          {
+            "type": "bullet",
+            "text": "JieDa/Visvim/Kapital - lowkey iykyk Japanese fashion brands"
+          }
+        ]
+      },
+      {
+        "type": "bullet",
+        "text": "Around Omotesando",
+        "children": [
+          {
+            "type": "bullet",
+            "text": "Omotesando Hills: not a crazy mall, but around here are all the luxury brands"
+          },
+          {
+            "type": "bullet",
+            "text": "Theused: Extensive collection of used silver jewelry, mostly Chrome Hearts (pendants start at ~60k¥) and Recoil&co (they have a nice triple rose piece for ~25k¥)."
+          },
+          {
+            "type": "bullet",
+            "text": "First Arrows: They make Native American inspired jewelry (feathers, turquoise). Definitely inspired by Goro’s (Japanese dude went to the Lakota Nation and learned silversmithing) but way more accessible (Goro’s is basically impossible to get in if you aren’t Japanese because of scalper limitations, it’s a iykyk fashion brand). I bought a nice .925 silver feather pendant here for ~25000¥."
+          },
+          {
+            "type": "bullet",
+            "text": "Gentle Monster Aoyama: with tax free and the exchange rate, it’s cheaper to buy here than Korea"
+          },
+          {
+            "type": "bullet",
+            "text": "The Endless Summer: Huntington Beach + french bulldog clothing inspired by the surfer movie of the same name"
+          },
+          {
+            "type": "bullet",
+            "text": "kindal harajuku second hand store"
+          },
+          {
+            "type": "bullet",
+            "text": "Honestly, just browse around Omotesando and Harajuku (just not around Takeshita Street)."
+          }
+        ]
+      }
+    ],
+    "area": "Shibuya"
+  },
+  {
+    "id": "shinjuku",
+    "title": "Shinjuku",
+    "level": 3,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Pure insanity — by far the most insane train station and plenty of small bars."
+      },
+      {
+        "type": "heading",
+        "text": "Key Tourist Spots",
+        "level": 4
+      },
+      {
+        "type": "bullet",
+        "text": "<span underline=\"true\">**Kabukicho**</span>: Honestly the most degenerate place in Tokyo and pretty dirty at night with trash too LOL. Lots of funny little bars around Golden Gai, touts from Nigeria who have “pretty girls” that definitely won’t scam you, host/hostess clubs. A real mess but worth walking around for (with a goal in mind for sure)."
+      },
+      {
+        "type": "bullet",
+        "text": "**Shinjuku Gyoen Garden**: Pretty pretty national garden to walk through."
+      },
+      {
+        "type": "heading",
+        "text": "Food",
+        "level": 4
+      },
+      {
+        "type": "bullet",
+        "text": "Shaburaku-tei Shibuya was honestly solid for shabu-shabu"
+      },
+      {
+        "type": "bullet",
+        "text": "Get a beast meal at Coco Ichibanya/Matsuya/Sukiya/Yoshinoya/Kamakura Ramen after drinking"
+      },
+      {
+        "type": "heading",
+        "text": "Shopping",
+        "level": 4
+      },
+      {
+        "type": "bullet",
+        "text": "Didn’t do that here lol. No takes except that it has basically anything you can buy."
+      }
+    ],
+    "area": "Shinjuku"
+  },
+  {
+    "id": "ikebukuro",
+    "title": "Ikebukuro",
+    "level": 3,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "I lied, I don’t have actually too much to say about here because I haven’t visited extensively. It has a nice collection of restaurants and bars and it’s well connected to the rest of the city. Not too much touristy stuff, I will say."
+      },
+      {
+        "type": "bullet",
+        "text": "[Bar LIBRE](bar-libre.jp): good cocktails and cigars"
+      }
+    ],
+    "area": "Ikebukuro"
+  },
+  {
+    "id": "ueno",
+    "title": "Ueno",
+    "level": 3,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Museums, anime, temples!"
+      },
+      {
+        "type": "heading",
+        "text": "Key Tourist Spots",
+        "level": 4
+      },
+      {
+        "type": "bullet",
+        "text": "<span underline=\"true\">**Senso-ji**</span>: Impressive Buddhist temple for Kannon (Guanyin). In front of it is a massive collection of street food vendors. You have to walk through and down Kaminarimon Gate and see all the vendors selling stuff with a straight view of Senso-ji. IMO one of the craziest and prettiest sites in Tokyo, and my favorite tourist spot."
+      },
+      {
+        "type": "bullet",
+        "text": "**Ueno Park**: Very nice park and also the site of several major museums (art/history i.e. the Tokyo National Museum) if that is your vibe. The zoo is sad (I’ve heard) and not worth going."
+      },
+      {
+        "type": "bullet",
+        "text": "<span underline=\"true\">**Akihabara**</span>: Electronics like cameras, anime, maid cafes. I walked out of the JR station and was faced with several Genshin cutouts!"
+      },
+      {
+        "type": "bullet",
+        "text": "**Tokyo Skytree**: Another tower!"
+      },
+      {
+        "type": "heading",
+        "text": "Food",
+        "level": 4
+      },
+      {
+        "type": "bullet",
+        "text": "Okachimachi: Tons of restaurants under the JR line bridge here. Research and take your pick!"
+      },
+      {
+        "type": "heading",
+        "text": "Shopping",
+        "level": 4
+      },
+      {
+        "type": "bullet",
+        "text": "Didn’t do that here lol. No takes."
+      }
+    ],
+    "area": "Ueno"
+  },
+  {
+    "id": "misc",
+    "title": "Misc",
+    "level": 3,
+    "blocks": [],
+    "area": "Tokyo"
+  },
+  {
+    "id": "ningyocho",
+    "title": "Ningyocho",
+    "level": 4,
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "Uotora: super local, only Japanese here. Best tuna don bowl ever. Cash only."
+      },
+      {
+        "type": "bullet",
+        "text": "Yanagiya Kokyu Taiyaki Hompo: popular taiyaki"
+      },
+      {
+        "type": "bullet",
+        "text": "Futaba: tofu and soy drink"
+      },
+      {
+        "type": "bullet",
+        "text": "Shigmori’s Ningyoyaki: Human face shaped pastries. It’s a funny pun: Ningyocho is 人形町 (nin gyo cho) because dolls (人形) were made here, but 人形 can also mean human shaped."
+      }
+    ],
+    "area": "Ningyocho"
+  },
+  {
+    "id": "shimokitazawa",
+    "title": "Shimokitazawa",
+    "level": 4,
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "Vintage thrifting. Japanese thrifting is more about curation of goods than selling a bunch of crap (and maybe there’s a gem) at a low price, so don’t expect any bargains. In particular, many stores here focus on American vintage, so if you come from America, expect some insane prices for Levi’s jeans, military surplus, Boston University crewnecks, etc. Snagged some nice overcoats here though!"
+      }
+    ],
+    "area": "Shimokitazawa"
+  },
+  {
+    "id": "tsukishima",
+    "title": "Tsukishima",
+    "level": 4,
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "There is a street called Tsukishima Monja Street where you can get monjayaki. It’s like a wetter form of okonomiyaki. Good for 2+ people. Yummy!"
+      }
+    ],
+    "area": "Tsukishima"
+  },
+  {
+    "id": "hakone",
+    "title": "Hakone",
+    "level": 4,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Look up the Hakone Loop. Main highlights are:"
+      },
+      {
+        "type": "bullet",
+        "text": "**Motohakone**: Mt. Fuji rises above the hills across from Lake Ashinoko, with the Torii of Peace just across the cape. Wow!"
+      },
+      {
+        "type": "bullet",
+        "text": "**Hakone Kowakien Yunessun: **There are several hot spring resorts around Hakone, and I enjoyed this one in particular!"
+      },
+      {
+        "type": "bullet",
+        "text": "**Gora/Hakone**: Cute little towns in rural Japan."
+      }
+    ],
+    "area": "Hakone"
+  },
+  {
+    "id": "yokohama",
+    "title": "Yokohama",
+    "level": 4,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "It has a Chinatown!"
+      }
+    ],
+    "area": "Yokohama"
+  },
+  {
+    "id": "kamakura",
+    "title": "Kamakura",
+    "level": 4,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A nice beach!"
+      }
+    ],
+    "area": "Kamakura"
+  },
+  {
+    "id": "osaka",
+    "title": "Osaka",
+    "level": 2,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "As above, I would recommend **Osaka** as a central launchpad for the Kansai region, the main places which I’ve listed below. **Nara** has deer, **Uji** has matcha, **Himeji** has the castle, **Kobe** has beef, and **Kyoto** has insane culture. Kyoto has enough for it’s own section below!"
+      },
+      {
+        "type": "heading",
+        "text": "Key Tourist Spots",
+        "level": 4
+      },
+      {
+        "type": "paragraph",
+        "text": "I’ve barely covered all that there is to cover in Tokyo; in comparison, Osaka has basically two “tourist” attractions:"
+      },
+      {
+        "type": "bullet",
+        "text": "<span underline=\"true\">**Osaka Castle**</span>: rebuilt after the war, the location has an extensive history from the Sengoku period under Toyotomi and Tokugawa. There is a long line to climb to the top."
+      },
+      {
+        "type": "bullet",
+        "text": "<span underline=\"true\">**Dotonburi**</span>: where the Glico man is. Central shopping/market area along a river."
+      },
+      {
+        "type": "paragraph",
+        "text": "and two other attractions:"
+      },
+      {
+        "type": "bullet",
+        "text": "Universal Studios Osaka."
+      },
+      {
+        "type": "bullet",
+        "text": "Osaka Aquarium (Kaiyukan)."
+      },
+      {
+        "type": "heading",
+        "text": "Food",
+        "level": 4
+      },
+      {
+        "type": "bullet",
+        "text": "Osaka specialities are takoyaki and okonomiyaki. The Umeda and Dotonoburi areas are both popular for restaurants."
+      },
+      {
+        "type": "heading",
+        "text": "Shopping",
+        "level": 4
+      },
+      {
+        "type": "bullet",
+        "text": "Didn’t do that here lol. No takes but I have heard good stuff about fashion."
+      }
+    ],
+    "area": "Osaka"
+  },
+  {
+    "id": "kyoto",
+    "title": "Kyoto",
+    "level": 2,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Kyoto is all about Japanese culture and tradition. That means shrines, gardens, temples, shrines, temples, palaces, shrines, temples, and shrines. Famed for its beauty, Kyoto has one of the worst overtourism situations I have ever witnessed. Metro Tokyo holds 41 million people and Tokyo feels like it could fit more. On the other hand, Metro Kyoto holds only 3 million people and it feels like half of that population is tourists roaming around shrines (especially the ones you want to go to!). Tokyo contains an extensive subway system and Osaka a solid system. Kyoto is much more limited in its subways, which means **buses** and/or Ubers. On the former, you will feel the tourist crunch while you wait in line next to tourist spots. That being said, Kyoto is popular for a reason!"
+      },
+      {
+        "type": "heading",
+        "text": "Key Tourist Spots",
+        "level": 4
+      },
+      {
+        "type": "paragraph",
+        "text": "I’m roughly moving clockwise starting from Araishiyama in the far northwest of Kyoto, and then moving to the center after Fushimi Inari. Note that I’m missing tens of temples (as a cursory glance of Apple maps would tell you) and many of those have storied histories and/or tranquil views away from tourists."
+      },
+      {
+        "type": "bullet",
+        "text": "<span underline=\"true\">**Araishiyama**</span>: Walk through Tenryu-ji and look at the lushness of the hills in spring/summer. You’ll make you way to the famous bamboo forest. There is also the Monkey Park on the other side of the river, which requires a challenge hike of a hill but is well worth for the view."
+      },
+      {
+        "type": "bullet",
+        "text": "**Kinkaku-ji**: A Buddhist temple in complete gold. Uber here."
+      },
+      {
+        "type": "bullet",
+        "text": "**Ginkaku-ji**: Temple in a beautiful garden."
+      },
+      {
+        "type": "bullet",
+        "text": "**Yasaka Shrine**: Walk around here to Maruyama and to Kodai-ji."
+      },
+      {
+        "type": "bullet",
+        "text": "**Ninenzaka/Sannenzaka**: Walk by the Tower of Yasaka to these famous roads lined with traditional Japanese buildings."
+      },
+      {
+        "type": "bullet",
+        "text": "<span underline=\"true\">**Kiyomizu-dera Temple**</span>: An amazing Buddhist template in the hills on the east of Kyoto. Walk to Taisan-ji for my favorite view of Kyoto: the header of this page. The views of Kyoto around the main temple are breath-taking."
+      },
+      {
+        "type": "bullet",
+        "text": "<span underline=\"true\">**Fushimi-Inari**</span>: The famous series of red torii-gates, made funnier when you can read the torii gate inscriptions and realize that the new gates are funded as donations from corporations. If you aren’t climbing up to the top of the mountain to the top shrine and around the loop, you only need an hour or so to take a torii gate picture. However the climb up and around the loop (many, many inclines) is well worth with friends. I hiked at night; what an experience!"
+      },
+      {
+        "type": "bullet",
+        "text": "<span underline=\"true\">**Kyoto Imperial Palace**</span>: The former palace of the Emperor. Preceded by a large public park, the palace itself is impressive architecturally!"
+      },
+      {
+        "type": "bullet",
+        "text": "<span underline=\"true\">**Nishiki Market**</span>: The main central covered market of Kyoto, filled with somewhat overpriced food stalls. This and Gion are the main shopping areas of Kyoto."
+      },
+      {
+        "type": "bullet",
+        "text": "**Higashi Hongan-ji**: A nice temple complex next to Kyoto station."
+      },
+      {
+        "type": "bullet",
+        "text": "**Kamogawa River**: The chief river running through Kyoto. Get a Strong Zero and sit by the riverbank."
+      },
+      {
+        "type": "heading",
+        "text": "Food",
+        "level": 4
+      },
+      {
+        "type": "bullet",
+        "text": "**Meat & Vegetable Hachibe**: Forgot the food in Nishiki Market! Walk out the east side to this lowkey shop for this amazing steak and grilled veggie rice bowl ever. I would w go back; 10/10 and my favorite restaurant in the world."
+      },
+      {
+        "type": "bullet",
+        "text": "**Shun’ai Sasaki**: Great kaiseki dinner. I rarely see chefs work with bitter; this chef worked with all five flavors well. ~$70 pp?"
+      },
+      {
+        "type": "bullet",
+        "text": "**Gion Duck Noodle**: Duck broth ramen with duck meat. Not gamey at all and amazingly rich flavor, but beware: lines here can be 2 hours long. Eat at your risk."
+      },
+      {
+        "type": "heading",
+        "text": "Shopping",
+        "level": 4
+      },
+      {
+        "type": "bullet",
+        "text": "There’s definitely loose leaf tea here. I wish I knew!"
+      }
+    ],
+    "area": "Kyoto"
+  }
+]

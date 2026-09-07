@@ -187,7 +187,7 @@ export default function Shelf({ books }: { books: ShelfBook[] }) {
               style={{
                 "--x": `${distance}px`,
                 "--y": `${railDistance * SHELF_SLOPE + reveal * 90}px`,
-                "--yaw": "16deg",
+                "--yaw": "-16deg",
                 "--roll": "3deg",
                 "--width": `${item.physical.widthMm}px`,
                 "--height": `${item.physical.heightMm}px`,
