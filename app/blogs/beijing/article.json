@@ -1,0 +1,232 @@
+{
+  "intro": "When I think of a city I could tourist for weeks, only a few cities come to mind. New York, London, Paris, and Tokyo rank among the top, but Beijing might just take the win. It is just an odd encapsulation of the past 1000 years of Chinese history, and while perhaps not the trendiest of cities, has a great deal of curious charm for those who look. That being said, there might just be a little too much to sift through on first pass. I’m very much a geography person, and I see travel through a somewhat odd lens of trying to explore a map as possible. I’m hoping that through some of this digging, I can provide some curious gems of insight!",
+  "geography": "Beijing, being the imperial capital of past and present, is a city defined first and foremost by concentric rings. The 1st Ring is the Forbidden Palace walls, the 2nd is the freeway that sits on the path of the old city walls, and the 3rd-6th move outward. When I was born, outside the 3rd Ring Road would have been quite remote. Now, there are apartments well into the 5th Ring Road and beyond. All this is to say that moving in between locations can easily be 1 hr+ if you try to race across the city. Group attractions!",
+  "sections": [
+    {
+      "title": "center",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "There is so much within the 2nd ring Road, like actually ridiculous. This could literally be a week!"
+        }
+      ]
+    },
+    {
+      "title": "center-center",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The three most touristy spots are definitely those in the very core of the city, in order of how terrible it is to book tickets:"
+        },
+        {
+          "type": "bullet",
+          "text": "**The Forbidden Palace (故宫): **The imperial seat of power for the Ming and Qing dynasties. You definitely know about this place. One note: you may see references to how hard booking a ticket on the WeChat miniapp is. True, but for foreigners, you actually get tickets through a separate website that is much easier ([https://bookingticket.dpm.org.cn/](https://bookingticket.dpm.org.cn/)). Tickets are availible at 8PM one week before the date."
+        },
+        {
+          "type": "bullet",
+          "text": "**The National Museum**: Has exhibits with artifacts documenting the mainline development of Chinese civilization through its major dynasties. Would go here if you are a big China history buff, but otherwise it’s quite long. Book on the mini-app."
+        },
+        {
+          "type": "bullet",
+          "text": "**Tiananmen Square:** so busy. Book on the mini-app. Has the The Chairman Mao Memorial Hall and the Monument to the People's Heroes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Outside of the three above, I would most tickets can be purchased at the door or with a mini-app. Would err on the latter for language reasons."
+        }
+      ]
+    },
+    {
+      "title": "south",
+      "blocks": [
+        {
+          "type": "bullet",
+          "text": "**Qianmen**: Quite touristy of a shopping area. Has some very famous Peking duck locations like Bianyifang and Quanjude. Beijing’s center is dominated by hutongs, which are neighborhoods with alleyways and *siheyuan *(courtyard houses), and the ones east of here are quite fun to walk around. The MUJI hotel here looks gorgeous."
+        },
+        {
+          "type": "bullet",
+          "text": "**Temple of Heaven**: A massive park around a set of religious buildings where the Emperor would perform rituals for good harvest. The most famous building is the Hall for Prayer of Good Harvests (祈年殿), but it’s also just a place where uncs are playing chess. Next to here is a really cute cafe, **CABO Coffee**. If you hear about Hongqiao Pearl Market, I’d say not worth going."
+        }
+      ]
+    },
+    {
+      "title": "east",
+      "blocks": [
+        {
+          "type": "bullet",
+          "text": "**Wangfujing**: OG shopping center. There’s a mall for luxury goods, a mall for regular goods, a mall for literally only anime/manga/二次元 stuff. The Donglaishun here for lamb hotpot (sesame paste only) is a good choice for dinner and a very good representation of Chinese halal food that is common in Northern cities."
+        },
+        {
+          "type": "bullet",
+          "text": "**The Ming Dynasty City Wall Relics**: Remember how the 2nd Ring Road was built over the city walls? Most were taken down in the 50s and 60s in the name of city planning after having been in a somewhat dilapidated state, but this section was preserved as it lines one side of the Beijing Railway station. Fun place to see the different trains pass."
+        },
+        {
+          "type": "bullet",
+          "text": "**Chongwenmen**: Where I stay lol. Like 3 Heytea’s. **Taohua Yin Alley **and** Cuihualao** are pretty tasty."
+        },
+        {
+          "type": "bullet",
+          "text": "**National Art Museum of China** (have yet to go)"
+        },
+        {
+          "type": "bullet",
+          "text": "Miscellaneous hutongs. I enjoy **Keneng Youshu**, a bookstore/cafe, for co-working. **Shifter** is a great bar."
+        }
+      ]
+    },
+    {
+      "title": "north",
+      "blocks": [
+        {
+          "type": "bullet",
+          "text": "**Jingshan Park:** Mountain built from construction of the moats around the Forbidden Palace. Hike to the top for a spectacular view of the city. The last Ming emperor hung himself here!"
+        },
+        {
+          "type": "bullet",
+          "text": "**Beihai: **Beautiful park around a lake, with a White Dagoba constructed to honor the 5th Dalai Lama’s visit in 1651. Have a vivid memory of hiking up here and seeing a security guard watching proto brainrot on max volume. Peak China."
+        },
+        {
+          "type": "bullet",
+          "text": "**Shichahai (mostly Qianhai and Houhai):** Insanely crowded area with a lot of bars with live music. You will see that these places are also streaming their performers on social media, a really Chinese thing. **Kaorouji** here has one of my favorite dishes in the world: thinly sliced lamb with onion and spices. Another great example of Chinese muslim food (noticing a trend here?). Drink **Yinsan Douzhi**. **Prince Kung’s Mansion** is interesting for seeing a luxurious traditional Chinese house that is not the Palace."
+        },
+        {
+          "type": "bullet",
+          "text": "**Nanluoguxiang**: One of the most touristy hutongs in Beijing. Has the **No. 69 Fangzhuanchang Noodles** where Jensen Huang ate zhajiangmian; this dish is elite here and clears anything that San Tung is slopping out. Next to this are the **Drum and Clock towers** if you wanna climb stairs for a great view. Hella good place to take a picture along the red walls; better than the Pink Wall in LA even. **Modernista** is a great speakeasy!"
+        },
+        {
+          "type": "bullet",
+          "text": "**Lama Temple: **Center of Tibetian Buddhism in Beijing. Spectacular art/statues and a working temple where you’ll see folks praying! Near this is Kaorouwan for lamb yum."
+        },
+        {
+          "type": "bullet",
+          "text": "**Confucius Temple**: LARP being an imperial bureaucrat and imagine yourself grinding for the forerunner of the Gaokao/SAT. Really cool exhibit of steels from past successful candidates of the Imperial Examination."
+        },
+        {
+          "type": "bullet",
+          "text": "**Wudaoying**: Another hutong with fun little shops. Fuding Coffee has a rooftop with a nice view of the skyline."
+        },
+        {
+          "type": "bullet",
+          "text": "**Temple of Earth**: Park with a central altar. Jindingxuan for Cantonese food nearby if you crave it."
+        }
+      ]
+    },
+    {
+      "title": "west",
+      "blocks": [
+        {
+          "type": "bullet",
+          "text": "**Miaoying Temple**: built in 1279 in the Yuan Dynasty, the oldest and largest pagoda. For a sick picture, look along the alleyway next to the % Arabica here. There’s also a cat cafe and a bookstore here."
+        },
+        {
+          "type": "bullet",
+          "text": "**Temple of Ancient Monarchs: **Where the Emperors would pray to their predecessors from all previous dynasties."
+        },
+        {
+          "type": "bullet",
+          "text": "**Guangji Temple**: Pretty Buddhist temple, HQ of the Buddhist Association of China."
+        },
+        {
+          "type": "bullet",
+          "text": "**Zhongnanhai**: Where the central government/party is housed. You are not getting in but you can bike along Changan Street to pass it (no stopping!)."
+        }
+      ]
+    },
+    {
+      "title": "chaoyang",
+      "blocks": [
+        {
+          "type": "bullet",
+          "text": "**Sanlitun: **Bougie mall. Gentle monster. Food. d.lounge in this area is a great bar!"
+        },
+        {
+          "type": "bullet",
+          "text": "**Gongti/Worker’s Stadium**: Many of the nightclubs in Beijing are along a row here. Fair warning that Chinese clubbing is very table based and definitely more for the study-abroaders and fuerdai than the average person, which is quite different from what you might call a club in the US. PH is my favorite on the basis of music. Bar Dada is good for techno."
+        },
+        {
+          "type": "bullet",
+          "text": "**Chaoyang Park: **Big park. They have the Labubu theme park! If you want a meme meal Slowboat is a burger and beerpub that’s actually quite gas. Oasis Lounge is quite good and overlooks the Liangma River canal."
+        },
+        {
+          "type": "bullet",
+          "text": "**world trade center (guomao):** Mall with luxury brands (all you can imagine) and some bangers like Rock & Ride (Chrome adjacent, where I got a few of my pieces). The CCTV building is sick."
+        },
+        {
+          "type": "bullet",
+          "text": "**chaoyang joy city** is an insanely large 10 story mall. The Tree here is pretty good LARP, probably one of the more aesthetic places I’ve been to!"
+        }
+      ]
+    },
+    {
+      "title": "wangjing",
+      "blocks": [
+        {
+          "type": "bullet",
+          "text": "**Wangjing SOHO** is an interesting architectural achievement."
+        },
+        {
+          "type": "bullet",
+          "text": "**798 Art Zone**: a decommissioned military factory complex that now hosts an contemporary artist community. Many folks here are pushing the margins of social discourse, away from the orthodoxy. There are many galleries for domestic and foreign artists, and the UCCA Center for Contemporary Art is an anchor."
+        }
+      ]
+    },
+    {
+      "title": "haidian",
+      "blocks": [
+        {
+          "type": "bullet",
+          "text": "**Summer Palace: **Sprawling palace complex. Highlights for me are Wanshoushan and the Long Corridor, but you could roam here forever. You have also probably heard of this. Do your research!"
+        },
+        {
+          "type": "bullet",
+          "text": "**Old Summer Palace**: Formerly one of the greatest palaces, it was burned by Lord Elgin as retaliation for the execution of a British and French delegation. Haiyantang is the main spot, as the ruins of a Western style palace with a famous fountain with the twelve Chinese Zodiac animals."
+        },
+        {
+          "type": "bullet",
+          "text": "**Peking University and Tsinghua University: **You can’t get inside without an invite from an affiliate. Your best bet is to try to make a friend! I think that foreign students here can invite unlimited number of guests, but domestic students can’t (as everyone and their mom is trying to get inside). From this, you can understand why Chinese tourists visit Stanford, Harvard, and the like."
+        },
+        {
+          "type": "bullet",
+          "text": "zhongguancun is techbro central in Beijing. Tiktok, Moonshot AI, Zhipu AI, and Baidu all have a presence here. There is a bar called AGI Bar is here where all the drinks are AI themed, which is something that somehow SF has not even done."
+        },
+        {
+          "type": "bullet",
+          "text": "wudaokou is a fun gathering place for students in the universities in the area. Catail Backyard is a sick bar. Laohuihui has yummy beef and lamb dumplings. Long Time Ago for amazing cumin lamb skewers and the viral forehead cold pack. Bistro Na has a branch here."
+        }
+      ]
+    },
+    {
+      "title": "misc",
+      "blocks": [
+        {
+          "type": "bullet",
+          "text": "**Great Wall: **You’ve definitely heard of this. Mutianyu is more lowkey but harder to get, Badaling is an easy high speed rail away but busy!"
+        },
+        {
+          "type": "bullet",
+          "text": "I think if you want a good decent meal, a good bet is to go to any large mall and hit their food courts. But misc food recs (I think that Beijing cuisine is an interesting topic for another time)"
+        },
+        {
+          "type": "bullet",
+          "text": "Mizhong Shan in Haidian for Chongqing Hotpot"
+        },
+        {
+          "type": "bullet",
+          "text": "Yunnan Guoqiao mian"
+        },
+        {
+          "type": "bullet",
+          "text": "Hainan style coconut chicken hotpot"
+        },
+        {
+          "type": "bullet",
+          "text": "Xi’an food"
+        },
+        {
+          "type": "bullet",
+          "text": "Hunanese food"
+        }
+      ]
+    }
+  ]
+}

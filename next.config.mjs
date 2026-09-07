@@ -3,6 +3,11 @@ const nextConfig = {
     async redirects() {
         return [
             {
+                source: '/beijing',
+                destination: '/blogs/beijing',
+                permanent: true,
+            },
+            {
                 source: '/resume',
                 destination: '/resume.pdf',
                 permanent: true,

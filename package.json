@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "node scripts/sync-maplibre.mjs",
+    "prebuild": "node scripts/sync-maplibre.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -14,6 +16,8 @@
     "@radix-ui/react-popover": "^1.1.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "coordtransform": "^2.1.2",
+    "maplibre-gl": "^6.7.0",
     "next": "15.6.0-canary.60",
     "react": "^18",
     "react-dom": "^18",

@@ -18,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${PPNikkeiMaru.variable} antialiased text-white bg-[#33507b]`}>
+    <html lang="en" className={PPNikkeiMaru.variable}>
+      <body className="antialiased">
         {children}
       </body>
     </html>

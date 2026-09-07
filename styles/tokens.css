@@ -1,0 +1,76 @@
+/* Source of truth for shared design decisions. Values are CSS colors unless noted. */
+:root {
+  --color-canvas: #33507b;
+  --color-text: #fff;
+  --color-link: #e6f0ff;
+  --color-text-muted: #d2deee;
+  --font-body: var(--font-nikkei-maru), Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-editorial: Georgia, serif;
+  --font-interface: Arial, Helvetica, sans-serif;
+  --text-xs: .75rem;
+  --text-sm: .875rem;
+  --text-body: 1rem;
+  --text-heading: 1.25rem;
+  --leading-body: 1.5;
+  --leading-heading: 1.75rem;
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-3: .75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-7: 1.75rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-18: 4.5rem;
+  --radius-sm: .25rem;
+  --radius-md: .375rem;
+  --radius-lg: .5rem;
+  --border-frame: 4px;
+  --focus-width: 2px;
+  --focus-offset: 4px;
+  --page-gutter: clamp(18px, 3.6vw, 58px);
+  --content-wide: 1540px;
+  --content-profile: 48rem;
+  --duration-fast: 160ms;
+  --duration-hover: 180ms;
+  --duration-control: 200ms;
+  --duration-shelf: 550ms;
+  --ease-standard: ease;
+  --ease-shelf: cubic-bezier(.22, .8, .25, 1);
+  --layer-overlay: 50;
+  --layer-shelf-header: 100;
+  --shadow-overlay: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+
+  /* HSL channels for the existing Tailwind/Radix semantic API. */
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 3.9%;
+  --border: 0 0% 89.8%;
+  --ring: 0 0% 100%;
+}
+
+/* Map panels use the same blue and white palette as the personal pages. */
+[data-theme="atlas"] {
+  --color-canvas: #33507b;
+  --color-text: #fff;
+  --color-paper: #33507b;
+  --color-accent: #fff;
+  --color-text-muted: #e6f0ff;
+  --color-label: #d2deee;
+  --color-footer: #d2deee;
+  --color-subtitle: #d2deee;
+  --color-control: #e6f0ff;
+  --color-rule: #ffffff55;
+  --color-rule-subtle: #ffffff33;
+  --color-panel-border: #fff;
+  --color-error: #33507b;
+  --color-error-border: #fff;
+  --color-map-selection: #4175bf;
+  --color-map-outline: #193859;
+  --font-editorial: var(--font-body);
+  --ring: 0 0% 100%;
+  --shadow-panel: 0 3px 22px #23313a12;
+  --shadow-card: 0 8px 32px #23313a18;
+  --shadow-control: 0 2px 10px #23313a12;
+}

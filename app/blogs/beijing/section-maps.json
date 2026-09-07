@@ -1,0 +1,326 @@
+{
+  "geography": {
+    "image": "/beijing/sections/geography.webp",
+    "width": 1100,
+    "height": 660,
+    "places": []
+  },
+  "center": {
+    "image": "/beijing/sections/center.webp",
+    "width": 1100,
+    "height": 660,
+    "places": [
+      {
+        "number": 1,
+        "name": "Forbidden Palace"
+      },
+      {
+        "number": 2,
+        "name": "National Museum of China"
+      },
+      {
+        "number": 3,
+        "name": "Tiananmen Square"
+      },
+      {
+        "number": 4,
+        "name": "Qianmen"
+      },
+      {
+        "number": 5,
+        "name": "Temple of Heaven"
+      },
+      {
+        "number": 6,
+        "name": "Wangfujing"
+      },
+      {
+        "number": 7,
+        "name": "Ming City Wall Relics Park"
+      },
+      {
+        "number": 8,
+        "name": "Chongwenmen"
+      },
+      {
+        "number": 9,
+        "name": "National Art Museum of China"
+      },
+      {
+        "number": 10,
+        "name": "Jingshan Park"
+      },
+      {
+        "number": 11,
+        "name": "Beihai Park"
+      },
+      {
+        "number": 12,
+        "name": "Shichahai · Qianhai & Houhai"
+      },
+      {
+        "number": 13,
+        "name": "Prince Kung’s Mansion"
+      },
+      {
+        "number": 14,
+        "name": "Nanluoguxiang"
+      },
+      {
+        "number": 15,
+        "name": "Drum Tower"
+      },
+      {
+        "number": 16,
+        "name": "Bell Tower"
+      },
+      {
+        "number": 17,
+        "name": "Lama Temple"
+      },
+      {
+        "number": 18,
+        "name": "Confucius Temple"
+      },
+      {
+        "number": 19,
+        "name": "Wudaoying Hutong"
+      },
+      {
+        "number": 20,
+        "name": "Temple of Earth"
+      },
+      {
+        "number": 21,
+        "name": "Miaoying Temple"
+      },
+      {
+        "number": 22,
+        "name": "Temple of Ancient Monarchs"
+      },
+      {
+        "number": 23,
+        "name": "Guangji Temple"
+      },
+      {
+        "number": 24,
+        "name": "Zhongnanhai"
+      }
+    ]
+  },
+  "center-center": {
+    "image": "/beijing/sections/center-center.webp",
+    "width": 1100,
+    "height": 660,
+    "places": [
+      {
+        "number": 1,
+        "name": "Forbidden Palace"
+      },
+      {
+        "number": 2,
+        "name": "National Museum of China"
+      },
+      {
+        "number": 3,
+        "name": "Tiananmen Square"
+      }
+    ]
+  },
+  "south": {
+    "image": "/beijing/sections/south.webp",
+    "width": 1100,
+    "height": 660,
+    "places": [
+      {
+        "number": 1,
+        "name": "Qianmen"
+      },
+      {
+        "number": 2,
+        "name": "Temple of Heaven"
+      }
+    ]
+  },
+  "east": {
+    "image": "/beijing/sections/east.webp",
+    "width": 1100,
+    "height": 660,
+    "places": [
+      {
+        "number": 1,
+        "name": "Wangfujing"
+      },
+      {
+        "number": 2,
+        "name": "Ming City Wall Relics Park"
+      },
+      {
+        "number": 3,
+        "name": "Chongwenmen"
+      },
+      {
+        "number": 4,
+        "name": "National Art Museum of China"
+      }
+    ]
+  },
+  "north": {
+    "image": "/beijing/sections/north.webp",
+    "width": 1100,
+    "height": 660,
+    "places": [
+      {
+        "number": 1,
+        "name": "Jingshan Park"
+      },
+      {
+        "number": 2,
+        "name": "Beihai Park"
+      },
+      {
+        "number": 3,
+        "name": "Shichahai · Qianhai & Houhai"
+      },
+      {
+        "number": 4,
+        "name": "Prince Kung’s Mansion"
+      },
+      {
+        "number": 5,
+        "name": "Nanluoguxiang"
+      },
+      {
+        "number": 6,
+        "name": "Drum Tower"
+      },
+      {
+        "number": 7,
+        "name": "Bell Tower"
+      },
+      {
+        "number": 8,
+        "name": "Lama Temple"
+      },
+      {
+        "number": 9,
+        "name": "Confucius Temple"
+      },
+      {
+        "number": 10,
+        "name": "Wudaoying Hutong"
+      },
+      {
+        "number": 11,
+        "name": "Temple of Earth"
+      }
+    ]
+  },
+  "west": {
+    "image": "/beijing/sections/west.webp",
+    "width": 1100,
+    "height": 660,
+    "places": [
+      {
+        "number": 1,
+        "name": "Miaoying Temple"
+      },
+      {
+        "number": 2,
+        "name": "Temple of Ancient Monarchs"
+      },
+      {
+        "number": 3,
+        "name": "Guangji Temple"
+      },
+      {
+        "number": 4,
+        "name": "Zhongnanhai"
+      }
+    ]
+  },
+  "chaoyang": {
+    "image": "/beijing/sections/chaoyang.webp",
+    "width": 1100,
+    "height": 660,
+    "places": [
+      {
+        "number": 1,
+        "name": "Sanlitun"
+      },
+      {
+        "number": 2,
+        "name": "Workers’ Stadium"
+      },
+      {
+        "number": 3,
+        "name": "Chaoyang Park"
+      },
+      {
+        "number": 4,
+        "name": "China World Trade Center"
+      },
+      {
+        "number": 5,
+        "name": "CCTV Headquarters"
+      },
+      {
+        "number": 6,
+        "name": "Chaoyang Joy City"
+      }
+    ]
+  },
+  "wangjing": {
+    "image": "/beijing/sections/wangjing.webp",
+    "width": 1100,
+    "height": 660,
+    "places": [
+      {
+        "number": 1,
+        "name": "Wangjing SOHO"
+      },
+      {
+        "number": 2,
+        "name": "798 Art Zone"
+      }
+    ]
+  },
+  "haidian": {
+    "image": "/beijing/sections/haidian.webp",
+    "width": 1100,
+    "height": 660,
+    "places": [
+      {
+        "number": 1,
+        "name": "Summer Palace"
+      },
+      {
+        "number": 2,
+        "name": "Old Summer Palace"
+      },
+      {
+        "number": 3,
+        "name": "Peking University"
+      },
+      {
+        "number": 4,
+        "name": "Tsinghua University"
+      }
+    ]
+  },
+  "misc": {
+    "image": "/beijing/sections/misc.webp",
+    "width": 1100,
+    "height": 660,
+    "places": [
+      {
+        "number": 1,
+        "name": "Great Wall · Mutianyu"
+      },
+      {
+        "number": 2,
+        "name": "Great Wall · Badaling"
+      }
+    ]
+  }
+}

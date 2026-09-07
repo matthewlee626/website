@@ -1,0 +1,125 @@
+.page {
+  --book-scale: 1;
+  position: relative;
+  height: 100svh;
+  min-height: 580px;
+  overflow: hidden;
+  background: var(--color-canvas);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+.header {
+  position: absolute;
+  top: var(--space-7);
+  left: var(--page-gutter);
+  z-index: var(--layer-shelf-header);
+  pointer-events: none;
+}
+
+
+.stage {
+  position: absolute;
+  inset: 85px 0 195px;
+  perspective: 1800px;
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+}
+
+.stage[data-dragging="true"] { cursor: grabbing; }
+
+.book {
+  --depth: calc(var(--thickness) * var(--book-scale));
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  width: calc(var(--width) * var(--book-scale));
+  height: calc(var(--height) * var(--book-scale));
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  cursor: pointer;
+  transform: translate(calc(-50% + var(--x) * var(--book-scale)), calc(-100% + var(--y) * var(--book-scale))) rotateY(var(--yaw)) rotateZ(var(--roll));
+  transform-origin: center bottom;
+  transform-style: preserve-3d;
+  will-change: transform;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.stage[data-dragging="true"] .book { transition: none; cursor: grabbing; }
+
+.book:focus-visible { outline: 2px solid var(--color-text); outline-offset: 10px; }
+.book:not([data-open="true"]):hover .coverFrame { filter: brightness(1.08); }
+
+.backCover {
+  position: absolute;
+  inset: 0;
+  background: #283343;
+  transform: translateZ(calc(0px - var(--depth)));
+  box-shadow: 12px 18px 24px -10px #11233d88;
+  pointer-events: none;
+}
+
+.spine {
+  position: absolute;
+  right: 100%;
+  top: 0;
+  width: var(--depth);
+  height: 100%;
+  background: #283343;
+  transform-origin: right center;
+  transform: rotateY(-90deg);
+  pointer-events: none;
+}
+
+.pageBlock {
+  position: absolute;
+  left: 100%;
+  top: 1px;
+  width: var(--depth);
+  height: calc(100% - 2px);
+  background: repeating-linear-gradient(90deg, #d7d3c9 0, #ebe8df .8px, #d7d3c9 1.6px);
+  transform-origin: left center;
+  transform: rotateY(90deg);
+  border-block: 1px solid #b6b2a9;
+  pointer-events: none;
+}
+
+.coverFrame { position: relative; display: block; width: 100%; height: 100%; overflow: hidden; }
+.cover { display: block; width: 100%; height: 100%; object-fit: fill; pointer-events: none; }
+
+.footer {
+  position: absolute;
+  bottom: 34px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(440px, calc(100% - 2 * var(--page-gutter)));
+  z-index: var(--layer-shelf-header);
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr) 32px;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+}
+
+.caption { min-width: 0; min-height: 76px; display: flex; flex-direction: column; justify-content: center; overflow-wrap: anywhere; }
+.title { margin: 0; font-size: var(--text-body); line-height: 1.5; }
+.author { margin: 5px 0 0; font-size: var(--text-sm); color: var(--color-text-muted); }
+.footer button { width: 32px; height: 32px; padding: 0; background: transparent; border: 0; color: inherit; font-size: var(--text-heading); cursor: pointer; }
+.footer button:disabled { opacity: .3; cursor: default; }
+.footer .request { width: 144px; height: 36px; margin-top: 12px; align-self: center; border: 1px solid #fff; border-radius: 6px; background: #fff; color: var(--color-canvas); font-size: var(--text-sm); transition: background-color 150ms ease; }
+.footer .request:hover { background: #f0f3f8; }
+.footer :focus-visible { outline: 2px solid var(--color-text); outline-offset: 4px; }
+
+@media (max-width: 700px) {
+  .page { --book-scale: .75; min-height: 520px; }
+  .header { top: 22px; }
+  .stage { inset: 80px 0 215px; }
+  .footer { bottom: 24px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .book { transition: none; }
+}

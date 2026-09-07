@@ -1,0 +1,55 @@
+{
+  "10-ramona": {
+    "imageSource": "https://images.penguinrandomhouse.com/cover/9780451528421",
+    "source": "https://www.penguinrandomhouse.com/books/326593/ramona-by-helen-hunt-jackson/",
+    "isbn": "9780451528421",
+    "edition": "Signet Classics, red and gold portrait cover"
+  },
+  "11-ecotopia": {
+    "imageSource": "https://images.penguinrandomhouse.com/cover/9780553348477",
+    "source": "https://www.penguinrandomhouse.com/books/23059/ecotopia-by-ernest-callenbach/",
+    "isbn": "9780553348477",
+    "edition": "Bantam, blue sky and globe-shaped tree"
+  },
+  "17-the-silmarillion": {
+    "imageSource": "https://productimages.hepsiburada.net/s/777/424-600/110001181097561.jpg",
+    "source": "https://www.hepsiburada.com/harpercollins-children-s-books-the-silmarillion-pm-knuans02736",
+    "isbn": "9780261102736",
+    "edition": "HarperCollins black cover with floral roundel and silver lettering",
+    "window": { "x": 26, "y": 0, "width": 373, "height": 600 }
+  },
+  "18-interior-chinatown": {
+    "imageSource": "https://rep.club/cdn/shop/products/charles.jpg?v=1610237548&width=1445",
+    "source": "https://rep.club/products/interior-chinatown-charles-yu",
+    "edition": "Red cover with cream border, yellow pagoda and film-camera artwork; high-resolution matching cover"
+  },
+  "20-the-left-hand-of-darkness": {
+    "imageSource": "https://i0.wp.com/ecx.images-amazon.com/images/I/81dSlqYK3SL.jpg",
+    "source": "https://mariaklegault.com/2014/07/09/the-left-hand-of-darkness-by-ursula-k-le-guin/",
+    "edition": "Ace, white cover with blue iceberg photograph"
+  },
+  "22-kindred": {
+    "imageSource": "https://cdn.kobo.com/book-images/cbd1c41d-5060-42c0-aa31-ce00df6d8374/1200/1200/False/kindred-3.jpg",
+    "source": "https://www.kobo.com/ca/en/ebook/kindred-3",
+    "edition": "Beacon Press, colourful abstract pattern with white lettering"
+  },
+  "44-city-of-quartz": {
+    "imageSource": "https://cdn.shopify.com/s/files/1/0674/5433/7265/files/9781786635891_p0.jpg?v=1765257007",
+    "source": "https://www.versobooks.com/products/133-city-of-quartz",
+    "isbn": "9781786635891",
+    "edition": "Verso, cream cover with purple and black lettering"
+  },
+  "51-the-book-against-death": {
+    "imageSource": "https://static.artforum.sk/media/products/34/68/1013331.jpeg",
+    "source": "https://fitzcarraldoeditions.com/books/the-book-against-death/",
+    "isbn": "9781804270899",
+    "edition": "Fitzcarraldo Classics, white cover with blue lettering"
+  },
+  "56-a-history-of-western-philosophy": {
+    "imageSource": "https://fivebooks.com/book/history-western-philosophy-by-bertrand-russell/shareimage.jpg",
+    "source": "https://fivebooks.com/book/history-western-philosophy-by-bertrand-russell/",
+    "isbn": "9780671201586",
+    "edition": "Touchstone, blue sky and winding road; paragraph printed on spine",
+    "window": { "x": 205, "y": 92, "width": 374, "height": 600 }
+  }
+}

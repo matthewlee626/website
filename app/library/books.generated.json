@@ -33,7 +33,7 @@
     "isbn": "9781974700523",
     "slug": "04-demon-slayer-kimetsu-no-yaiba-vol-1",
     "cover": "/library/covers/04-demon-slayer-kimetsu-no-yaiba-vol-1.webp",
-    "width": 720,
+    "width": 480,
     "height": 720,
     "source": "https://rhbooks.com.ng/wp-content/uploads/2025/09/Untitled-design-2025-09-22T163934.735.png"
   },
@@ -86,19 +86,23 @@
     "title": "Ramona",
     "author": "Helen Hunt Jackson",
     "slug": "10-ramona",
-    "cover": "/library/covers/10-ramona.webp",
-    "width": 317,
-    "height": 500,
-    "source": "https://openlibrary.org/works/OL1800220W"
+    "cover": "/library/covers/10-ramona-matched.webp",
+    "width": 278,
+    "height": 450,
+    "source": "https://www.penguinrandomhouse.com/books/326593/ramona-by-helen-hunt-jackson/",
+    "edition": "Signet Classics, red and gold portrait cover",
+    "isbn": "9780451528421"
   },
   {
     "title": "Ecotopia",
     "author": "Ernest Callenbach",
     "slug": "11-ecotopia",
-    "cover": "/library/covers/11-ecotopia.webp",
+    "cover": "/library/covers/11-ecotopia-matched.webp",
     "width": 286,
-    "height": 500,
-    "source": "https://openlibrary.org/works/OL1811933W"
+    "height": 450,
+    "source": "https://www.penguinrandomhouse.com/books/23059/ecotopia-by-ernest-callenbach/",
+    "edition": "Bantam, blue sky and globe-shaped tree",
+    "isbn": "9780553348477"
   },
   {
     "title": "Get in Trouble",
@@ -132,9 +136,9 @@
     "author": "Larousse",
     "slug": "15-el-pequen-o-larousse-ilustrado",
     "cover": "/library/covers/15-el-pequen-o-larousse-ilustrado.webp",
-    "width": 160,
-    "height": 152,
-    "source": "https://openlibrary.org/works/OL9138832W"
+    "width": 346,
+    "height": 500,
+    "source": "https://covers.openlibrary.org/b/isbn/9788483327098-L.jpg?default=false"
   },
   {
     "title": "The Vegetarian",
@@ -149,37 +153,41 @@
     "title": "The Silmarillion",
     "author": "J. R. R. Tolkien",
     "slug": "17-the-silmarillion",
-    "cover": "/library/covers/17-the-silmarillion.webp",
-    "width": 271,
-    "height": 475,
-    "source": "https://openlibrary.org/works/OL14933402W"
+    "cover": "/library/covers/17-the-silmarillion-matched.webp",
+    "width": 424,
+    "height": 600,
+    "source": "https://www.hepsiburada.com/harpercollins-children-s-books-the-silmarillion-pm-knuans02736",
+    "edition": "HarperCollins black cover with floral roundel and silver lettering",
+    "isbn": "9780261102736"
   },
   {
     "title": "Interior Chinatown",
     "author": "Charles Yu",
     "slug": "18-interior-chinatown",
-    "cover": "/library/covers/18-interior-chinatown.webp",
-    "width": 145,
-    "height": 218,
-    "source": "https://openlibrary.org/works/OL20640520W"
+    "cover": "/library/covers/18-interior-chinatown-matched.webp",
+    "width": 1445,
+    "height": 2168,
+    "source": "https://rep.club/products/interior-chinatown-charles-yu",
+    "edition": "Red cover with cream border, yellow pagoda and film-camera artwork; high-resolution matching cover"
   },
   {
     "title": "Artemis",
     "author": "Andy Weir",
     "slug": "19-artemis",
     "cover": "/library/covers/19-artemis.webp",
-    "width": 318,
-    "height": 500,
-    "source": "https://openlibrary.org/works/OL17837968W"
+    "width": 296,
+    "height": 450,
+    "source": "https://images.penguinrandomhouse.com/cover/9780553448122"
   },
   {
     "title": "The Left Hand of Darkness",
     "author": "Ursula K. Le Guin",
     "slug": "20-the-left-hand-of-darkness",
-    "cover": "/library/covers/20-the-left-hand-of-darkness.webp",
-    "width": 317,
-    "height": 500,
-    "source": "https://openlibrary.org/works/OL19306603W"
+    "cover": "/library/covers/20-the-left-hand-of-darkness-matched.webp",
+    "width": 1400,
+    "height": 2479,
+    "source": "https://mariaklegault.com/2014/07/09/the-left-hand-of-darkness-by-ursula-k-le-guin/",
+    "edition": "Ace, white cover with blue iceberg photograph"
   },
   {
     "title": "Hall of Small Mammals",
@@ -194,10 +202,11 @@
     "title": "Kindred",
     "author": "Octavia E. Butler",
     "slug": "22-kindred",
-    "cover": "/library/covers/22-kindred.webp",
-    "width": 337,
-    "height": 500,
-    "source": "https://openlibrary.org/works/OL35616W"
+    "cover": "/library/covers/22-kindred-matched.webp",
+    "width": 1200,
+    "height": 1785,
+    "source": "https://www.kobo.com/ca/en/ebook/kindred-3",
+    "edition": "Beacon Press, colourful abstract pattern with white lettering"
   },
   {
     "title": "Between the World and Me",
@@ -222,9 +231,9 @@
     "author": "Bernie Sanders",
     "slug": "25-where-we-go-from-here",
     "cover": "/library/covers/25-where-we-go-from-here.webp",
-    "width": 500,
-    "height": 387,
-    "source": "https://openlibrary.org/works/OL20664187W"
+    "width": 329,
+    "height": 500,
+    "source": "https://covers.openlibrary.org/b/isbn/9781250163264-L.jpg?default=false"
   },
   {
     "title": "The Sixth Man",
@@ -251,7 +260,8 @@
     "cover": "/library/covers/28-too-much-and-never-enough.webp",
     "width": 331,
     "height": 500,
-    "source": "https://openlibrary.org/works/OL20870755W"
+    "source": "https://openlibrary.org/works/OL20870755W",
+    "hidden": true
   },
   {
     "title": "John Adams",
@@ -285,7 +295,7 @@
     "author": "Daron Acemoglu and James A. Robinson",
     "slug": "32-why-nations-fail",
     "cover": "/library/covers/32-why-nations-fail.webp",
-    "width": 720,
+    "width": 466,
     "height": 720,
     "source": "https://martinsfontespaulista.vteximg.com.br/arquivos/ids/590642-800-800/724758_ampliada.jpg"
   },
@@ -303,8 +313,8 @@
     "author": "Figma",
     "slug": "34-practice-a-book-about-design-craft",
     "cover": "/library/covers/34-practice-a-book-about-design-craft.webp",
-    "width": 720,
-    "height": 900,
+    "width": 470,
+    "height": 591,
     "source": "https://othermeans.us/media/pages/other-means/c68aec19c2-1747769761/other_means_figma-1440x-q95.jpg"
   },
   {
@@ -321,17 +331,17 @@
     "author": "Donald A. Norman",
     "slug": "36-emotional-design",
     "cover": "/library/covers/36-emotional-design.webp",
-    "width": 339,
-    "height": 500,
-    "source": "https://openlibrary.org/works/OL1879160W"
+    "width": 708,
+    "height": 1080,
+    "source": "https://images-na.ssl-images-amazon.com/images/I/71dVma-xToL.jpg"
   },
   {
     "title": "The Design of Everyday Things",
     "author": "Don Norman",
     "slug": "37-the-design-of-everyday-things",
     "cover": "/library/covers/37-the-design-of-everyday-things.webp",
-    "width": 600,
-    "height": 600,
+    "width": 328,
+    "height": 500,
     "source": "https://www.tongbangbooks.com/shopimages/tongbang/0500000077413.jpg"
   },
   {
@@ -357,7 +367,7 @@
     "author": "Valerie Luu and Andria Lo",
     "slug": "40-chinatown-pretty",
     "cover": "/library/covers/40-chinatown-pretty.webp",
-    "width": 400,
+    "width": 313,
     "height": 400,
     "source": "https://target.scene7.com/is/image/Target/GUEST_0428a16f-4576-4808-9bde-8ef145d4f510"
   },
@@ -384,18 +394,20 @@
     "author": "Kazuo Ishiguro",
     "slug": "43-klara-and-the-sun",
     "cover": "/library/covers/43-klara-and-the-sun.webp",
-    "width": 325,
-    "height": 500,
-    "source": "https://openlibrary.org/works/OL20883297W"
+    "width": 296,
+    "height": 450,
+    "source": "https://images.penguinrandomhouse.com/cover/9780593318171"
   },
   {
     "title": "City of Quartz",
     "author": "Mike Davis",
     "slug": "44-city-of-quartz",
-    "cover": "/library/covers/44-city-of-quartz.webp",
-    "width": 128,
-    "height": 205,
-    "source": "https://openlibrary.org/works/OL1801116W"
+    "cover": "/library/covers/44-city-of-quartz-matched.webp",
+    "width": 1303,
+    "height": 2000,
+    "source": "https://www.versobooks.com/products/133-city-of-quartz",
+    "edition": "Verso, cream cover with purple and black lettering",
+    "isbn": "9781786635891"
   },
   {
     "title": "Age of Ambition",
@@ -454,21 +466,22 @@
   {
     "title": "The Book Against Death",
     "author": "Elias Canetti",
-    "isbn": "9780811237994",
+    "isbn": "9781804270899",
     "slug": "51-the-book-against-death",
-    "cover": "/library/covers/51-the-book-against-death.webp",
-    "width": 300,
-    "height": 463,
-    "source": "https://dynamic.indigoimages.ca/v1/books/books/0811237990/1.jpg"
+    "cover": "/library/covers/51-the-book-against-death-matched.webp",
+    "width": 600,
+    "height": 986,
+    "source": "https://fitzcarraldoeditions.com/books/the-book-against-death/",
+    "edition": "Fitzcarraldo Classics, white cover with blue lettering"
   },
   {
     "title": "How to Win Friends and Influence People",
     "author": "Dale Carnegie",
     "slug": "52-how-to-win-friends-and-influence-people",
     "cover": "/library/covers/52-how-to-win-friends-and-influence-people.webp",
-    "width": 312,
-    "height": 500,
-    "source": "https://openlibrary.org/works/OL27691101W"
+    "width": 561,
+    "height": 875,
+    "source": "https://cdn11.bigcommerce.com/s-z6agnrtx29/images/stencil/1280x1280/products/655/3289/how-to-win-friends-and-influence-people-front__35769__02302__46937__94537__87110__35342__18900.1736438789.jpg?c=1"
   },
   {
     "title": "Algorithms Unlocked",
@@ -484,8 +497,8 @@
     "author": "The Woke Salaryman",
     "slug": "54-the-woke-salaryman-crash-course-on-capitalism",
     "cover": "/library/covers/54-the-woke-salaryman-crash-course-on-capitalism.webp",
-    "width": 600,
-    "height": 600,
+    "width": 326,
+    "height": 491,
     "source": "https://www.bookmarked.id/cdn/shop/files/TheWokeSalarymanNEW_600x600_crop_center.jpg?v=1708333016"
   },
   {
@@ -493,27 +506,29 @@
     "author": "Melissa Valentine and Michael Bernstein",
     "slug": "55-flash-teams",
     "cover": "/library/covers/55-flash-teams.webp",
-    "width": 640,
-    "height": 651,
-    "source": "https://lirp.cdn-website.com/0b0e8447/dms3rep/multi/opt/MV_3D_Cover-NBS-2-640w.png"
+    "width": 304,
+    "height": 450,
+    "source": "https://images.penguinrandomhouse.com/cover/9780262049849"
   },
   {
     "title": "A History of Western Philosophy",
     "author": "Bertrand Russell",
     "slug": "56-a-history-of-western-philosophy",
-    "cover": "/library/covers/56-a-history-of-western-philosophy.webp",
-    "width": 304,
-    "height": 475,
-    "source": "https://openlibrary.org/works/OL1088357W"
+    "cover": "/library/covers/56-a-history-of-western-philosophy-matched.webp",
+    "width": 785,
+    "height": 785,
+    "source": "https://fivebooks.com/book/history-western-philosophy-by-bertrand-russell/",
+    "edition": "Touchstone, blue sky and winding road; paragraph printed on spine",
+    "isbn": "9780671201586"
   },
   {
     "title": "The Art of War",
     "author": "Sun Tzu",
     "slug": "57-the-art-of-war",
     "cover": "/library/covers/57-the-art-of-war.webp",
-    "width": 128,
-    "height": 192,
-    "source": "https://openlibrary.org/works/OL244537W"
+    "width": 225,
+    "height": 354,
+    "source": "https://www.scanvik.dk/product-images/9781838575656.jpg?format=jpg&height=590&scale=canvas&width=400"
   },
   {
     "title": "Introduction to Algorithms",
@@ -577,7 +592,7 @@
   {
     "title": "Pieces of the Action",
     "author": "Vannevar Bush",
-    "isbn": "9781953953278",
+    "isbn": "9781953953209",
     "slug": "64-pieces-of-the-action",
     "cover": "/library/covers/64-pieces-of-the-action.webp",
     "width": 342,
@@ -610,8 +625,8 @@
     "isbn": "9783948440886",
     "slug": "67-graphic-languages",
     "cover": "/library/covers/67-graphic-languages.webp",
-    "width": 600,
-    "height": 600,
+    "width": 386,
+    "height": 534,
     "source": "https://shop.garagemca.org/thumbs/9f/all_files-2f04-2f58-2f45814_105f73df165655a81d14aa61bee466884482e888.png_ogImage_.png"
   },
   {
@@ -627,11 +642,11 @@
   {
     "title": "The Big Score",
     "author": "Michael S. Malone",
-    "isbn": "9781953953339",
+    "isbn": "9781953953162",
     "slug": "69-the-big-score",
     "cover": "/library/covers/69-the-big-score.webp",
-    "width": 720,
-    "height": 720,
+    "width": 419,
+    "height": 519,
     "source": "https://is1-ssl.mzstatic.com/image/thumb/Publication115/v4/cf/66/40/cf66408f-8bc4-f4dc-68bc-76b78293b2e7/11180041-08f6-4f99-a0d9-a745152e1477_cover_image.jpg/1200x1200wz.jpg"
   },
   {
@@ -648,8 +663,8 @@
     "author": "Viction:ary",
     "slug": "71-generative-design-in-branding",
     "cover": "/library/covers/71-generative-design-in-branding.webp",
-    "width": 720,
-    "height": 720,
+    "width": 340,
+    "height": 477,
     "source": "https://librairiesanstitre.com/cdn/shop/files/6c4f0086-af6b-458b-96c9-b11aaa2e3814.jpg?v=1770191199"
   },
   {
@@ -657,8 +672,8 @@
     "author": "Stephen J. Eskilson",
     "slug": "72-digital-design",
     "cover": "/library/covers/72-digital-design.webp",
-    "width": 720,
-    "height": 878,
+    "width": 422,
+    "height": 653,
     "source": "https://cdn.shoplightspeed.com/shops/623560/files/62140317/image.jpg"
   },
   {
@@ -677,9 +692,9 @@
     "isbn": "9789887066002",
     "slug": "74-hybrid-curiosity-in-all-things",
     "cover": "/library/covers/74-hybrid-curiosity-in-all-things.webp",
-    "width": 720,
-    "height": 1007,
-    "source": "https://victionary.com/cdn/shop/files/Hybrid_top_1000height_1000x.png?v=1760086917"
+    "width": 625,
+    "height": 826,
+    "source": "https://victionary.com/cdn/shop/files/Hybrid_b_top_1000height_1200x1200.png?v=1760086917"
   },
   {
     "title": "Boom: Bubbles and the End of Stagnation",
@@ -765,8 +780,8 @@
     "author": "Christopher Long",
     "slug": "83-lucian-bernhard",
     "cover": "/library/covers/83-lucian-bernhard.webp",
-    "width": 720,
-    "height": 960,
+    "width": 516,
+    "height": 602,
     "source": "https://stoutbooks.com/cdn/shop/files/LucianBernhard-ChristopherLong-Kant-2023.jpg?v=1746767604"
   },
   {
@@ -774,14 +789,14 @@
     "author": "Matthi Forrer",
     "slug": "84-hokusai",
     "cover": "/library/covers/84-hokusai.webp",
-    "width": 128,
-    "height": 165,
-    "source": "https://openlibrary.org/works/OL2219432W"
+    "width": 360,
+    "height": 450,
+    "source": "https://images.penguinrandomhouse.com/cover/9783791384306"
   },
   {
     "title": "Scientific Freedom",
     "author": "Donald W. Braben",
-    "isbn": "9781953953285",
+    "isbn": "9780578675916",
     "slug": "85-scientific-freedom",
     "cover": "/library/covers/85-scientific-freedom.webp",
     "width": 720,

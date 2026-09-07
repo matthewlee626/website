@@ -1,0 +1,227 @@
+[
+  {
+    "id": "39",
+    "name": "Quanjude",
+    "area": "South",
+    "coordinates": [
+      116.3921168,
+      39.8952903
+    ],
+    "aliases": [
+      "Quanjude"
+    ],
+    "note": "Mentioned in the Beijing field notes.",
+    "locationSource": "https://www.openstreetmap.org/node/4301877989",
+    "precision": "venue",
+    "coordinateSystem": "wgs84"
+  },
+  {
+    "id": "40",
+    "name": "MUJI hotel",
+    "area": "South",
+    "coordinates": [
+      116.389268,
+      39.8971635
+    ],
+    "aliases": [
+      "muji hotel"
+    ],
+    "note": "Mentioned in the Beijing field notes.",
+    "locationSource": "https://www.openstreetmap.org/node/5960536786",
+    "precision": "venue",
+    "coordinateSystem": "wgs84"
+  },
+  {
+    "id": "41",
+    "name": "Donglaishun",
+    "area": "East",
+    "coordinates": [
+      116.4053401,
+      39.9097911
+    ],
+    "aliases": [
+      "donglaishun"
+    ],
+    "note": "Mentioned in the Beijing field notes.",
+    "locationSource": "https://www.openstreetmap.org/node/5785996553",
+    "precision": "venue",
+    "coordinateSystem": "wgs84"
+  },
+  {
+    "id": "42",
+    "name": "Kaorouji",
+    "area": "North",
+    "coordinates": [
+      116.3876379,
+      39.9376778
+    ],
+    "aliases": [
+      "kaorouji"
+    ],
+    "note": "Mentioned in the Beijing field notes.",
+    "locationSource": "https://www.openstreetmap.org/node/4450261096",
+    "precision": "venue",
+    "coordinateSystem": "wgs84"
+  },
+  {
+    "id": "43",
+    "name": "No. 69 Fangzhuanchang Noodles",
+    "area": "North",
+    "coordinates": [
+      116.3935981,
+      39.9367815
+    ],
+    "aliases": [
+      "no. 69 fangzhuanchang noodles"
+    ],
+    "note": "Mentioned in the Beijing field notes.",
+    "locationSource": "https://www.openstreetmap.org/node/5875834186",
+    "precision": "venue",
+    "coordinateSystem": "wgs84"
+  },
+  {
+    "id": "44",
+    "name": "Modernista",
+    "area": "North",
+    "coordinates": [
+      116.3934617,
+      39.9431072
+    ],
+    "aliases": [
+      "modernista"
+    ],
+    "note": "Mentioned in the Beijing field notes.",
+    "locationSource": "https://www.openstreetmap.org/node/4500362189",
+    "precision": "venue",
+    "coordinateSystem": "wgs84"
+  },
+  {
+    "id": "45",
+    "name": "Jindingxuan",
+    "area": "North",
+    "coordinates": [
+      116.4096018,
+      39.9495334
+    ],
+    "aliases": [
+      "jindingxuan"
+    ],
+    "note": "Mentioned in the Beijing field notes.",
+    "locationSource": "https://www.openstreetmap.org/node/854692925",
+    "precision": "venue",
+    "coordinateSystem": "wgs84"
+  },
+  {
+    "id": "46",
+    "name": "d.lounge",
+    "area": "Chaoyang",
+    "coordinates": [
+      116.4502868,
+      39.930334
+    ],
+    "aliases": [
+      "d.lounge"
+    ],
+    "note": "Mentioned in the Beijing field notes.",
+    "locationSource": "https://www.openstreetmap.org/node/13887517001",
+    "precision": "venue",
+    "coordinateSystem": "wgs84"
+  },
+  {
+    "id": "47",
+    "name": "Dada",
+    "area": "Chaoyang",
+    "coordinates": [
+      116.4352817,
+      39.9187413
+    ],
+    "aliases": [
+      "dada"
+    ],
+    "note": "Mentioned in the Beijing field notes.",
+    "locationSource": "https://www.openstreetmap.org/node/3903840762",
+    "precision": "venue",
+    "coordinateSystem": "wgs84"
+  },
+  {
+    "id": "48",
+    "name": "Slowboat",
+    "area": "Chaoyang",
+    "coordinates": [
+      116.4664556,
+      39.9439407
+    ],
+    "aliases": [
+      "slowboat"
+    ],
+    "note": "Mentioned in the Beijing field notes.",
+    "locationSource": "https://www.openstreetmap.org/node/12642848372",
+    "precision": "venue",
+    "coordinateSystem": "wgs84"
+  },
+  {
+    "id": "49",
+    "name": "Laohuihui",
+    "area": "Haidian",
+    "coordinates": [
+      116.3668247,
+      39.9791686
+    ],
+    "aliases": [
+      "laohuihui"
+    ],
+    "note": "Mentioned in the Beijing field notes.",
+    "locationSource": "https://www.openstreetmap.org/node/2614217390",
+    "precision": "venue",
+    "coordinateSystem": "wgs84"
+  },
+  {
+    "id": "50",
+    "name": "AGI Bar",
+    "area": "Haidian",
+    "coordinates": [
+      116.3003108,
+      39.983646
+    ],
+    "aliases": [
+      "agi bar"
+    ],
+    "note": "Mentioned in the Beijing field notes. Approximate location at 中关村创业大街.",
+    "locationSource": "https://agi.bar/",
+    "precision": "street or complex",
+    "coordinateSystem": "wgs84"
+  },
+  {
+    "id": "51",
+    "name": "Keneng Youshu",
+    "area": "East",
+    "coordinates": [
+      116.4138193,
+      39.9212177
+    ],
+    "aliases": [
+      "keneng youshu"
+    ],
+    "note": "Mentioned in the Beijing field notes. Approximate location at 前炒面胡同.",
+    "locationSource": "https://lyzz.visitbeijing.com.cn/news/detail?id=24837",
+    "precision": "street or complex",
+    "coordinateSystem": "wgs84"
+  },
+  {
+    "id": "52",
+    "name": "Catail Backyard",
+    "area": "Haidian",
+    "coordinates": [
+      116.335018,
+      39.9892165
+    ],
+    "aliases": [
+      "catail backyard"
+    ],
+    "note": "Catail Backyard at Longfor Tangning ONE, building 2, shop A126. Source gaodeCoord is GCJ-02; converted to WGS84 for the map.",
+    "locationSource": "https://you.ctrip.com/food/beijing1/93757348-dianping.html",
+    "precision": "venue",
+    "coordinateSystem": "gcj02",
+    "address": "中关村东路16号院龙湖唐宁ONE2号A126号商铺"
+  }
+]

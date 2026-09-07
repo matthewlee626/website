@@ -1,0 +1,9 @@
+.intro { max-width: 850px; }
+.geography { display: grid; grid-template-columns: 1.2fr 1fr; gap: clamp(28px, 6vw, 80px); align-items: start; }
+.geography p { font-size: clamp(18px, 1.7vw, 23px); line-height: 1.55; }
+.sectionMap { margin: 0 0 28px; }
+.mapLegend { display: flex; flex-wrap: wrap; gap: 8px 22px; list-style: none; padding: 12px 0 0; margin: 0; font-size: 13px; line-height: 1.5; color: #33507b; }
+.mapLegend li { display: flex; align-items: baseline; gap: 7px; margin: 0; padding: 0; }
+.mapLegend span { display: inline-flex; justify-content: center; align-items: center; flex-shrink: 0; width: 20px; height: 20px; border-radius: 50%; background: #33507b; color: white; font-size: 11px; }
+.footer { display: flex; flex-wrap: wrap; gap: 24px; border-top: 1px solid #e8e8e8; padding-top: 24px; margin-top: 64px; font-size: 14px; }
+@media(max-width:720px) { .geography { grid-template-columns: 1fr; gap: 24px; } }

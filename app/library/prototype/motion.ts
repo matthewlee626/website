@@ -1,0 +1,17 @@
+export type Motion = { value: number; target: number; velocity: number };
+
+/** Bounded, critically damped movement with continuous velocity across inputs. */
+export function advanceMotion(state: Motion, milliseconds: number) {
+  let remaining = Math.min(64, Math.max(0, milliseconds)) / 1000;
+  while (remaining > 0) {
+    const dt = Math.min(remaining, 1 / 240);
+    const error = state.target - state.value;
+    const acceleration = Math.max(-3200, Math.min(3200, 144 * error - 24 * state.velocity));
+    state.velocity = Math.max(-600, Math.min(600, state.velocity + acceleration * dt));
+    state.value += state.velocity * dt;
+    remaining -= dt;
+  }
+  const done = Math.abs(state.target - state.value) < 0.02 && Math.abs(state.velocity) < 0.1;
+  if (done) { state.value = state.target; state.velocity = 0; }
+  return done;
+}
