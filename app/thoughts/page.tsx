@@ -2,7 +2,7 @@ import { PostDate } from "@/components/posts/post-date";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PageLayout } from "@/components/page-layout";
-import { posts } from "@/app/blogs/posts";
+import { posts } from "@/app/thoughts/posts";
 
 export const metadata: Metadata = {
   title: "thoughts · Matthew Lee",
@@ -16,7 +16,7 @@ export default function ThoughtsPage() {
       <ul className="list-disc space-y-5 pl-5">
         {posts.map((post) => (
           <li key={post.slug} className="pl-1 text-lg">
-            <Link href={`/blogs/${post.slug}`} className="underline underline-offset-4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4">
+            <Link href={`/thoughts/${post.slug}`} className="underline underline-offset-4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4">
               {post.title.toLowerCase()}
             </Link>
             <div className="mt-1"><PostDate date={post.writtenOn} /></div>

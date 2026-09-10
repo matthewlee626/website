@@ -46,7 +46,7 @@ The profile's outlined image, navigation and social frames share `Panel`. It acc
 `TextLink` accepts Next.js Link props, an optional legacy `text` prop, or rich children. It forwards the anchor ref and all interaction/accessibility props so Radix `asChild` works correctly. Existing new-tab behavior is retained; internal navigation can explicitly select the current tab. New-tab links default to `noopener noreferrer`.
 
 ```tsx
-<TextLink href="/blogs" target="_self">Blogs.</TextLink>
+<TextLink href="/thoughts" target="_self">Blogs.</TextLink>
 <TextLink href="https://example.com" text="An external reference" />
 ```
 

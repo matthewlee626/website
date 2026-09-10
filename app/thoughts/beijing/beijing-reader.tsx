@@ -1,6 +1,7 @@
 "use client";
 import { PostHeader } from "@/components/posts/post-header";
 import { posts } from "../posts";
+
 import { RichText } from "@/components/travel/rich-text";
 import TravelReader from "@/components/travel/travel-reader";
 import { beijingMap } from "./map-config";

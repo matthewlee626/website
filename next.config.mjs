@@ -3,8 +3,18 @@ const nextConfig = {
     async redirects() {
         return [
             {
+                source: '/blogs/:path*',
+                destination: '/thoughts/:path*',
+                permanent: true,
+            },
+            {
+                source: '/blog/:path*',
+                destination: '/thoughts/:path*',
+                permanent: true,
+            },
+            {
                 source: '/beijing',
-                destination: '/blogs/beijing',
+                destination: '/thoughts/beijing',
                 permanent: true,
             },
             {

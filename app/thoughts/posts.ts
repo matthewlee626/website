@@ -1,5 +1,5 @@
 // Keep posts newest first.
-// Add each post here and create its page at app/blogs/<slug>/page.tsx.
+// Add each post here and create its page at app/thoughts/<slug>/page.tsx.
 type ThoughtPost = { slug: string; title: string; description: string; writtenOn?: string };
 
 export const posts: ThoughtPost[] = [

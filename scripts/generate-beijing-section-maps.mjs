@@ -4,7 +4,7 @@ import path from 'node:path';
 const require = createRequire(import.meta.url);
 const sharp = createRequire(require.resolve('next/package.json'))('sharp');
 const root = path.resolve(import.meta.dirname, '..');
-const places = JSON.parse(await readFile(path.join(root, 'app/blogs/beijing/field-notes.json')));
+const places = JSON.parse(await readFile(path.join(root, 'app/thoughts/beijing/field-notes.json')));
 const output = path.join(root, 'public/beijing/sections');
 const cache = path.join(root, '.next/beijing-osm-tile-cache');
 await mkdir(output, { recursive: true });
@@ -55,4 +55,4 @@ for(const [section,items] of Object.entries(sections)) {
   manifest[section]={image:`/beijing/sections/${section}.webp`,width,height,places:section==='geography'?[]:items.map((p,i)=>({number:i+1,name:p.name}))};
   console.log(`Generated ${section}: ${items.length} locations, zoom ${zoom}`);
 }
-await writeFile(path.join(root,'app/blogs/beijing/section-maps.json'),JSON.stringify(manifest,null,2)+'\n');
+await writeFile(path.join(root,'app/thoughts/beijing/section-maps.json'),JSON.stringify(manifest,null,2)+'\n');

@@ -1,6 +1,7 @@
 "use client";
 import { PostHeader } from "@/components/posts/post-header";
 import { posts } from "../posts";
+
 import TravelReader from "@/components/travel/travel-reader";
 import TravelArticle from "@/components/travel/travel-article";
 import type { TravelSection } from "@/components/travel/types";

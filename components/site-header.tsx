@@ -5,8 +5,8 @@ import { usePathname } from "next/navigation";
 import styles from "./site-header.module.css";
 
 const labels: Record<string, string> = {
-  "/blogs": "thoughts", "/thoughts": "thoughts", "/blogs/beijing": "beijing",
-  "/blogs/beijing/map": "map", "/blogs/library": "library",
+  "/thoughts": "thoughts", "/thoughts/beijing": "beijing",
+  "/thoughts/japan": "japan", "/thoughts/beijing/map": "map", "/thoughts/library": "library",
 };
 
 /** One breadcrumb bar for every route except the homepage. */
@@ -18,7 +18,7 @@ export function SiteHeader() {
     { href: "/", label: "home" },
     ...segments.map((segment, index) => {
       const href = `/${segments.slice(0, index + 1).join("/")}`;
-      return { href: href === "/blogs" ? "/thoughts" : href, label: labels[href] || decodeURIComponent(segment).replaceAll("-", " ") };
+      return { href, label: labels[href] || decodeURIComponent(segment).replaceAll("-", " ") };
     }),
   ];
   return <header className={styles.header}>

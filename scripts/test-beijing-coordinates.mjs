@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { toMapCoordinates } from "../app/blogs/beijing/coordinates.ts";
+import { toMapCoordinates } from "../app/thoughts/beijing/coordinates.ts";
 
 test("OSM coordinates are not shifted or mutated", () => {
   const osm = [116.3668247, 39.9791686];

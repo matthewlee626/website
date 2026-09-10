@@ -25,7 +25,7 @@ export default function Home() {
             <Panel className="text-center">
               <ul>
                 <li><TextLink href="/thoughts" target="_self">thoughts</TextLink></li>
-                <li><TextLink href="/blogs/library" target="_self">library</TextLink></li>
+                <li><TextLink href="/thoughts/library" target="_self">library</TextLink></li>
               </ul>
             </Panel>
             <Panel className="flex flex-row justify-center gap-5">

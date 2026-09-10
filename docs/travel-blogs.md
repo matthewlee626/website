@@ -9,13 +9,13 @@ Beijing and Japan use `components/travel/`:
 - `types.ts`: destination configuration, place, article, and selection contracts. All map coordinates must already be WGS84.
 - `reader.module.css` and `map.module.css`: the single source of shared travel styling.
 
-To add a destination, provide a stable, module-level `AtlasConfig`, article data and a small reader adapter, create its page under `app/blogs/<slug>/`, then register it in `app/blogs/posts.ts`. `areaGroups` combine multiple neighborhoods into a city view; `areaZoom` controls city and region framing. Place IDs must be unique and must match the article's aliases/attributes.
+To add a destination, provide a stable, module-level `AtlasConfig`, article data and a small reader adapter, create its page under `app/thoughts/<slug>/`, then register it in `app/thoughts/posts.ts`. `areaGroups` combine multiple neighborhoods into a city view; `areaZoom` controls city and region framing. Place IDs must be unique and must match the article's aliases/attributes.
 
-Beijing keeps its original article format and bullet-to-pin mappings in its adapter. Its map config performs the existing Chinese coordinate conversion and display-name annotation before passing data to the shared map. `/blogs/beijing/map` still uses the standalone shared map through a thin wrapper.
+Beijing keeps its original article format and bullet-to-pin mappings in its adapter. Its map config performs the existing Chinese coordinate conversion and display-name annotation before passing data to the shared map. `/thoughts/beijing/map` still uses the standalone shared map through a thin wrapper.
 
 Japan's article was imported from the requested Notion page, including all 19 sections, nested lists, original links, priority underlines, four inline images, and cover photograph. The source wording (including dated prices, personal opinions, and the repeated shopping list) is preserved. Images are local assets, rendered with Next Image so expiring Notion URLs aren't needed at runtime. Place coordinates come from OpenStreetMap through Photon; each place records its source URL. City/neighborhood pins represent an area, and landmark pins are approximate locations rather than entrances. Restaurants without a verified pin remain ordinary notes or their original website links.
 
-Validation: `npx tsc --noEmit`, `npx eslint components/travel app/blogs/japan app/blogs/beijing/beijing-reader.tsx app/blogs/beijing/beijing-map.tsx app/blogs/beijing/map-config.ts`, `node --experimental-strip-types --test scripts/test-beijing-coordinates.mjs`, `node --test scripts/test-travel-rich-text.cjs`, and `npm run build`.
+Validation: `npx tsc --noEmit`, `npx eslint components/travel app/thoughts/japan app/thoughts/beijing/beijing-reader.tsx app/thoughts/beijing/beijing-map.tsx app/thoughts/beijing/map-config.ts`, `node --experimental-strip-types --test scripts/test-beijing-coordinates.mjs`, `node --test scripts/test-travel-rich-text.cjs`, and `npm run build`.
 
 ## Japan refinements
 

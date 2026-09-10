@@ -9,7 +9,7 @@ import styles from "./library.module.css";
 
 const pageTitle = "Library — Matthew Lee";
 const pageDescription = "A visual index of books from Matthew Lee's shelves.";
-const canonicalUrl = "https://matthewlee.xyz/blogs/library";
+const canonicalUrl = "https://matthewlee.xyz/thoughts/library";
 const socialImageUrl = "https://matthewlee.xyz/og.png";
 
 export const metadata: Metadata = {
