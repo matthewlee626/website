@@ -12,8 +12,9 @@
   position: absolute;
   inset: 12px;
   border: 4px solid white;
-  border-radius: 8px;
+  border-radius: 16px;
   overflow: hidden;
+  isolation: isolate;
 }
 
 .placeMarker { display:grid;place-items:center;padding:0; width: 30px; height: 30px; border: 2px solid white; border-radius: 50%; background: #33507b; color: white; font: 14px Arial,sans-serif; box-shadow: 0 2px 6px #0004; cursor: pointer; }
@@ -301,14 +302,14 @@
 .embedded .card footer,.embedded .card label,.embedded .card select { display:none; }
 .embedded .card h2 { margin:0 0 10px;font-size:22px; }
 @media(max-width:760px) { .embedded .reset { display:none; }.embedded .header { top:20px; }.embedded .card { max-height:45%;bottom:32px; }.embedded .card p { font-size:14px; } }
-.photoSpace { position:absolute;left:24px;bottom:50px;width:min(280px,calc(100% - 90px));background:var(--color-canvas);color:var(--color-text);border:3px solid white;border-radius:8px;pointer-events:none;overflow:hidden;isolation:isolate;clip-path:inset(0 round 8px); }
+.photoSpace { position:absolute;left:24px;bottom:50px;width:min(280px,calc(100% - 90px));background:var(--color-canvas);color:var(--color-text);border:3px solid white;border-radius:16px;pointer-events:none;overflow:hidden;isolation:isolate;clip-path:inset(0 round 16px); }
 @media(max-width:760px) { .photoSpace { width:min(180px,calc(100% - 76px));bottom:16px;left:16px; } }
 
 .photoTitle { margin:0;padding:12px 14px;font-family:var(--font-body);font-size:16px;font-weight:400;line-height:1.4;text-transform:lowercase; }
 @media(max-width:760px) { .photoTitle { padding:8px 10px;font-size:14px;overflow-wrap:anywhere; } }
 
 .placePhoto { display:block;width:100%;height:auto;aspect-ratio:4 / 3;object-fit:cover; }
-.placePhoto:last-child { border-radius:0 0 5px 5px; }
+.placePhoto:last-child { border-radius:0 0 13px 13px; }
 .photoControls { display:flex;align-items:center;justify-content:space-between;padding:2px 4px;pointer-events:auto;font-size:12px; }
 .photoControls button { width:32px;height:32px;border:0;background:transparent;color:inherit;cursor:pointer; }
 .photoControls button:focus-visible { outline:2px solid currentColor;outline-offset:-2px; }
