@@ -35,10 +35,8 @@
   "prince kung’s mansion": "恭王府",
   "nanluoguxiang": "南锣鼓巷",
   "no. 69 fangzhuanchang noodles": "方砖厂69号炸酱面",
-  "drum tower": "鼓楼",
   "drum": "鼓楼",
-  "bell tower": "钟楼",
-  "clock towers": "钟楼",
+  "bell": "钟楼",
   "lama temple": "雍和宫",
   "kaorouwan": "烤肉宛",
   "confucius temple": "北京孔庙",
@@ -79,7 +77,6 @@
   "harvard": "哈佛大学",
   "zhongguancun": "中关村",
   "agi bar": "知识蒸馏",
-  "sf": "旧金山",
   "wudaokou": "五道口",
   "catail backyard": "Catail小后院",
   "laohuihui": "老回回小吃",
@@ -95,5 +92,6 @@
   "cuihualou": "萃华楼",
   "luckin coffee": "瑞幸咖啡",
   "full ding coffee": "福顶咖啡",
-  "bistro na (zhongguancun)": "那家小馆（中关村店）"
+  "bell tower": "钟楼",
+  "drum tower": "鼓楼"
 }

@@ -463,5 +463,56 @@
     "locationSource": "https://s.visitbeijing.com.cn/gallery/6503",
     "coordinateSource": "https://ditu.amap.com/place/B000ABBXH8",
     "precision": "street or complex"
+  },
+  {
+    "id": "66",
+    "name": "Mizhong Shan",
+    "area": "Haidian",
+    "coordinates": [
+      116.3058597,
+      39.9843906
+    ],
+    "coordinateSystem": "gcj02",
+    "category": "food",
+    "aliases": [
+      "mizhong shan"
+    ],
+    "note": "Chongqing hotpot at the Haidian Bridge branch, 16B Suzhou Street, southeast of Haidian Bridge.",
+    "locationSource": "https://us.trip.com/restaurant/china/beijing/detail/restaurant-130649428/",
+    "precision": "venue"
+  },
+  {
+    "id": "67",
+    "name": "Taohua Yin Alley",
+    "area": "East",
+    "coordinates": [
+      116.413706,
+      39.896961
+    ],
+    "coordinateSystem": "wgs84",
+    "category": "food",
+    "aliases": [
+      "taohua yin alley"
+    ],
+    "note": "Jiangnan cuisine at the Chongwenmen branch, 58 Dongxinglong Street.",
+    "locationSource": "https://maps.apple.com/place?address=Chongwenmen+East+Xinglong+Street+No.58&auid=1118368719887922&coordinate=39.896961%2C116.413706",
+    "precision": "venue"
+  },
+  {
+    "id": "68",
+    "name": "Bianyifang",
+    "area": "South",
+    "coordinates": [
+      116.400768,
+      39.89644
+    ],
+    "coordinateSystem": "gcj02",
+    "category": "food",
+    "aliases": [
+      "bianyifang"
+    ],
+    "note": "Peking duck at the Xianyukou branch, 65–77 Xianyukou Street near Qianmen.",
+    "locationSource": "https://amap.com/place/B000A8ULHM",
+    "precision": "venue"
   }
 ]

@@ -17,7 +17,7 @@ const bulletPlaces: Record<string, (string | null)[]> = {
   chaoyang: ["25", "26", "27", "28", "30"], wangjing: ["31", "32"], haidian: ["33", "34", null, null, null], misc: ["37", "53", "59"]
 };
 const aliases = [...localPlaces.flatMap(place => place.aliases.map(alias => ({ alias, id: place.id }))),
-  { alias: "drum", id: "15" }, { alias: "clock towers", id: "16" }, { alias: "mutianyu", id: "37" },
+  { alias: "drum tower", id: "15" }, { alias: "drum", id: "15" }, { alias: "bell tower", id: "16" }, { alias: "bell towers", id: "16" }, { alias: "clock towers", id: "16" }, { alias: "mutianyu", id: "37" },
   { alias: "badaling", id: "38" }, { alias: "peking university", id: "35" }, { alias: "tsinghua university", id: "36" }
 ];
 function inline(text: string, onSelect?: () => void, active = false, select?: (id: string) => void, activeId = "") {
