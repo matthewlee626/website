@@ -1,4 +1,6 @@
 "use client";
+import { PostHeader } from "@/components/posts/post-header";
+import { posts } from "../posts";
 import TravelReader from "@/components/travel/travel-reader";
 import TravelArticle from "@/components/travel/travel-article";
 import type { TravelSection } from "@/components/travel/types";
@@ -11,7 +13,7 @@ const articleSections = (sections as TravelSection[]).map(section => ({
 }));
 export default function JapanReader() {
   return <TravelReader config={japanMap}>{(select, activeId) => <>
-    <h1>japan travel notes</h1>
+    <PostHeader title="japan travel notes" writtenOn={posts.find(post => post.slug === "japan")?.writtenOn} />
     <TravelArticle sections={articleSections} aliases={aliases} select={select} activeId={activeId} />
   </>}</TravelReader>;
 }

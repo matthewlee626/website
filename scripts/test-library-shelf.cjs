@@ -131,3 +131,22 @@ for (const origin of [-1, 0, 4.3, count - 1]) {
 }
 assert.equal(swipePosition(3.2, 0, 390), 3.2, 'Interrupting a snap does not jump the shelf');
 console.log('PASS: single-book swipes, small gesture reset, cancellation, and interrupted snaps.');
+
+const { wheelProgress } = require('../app/library/prototype/motion.ts');
+assert.equal(wheelProgress(0), 0);
+assert.equal(wheelProgress(1), 1);
+for (const fps of [30, 60, 120]) {
+  let previous = 0;
+  let previousStep = Infinity;
+  const frames = Math.ceil(0.42 * fps);
+  for (let frame = 1; frame <= frames; frame++) {
+    const progress = wheelProgress(frame / frames);
+    const step = progress - previous;
+    assert.ok(step >= 0 && progress <= 1, 'Wheel easing never reverses or overshoots');
+    assert.ok(step <= previousStep + 1e-6, 'Wheel easing slows continuously toward its stop');
+    previous = progress;
+    previousStep = step;
+  }
+  assert.equal(previous, 1, 'Wheel easing reaches its target at the end of the duration');
+}
+console.log('PASS: cubic wheel slowdown and exact completion at 30/60/120 fps.');

@@ -1,3 +1,4 @@
+import { PostDate } from "@/components/posts/post-date";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PageLayout } from "@/components/page-layout";
@@ -18,9 +19,7 @@ export default function ThoughtsPage() {
             <Link href={`/blogs/${post.slug}`} className="underline underline-offset-4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4">
               {post.title.toLowerCase()}
             </Link>
-            {post.writtenOn && <p className="mt-1 text-sm text-white/65">
-              <time dateTime={post.writtenOn}>{new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" }).format(new Date(`${post.writtenOn}T00:00:00Z`))}</time>
-            </p>}
+            <div className="mt-1"><PostDate date={post.writtenOn} /></div>
           </li>
         ))}
       </ul>

@@ -1,4 +1,6 @@
 "use client";
+import { PostHeader } from "@/components/posts/post-header";
+import { posts } from "../posts";
 import { RichText } from "@/components/travel/rich-text";
 import TravelReader from "@/components/travel/travel-reader";
 import { beijingMap } from "./map-config";
@@ -22,7 +24,7 @@ function inline(text: string, onSelect?: () => void, active = false, select?: (i
 }
 export default function BeijingReader() {
   return <TravelReader config={beijingMap}>{(selectLocation, locationId) => <>
-      <h1>beijing travel notes</h1><p>{article.intro}</p>
+      <PostHeader title="beijing travel notes" writtenOn={posts.find(post => post.slug === "beijing")?.writtenOn} /><p>{article.intro}</p>
       <h2 data-map-area="all">geography</h2><p>{article.geography}</p>
       {article.sections.map((section, index) => <section key={section.title} id={section.title} data-map-area={areas[section.title]}>
         <div className={styles.sectionHeading}>{index === 0 ? <h2>{section.title}</h2> : <h3>{section.title}</h3>}</div>
