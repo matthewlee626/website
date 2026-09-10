@@ -13,7 +13,7 @@ export default function PlacePhoto({ name, photos = [] }: { name: string; photos
   return <aside className={styles.photoSpace} aria-label="Selected location" data-has-photo={Boolean(photo)}>
     <h2 className={styles.photoTitle} aria-live="polite">{name}</h2>
     {photo && <>
-      <Image className={styles.placePhoto} src={photo.src} alt={photo.alt} width={640} height={480}
+      <Image className={styles.placePhoto} src={photo.src} alt={photo.alt} width={480} height={360}
         sizes="(max-width: 760px) 180px, 280px" unoptimized
         onError={() => setFailed(previous => [...previous, photo.src])} />
       {available.length > 1 && <div className={styles.photoControls}>

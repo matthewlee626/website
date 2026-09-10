@@ -17,6 +17,12 @@
       "alt": "Qianmen at night"
     }
   ],
+  "6": [
+    {
+      "src": "/beijing/photos/beijing-b3-01.webp",
+      "alt": "Shopping mall in Wangfujing"
+    }
+  ],
   "7": [
     {
       "src": "/beijing/photos/beijing-b2-04.webp",
@@ -27,6 +33,12 @@
     {
       "src": "/beijing/photos/beijing-10.webp",
       "alt": "Shichahai at night"
+    }
+  ],
+  "14": [
+    {
+      "src": "/beijing/photos/beijing-b3-04.webp",
+      "alt": "Crowds on Nanluoguxiang"
     }
   ],
   "15": [
@@ -51,6 +63,12 @@
     {
       "src": "/beijing/photos/beijing-06.webp",
       "alt": "Confucius Temple"
+    }
+  ],
+  "19": [
+    {
+      "src": "/beijing/photos/beijing-b3-03.webp",
+      "alt": "Ceramics shop on Wudaoying Hutong"
     }
   ],
   "20": [
@@ -147,6 +165,12 @@
       "alt": "Cocktails at Modernista"
     }
   ],
+  "46": [
+    {
+      "src": "/beijing/photos/beijing-b2-13.webp",
+      "alt": "Cocktails at d.lounge"
+    }
+  ],
   "48": [
     {
       "src": "/beijing/photos/beijing-05.webp",
@@ -225,10 +249,10 @@
       "alt": "Luckin Coffee at Oriental Plaza"
     }
   ],
-  "46": [
+  "64": [
     {
-      "src": "/beijing/photos/beijing-b2-13.webp",
-      "alt": "Cocktails at d.lounge"
+      "src": "/beijing/photos/beijing-b3-02.webp",
+      "alt": "Specialty coffee at Full Ding Coffee"
     }
   ]
 }

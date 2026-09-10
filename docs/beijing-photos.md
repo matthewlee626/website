@@ -1,6 +1,6 @@
 # Beijing photo import
 
-23 supplied photographs, normalized to upright 640 × 480 WebP thumbnails. Upload 12 was removed at the user’s request. The pasted copies contain no GPS metadata. Matches use visible landmarks, the travel notes, online research, and user confirmation.
+23 supplied photographs, normalized to upright 480 × 360 WebP thumbnails. Upload 12 was removed at the user’s request. The pasted copies contain no GPS metadata. Matches use visible landmarks, the travel notes, online research, and user confirmation.
 
 | Upload | Location |
 | --- | --- |
@@ -58,3 +58,16 @@ Location references: [The Tree](https://r.visitbeijing.com.cn/leisure/534), [CAB
 New pins: Shifter, Cuihualou, PH and Luckin Coffee. Existing text aliases link Shifter, Cuihualou and PH to their pins. Cuihualou uses the Chongwenmen flagship complex consistent with its mention in the notes; Luckin uses the Oriental Plaza complex. PH is approximate at the historic Gongti northwest location shown in the photo, rather than a newer listing elsewhere.
 
 References: [Shifter address and Gaode coordinates](https://www.trip.com/restaurant/china/beijing/detail/shifter-79749004/), [Cuihualou flagship](https://maps.apple.com/place?auid=1118840482842220&lsp=57879), [PH Gongti address](https://www.yexiyou.com/changdi/5717/). Coordinate sources also appear in local-places.json.
+
+## Third batch and thumbnail storage pass
+
+All 43 imported travel photos are 480 × 360 WebP thumbnails (quality 72), with metadata stripped. No full-size uploaded JPEGs are stored in public/beijing/photos. Earlier thumbnail crops are preserved.
+
+| Upload | Location |
+| --- | --- |
+| 1 | Wangfujing (user confirmed area; mall name unspecified) |
+| 2 | Full Ding Coffee / Fuding Coffee |
+| 3 | Wudaoying Hutong (user confirmed) |
+| 4 | Nanluoguxiang (user confirmed) |
+
+Full Ding Coffee now has its own pin and the existing Fuding Coffee mention links to it. Source: [venue address and Gaode coordinates](https://kr.trip.com/restaurant/china/beijing/detail/restaurant-149823766/).

@@ -427,5 +427,23 @@
     "note": "Oriental Plaza branch, identified on the receipt. Pin marks the shopping complex.",
     "locationSource": "https://www.openstreetmap.org/way/439874975",
     "precision": "street or complex"
+  },
+  {
+    "id": "64",
+    "name": "Full Ding Coffee",
+    "area": "North",
+    "coordinates": [
+      116.4145677,
+      39.9483149
+    ],
+    "coordinateSystem": "gcj02",
+    "category": "coffee",
+    "aliases": [
+      "fuding coffee",
+      "full ding coffee"
+    ],
+    "note": "Rooftop cafe at 26-2 Wudaoying Hutong, mentioned as Fuding Coffee in the notes.",
+    "locationSource": "https://kr.trip.com/restaurant/china/beijing/detail/restaurant-149823766/",
+    "precision": "venue"
   }
 ]
