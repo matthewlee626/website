@@ -445,5 +445,23 @@
     "note": "Rooftop cafe at 26-2 Wudaoying Hutong, mentioned as Fuding Coffee in the notes.",
     "locationSource": "https://kr.trip.com/restaurant/china/beijing/detail/restaurant-149823766/",
     "precision": "venue"
+  },
+  {
+    "id": "65",
+    "name": "Bistro Na (Zhongguancun)",
+    "area": "Haidian",
+    "coordinates": [
+      116.313133,
+      39.979318
+    ],
+    "coordinateSystem": "gcj02",
+    "category": "food",
+    "aliases": [
+      "bistro na"
+    ],
+    "note": "Imperial cuisine at the Zhongguancun branch, Internet Finance Center, 1A Danling Street. Pin marks the building.",
+    "locationSource": "https://s.visitbeijing.com.cn/gallery/6503",
+    "coordinateSource": "https://ditu.amap.com/place/B000ABBXH8",
+    "precision": "street or complex"
   }
 ]

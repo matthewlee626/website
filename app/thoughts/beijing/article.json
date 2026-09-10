@@ -1,18 +1,20 @@
 {
-  "intro": "When I think of a city I could tourist for weeks, only a few cities come to mind. New York, London, Paris, and Tokyo rank among the top, but Beijing might just take the win. It is just an odd encapsulation of the past 1000 years of Chinese history, and while perhaps not the trendiest of cities, has a great deal of curious charm for those who look. That being said, there might just be a little too much to sift through on first pass. I’m very much a geography person, and I see travel through a somewhat odd lens of trying to explore a map as possible. I’m hoping that through some of this digging, I can provide some curious gems of insight!",
-  "geography": "Beijing, being the imperial capital of past and present, is a city defined first and foremost by concentric rings. The 1st Ring is the Forbidden Palace walls, the 2nd is the freeway that sits on the path of the old city walls, and the 3rd-6th move outward. When I was born, outside the 3rd Ring Road would have been quite remote. Now, there are apartments well into the 5th Ring Road and beyond. All this is to say that moving in between locations can easily be 1 hr+ if you try to race across the city. Group attractions!",
+  "intro": "When I think of a city I could tourist for weeks, only a few cities come to mind. New York, London, Paris, and Tokyo rank among the top, but Beijing might just take the win. It is just an odd encapsulation of the past 1000 years of Chinese history, and while perhaps not the trendiest of cities, has a great deal of curious charm for those who look. I’m very much a geography person, and I see travel through a somewhat odd lens of trying to explore a map as possible. I’m hoping that through some of this digging, I can provide some curious gems of insight!",
+  "geography": "Beijing, being the imperial capital of past and present, is a city defined first and foremost by concentric rings. The 1st Ring is the Forbidden Palace walls, the 2nd is the freeway that sits on the path of the old city walls, and the 3rd-6th move outward. When I was born, outside the 3rd Ring Road would have been quite remote. Now, there are apartments well into the 5th Ring Road and beyond. All this is to say that moving in between locations can easily be 1 hr+ if you try to race across the city. Group attractions carefully!",
+  "history": [
+    "Beijing’s history as a city spans over 3,000 years. One important early settlement was Ji (蓟), which became the capital of Yan (燕), one of the major powers of the Warring States period. For much of the next millennium, the area remained an important northern outpost, albeit far from imperial courts based in cities such as Luoyang and Chang’an (modern Xi’an).",
+    "The story of Beijing as a imperial capital begins with the southward expansion of northern tribes. The Khitan-led Liao (辽) made the city Nanjing (南京) in 938, and the Jurchen-led Jin (金) then expanded it into Zhongdu (中都) in 1153. Later, Kublai Khan began building a new capital nearby in 1267. Named Dadu (大都) in 1272, it became the imperial seat of the Yuan (元).",
+    "The Ming (明) captured Dadu in 1368 and renamed it Beiping (北平), while ruling from Nanjing in the south. That changed with Zhu Di (朱棣), whose father, the founding Ming emperor, had made him Prince of Yan with his base here. After seizing the throne in 1402, he rebuilt the city as his imperial seat. The Forbidden City was completed in 1420, and the capital formally moved to Beijing in 1421. This brought the court closer to both his own power base and the northern frontier.",
+    "The Qing (清) moved their court from Shenyang to Beijing in 1644 upon seizing the city, keeping it as their capital and adding many of the palaces, gardens, and temples you can visit today as a tourist. Beijing remained the seat of the early Republic, before the Nationalist government shifted the capital south to Nanjing in 1928. In 1949, as Communist forces advanced south and consolidated control over the mainland, the PRC was proclaimed in Beijing, and the city became the capital again. The resulting concentration of political, economic, and scientific power has no direct analogue in the US, in my opinion."
+  ],
+  "food": [
+    "Perhaps nothing is more reflective of this storied history than Beijing’s food. Beijing cuisine is a bit odd as a concept because it exists in two layers: a cosmopolitan capital-city tradition on top of a North Chinese base. Traditional everyday food is quite similar to that of surrounding Hebei and Tianjin, with wheat, dumplings, mantou, cabbage, daikon, and scallions making up relatively hearty dishes. On top of this, Shandong cuisine became perhaps the most important technical influence (as in much of North China), bringing braising techniques and savory flavors, among other things. Zhajiangmian is a good example of this influence. Overall, pretty different from the Cantonese, Min/Tai, or Huaiyang food that many people in the US might be more familiar with.",
+    "Beijing’s role as an imperial capital then layered several other traditions onto this northern base. Mongol, Hui Muslim, and Manchu communities strengthened the city’s culture of lamb, beef, and sesame. In particular, some of my favorite Beijing dishes are lamb: shuanyangrou (涮羊肉), lamb grilled on an iron grate (炙子烤肉), and lamb skewers (串儿). Officials and cooks arriving from Jiangnan, roughly the region around present-day Shanghai, brought southern culinary influences and refined banquet techniques to kitchens serving the imperial court. Peking duck is probably the most famous example of this opulence.",
+    "Of course, nowadays there is food from all over China in Beijing, perhaps to the detriment of foreign food, which I honestly wouldn’t recommend coming here for. I’ve left recommendations for Beijing dishes and other Chinese cuisines throughout the blog, which I hope will show you how varied the category of “Chinese cuisine” is."
+  ],
   "sections": [
     {
       "title": "center",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "There is so much within the 2nd ring Road, like actually ridiculous. This could literally be a week!"
-        }
-      ]
-    },
-    {
-      "title": "center-center",
       "blocks": [
         {
           "type": "paragraph",
@@ -191,7 +193,7 @@
         },
         {
           "type": "bullet",
-          "text": "wudaokou is a fun gathering place for students in the universities in the area. Catail Backyard is a sick bar. Laohuihui has yummy beef and lamb dumplings. Long Time Ago for amazing cumin lamb skewers and the viral forehead cold pack. Bistro Na has a branch here."
+          "text": "wudaokou is a fun gathering place for students in the universities in the area. Catail Backyard is a sick bar. Laohuihui has yummy beef and lamb dumplings. Long Time Ago for amazing cumin lamb skewers and the viral forehead cold pack. Bistro Na features imperial cuisine (has a branch here)."
         }
       ]
     },
