@@ -312,3 +312,6 @@
 .photoControls { display:flex;align-items:center;justify-content:space-between;padding:2px 4px;pointer-events:auto;font-size:12px; }
 .photoControls button { width:32px;height:32px;border:0;background:transparent;color:inherit;cursor:pointer; }
 .photoControls button:focus-visible { outline:2px solid currentColor;outline-offset:-2px; }
+
+.placeTitleLink { color:inherit;pointer-events:auto;text-decoration:underline;text-underline-offset:3px; }
+.placeTitleLink:focus-visible { outline:2px solid currentColor;outline-offset:2px; }

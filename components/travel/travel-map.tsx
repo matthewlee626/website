@@ -8,6 +8,7 @@ import "maplibre-gl/dist/maplibre-gl.css";
 import { areaHighlightFeatures } from "./area-highlights";
 import { createPlaceIcon, placeIcon } from "./place-icons";
 import PlacePhoto from "./place-photo";
+import MapPlaceTitle from "./map-place-title";
 import styles from "./map.module.css";
 import type { AtlasConfig, MapSelectionProps } from "./types";
 
@@ -175,14 +176,14 @@ export default function TravelMap({ config, embedded = false, area = "", locatio
       <div className={styles.title}><span className={styles.seal} lang={config.language}>{config.seal}</span><div><p><Link href="/thoughts" className={styles.backLink}>← thoughts</Link> / CITY ATLAS</p><h1>{config.title} <span lang={config.language}>{config.localTitle}</span></h1></div></div>
     </header>
     {error && <div className={styles.error} role="alert">{error}<button onClick={retryMap}>Retry</button></div>}
-    {embedded && (place || selected) && <PlacePhoto key={place?.id || String(name)} name={place?.name || String(name || "unnamed building")} photos={place?.photos} />}
+    {embedded && (place || selected) && <PlacePhoto key={place?.id || String(name)} name={place?.name || String(name || "unnamed building")} photos={place?.photos} title={place ? <MapPlaceTitle place={place} language={config.language} /> : undefined} />}
     {!embedded && <aside className={styles.card} aria-label="Building details" aria-live="polite">
       <label className={styles.eyebrow} htmlFor="field-note">FIELD NOTES · {places.length} PLACES</label>
       <select id="field-note" className={styles.placeSelect} value={place?.id || ""} onChange={event => choosePlace.current(event.target.value)}>
         <option value="">Choose a location…</option>
         {Array.from(new Set(places.map(item => item.area))).map(area => <optgroup key={area} label={area}>{places.filter(item => item.area === area).map(item => <option key={item.id} value={item.id}>{item.name} · {placeIcon(item.category).label}</option>)}</optgroup>)}
       </select>
-      <h2>{place ? place.name : selected ? String(name || "Unnamed building") : `${config.title}, annotated.`}</h2>
+      <h2>{place ? <MapPlaceTitle place={place} language={config.language} /> : selected ? String(name || "Unnamed building") : `${config.title}, annotated.`}</h2>
       {place ? <><div className={styles.eyebrow}>{place.area}</div><p className={styles.placeNote}>{place.note}</p><button className={styles.textButton} onClick={() => choosePlace.current("")}>Clear selection ↗</button></> : selected ? <>
         {attributes.length ? <dl>{attributes.map(([key, value]) => <div key={key}><dt>{key.replaceAll("_", " ")}</dt><dd>{String(value)}</dd></div>)}</dl> : <p>No additional details are available for this footprint.</p>}
         <button className={styles.textButton} onClick={() => clear.current()}>Clear selection <span>↗</span></button>

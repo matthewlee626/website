@@ -1,17 +1,18 @@
 "use client";
 
+import type { ReactNode } from "react";
 import Image from "next/image";
 import { useState } from "react";
 import type { Place } from "./types";
 import styles from "./map.module.css";
 
-export default function PlacePhoto({ name, photos = [] }: { name: string; photos?: Place["photos"] }) {
+export default function PlacePhoto({ name, title, photos = [] }: { name: string; title?: ReactNode; photos?: Place["photos"] }) {
   const [index, setIndex] = useState(0);
   const [failed, setFailed] = useState<string[]>([]);
   const available = photos.filter(photo => !failed.includes(photo.src));
   const photo = available[index % Math.max(1, available.length)];
   return <aside className={styles.photoSpace} aria-label="Selected location" data-has-photo={Boolean(photo)}>
-    <h2 className={styles.photoTitle} aria-live="polite">{name}</h2>
+    <h2 className={styles.photoTitle} aria-live="polite">{title ?? name}</h2>
     {photo && <>
       <Image className={styles.placePhoto} src={photo.src} alt={photo.alt} width={480} height={360}
         sizes="(max-width: 760px) 180px, 280px" unoptimized
