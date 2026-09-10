@@ -5,7 +5,7 @@ import { PageLayout } from "@/components/page-layout";
 import { posts } from "@/app/thoughts/posts";
 
 export const metadata: Metadata = {
-  title: "thoughts · Matthew Lee",
+  title: "thoughts · matthew lee",
   description: "Notes on places, books, and other things.",
 };
 

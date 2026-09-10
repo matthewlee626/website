@@ -7,7 +7,7 @@ import physicalDimensions from "./dimensions";
 import coverEditions from "./cover-editions.json";
 import styles from "./library.module.css";
 
-const pageTitle = "Library — Matthew Lee";
+const pageTitle = "library — matthew lee";
 const pageDescription = "A visual index of books from Matthew Lee's shelves.";
 const canonicalUrl = "https://matthewlee.xyz/thoughts/library";
 const socialImageUrl = "https://matthewlee.xyz/og.png";

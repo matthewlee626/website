@@ -9,7 +9,7 @@ const PPNikkeiMaru = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Matthew Lee",
+  title: "matthew lee",
   description: "Hey! You've found the metadata for my website.",
 };
 
