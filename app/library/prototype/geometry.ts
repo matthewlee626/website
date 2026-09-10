@@ -6,11 +6,11 @@ export function popOutProgress(index: number, position: number): number {
   return proximity ** 3 * (proximity * (proximity * 6 - 15) + 10);
 }
 
-export function centralShelfOffsets(offsets: number[], extents: number[], position: number): number[] {
+export function centralShelfOffsets(offsets: number[], extents: number[], position: number, fixedOpening?: number): number[] {
   if (!offsets.length) return [];
   // One fixed opening, sized once for the collection. No cumulative gap
   // expansion or moving recentering correction: each side is a rigid group.
-  let opening = 0;
+  let opening = fixedOpening ?? 0;
   for (let index = 1; index < offsets.length; index++) {
     const baseGap = offsets[index] - offsets[index - 1];
     opening = Math.max(opening, extents[index - 1] + extents[index] + 16 - baseGap);

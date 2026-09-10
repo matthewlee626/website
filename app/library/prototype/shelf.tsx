@@ -3,7 +3,8 @@
 import { PageLayout } from "@/components/page-layout";
 import Image from "next/image";
 import { useEffect, useMemo, useRef, useState, type CSSProperties, type PointerEvent } from "react";
-import { distanceAt, positionAt, shelfOffsets, wheelDistance, dragDistance, visibleBookRange, popOutProgress, centralShelfOffsets, SHELF_SLOPE } from "./geometry";
+import { wheelDistance, dragDistance, popOutProgress, centralShelfOffsets, SHELF_SLOPE } from "./geometry";
+import { loopingShelf, wrapIndex } from "./loop";
 import { useShelfMotion } from "./use-shelf-motion";
 import styles from "./shelf.module.css";
 
@@ -33,9 +34,9 @@ function imageStyle(book: ShelfBook): CSSProperties | undefined {
 
 export default function Shelf({ books }: { books: ShelfBook[] }) {
   const initial = Math.min(6, books.length - 1);
-  const offsets = useMemo(() => shelfOffsets(books.map((item) => item.physical.thicknessMm)), [books]);
-  const { distance: focusDistance, moveTo, moveBy, jumpTo, stop } = useShelfMotion(offsets[initial], offsets[offsets.length - 1]);
-  const position = positionAt(focusDistance, offsets);
+  const rail = useMemo(() => loopingShelf(books.map((item) => item.physical.thicknessMm)), [books]);
+  const { distance: focusDistance, moveTo, moveBy, jumpTo, stop } = useShelfMotion(rail.distanceAt(initial));
+  const position = rail.positionAt(focusDistance);
   const [dragging, setDragging] = useState(false);
   const [requestedSlug, setRequestedSlug] = useState<string | null>(null);
   const requestTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -57,14 +58,25 @@ export default function Shelf({ books }: { books: ShelfBook[] }) {
   const drag = useRef<{ x: number; y: number; position: number; moved: boolean } | null>(null);
   const suppressClick = useRef(false);
   const current = Math.round(position);
-  const book = books[current];
-  const clamp = (value: number) => Math.max(0, Math.min(books.length - 1, value));
+  const book = books[wrapIndex(current, books.length)];
   const coverExtents = useMemo(() => books.map((item) =>
     item.physical.widthMm / 2 + item.physical.thicknessMm + item.physical.heightMm * 0.06,
   ), [books]);
   const coverExtent = Math.max(...coverExtents);
-  const slotOffsets = centralShelfOffsets(offsets, coverExtents, position);
-  const range = visibleBookRange(offsets, position, viewport.width, viewport.scale, coverExtent);
+  // Keep a bounded mounted window even after arbitrarily many laps.
+  const reach = viewport.width / (2 * viewport.scale) + coverExtent * 3 + 160 / viewport.scale;
+  const start = Math.floor(rail.positionAt(focusDistance - reach));
+  const end = Math.ceil(rail.positionAt(focusDistance + reach)) + 1;
+  const indices = Array.from({ length: end - start }, (_, index) => start + index);
+  const offsets = indices.map((index) => rail.distanceAt(index));
+  const opening = useMemo(() => {
+    const thicknesses = books.map((item) => item.physical.thicknessMm);
+    return Math.max(0, ...coverExtents.map((extent, index) => {
+      const next = (index + 1) % books.length;
+      return extent + coverExtents[next] + 16 - (38 + (thicknesses[index] + thicknesses[next]) / 2);
+    }));
+  }, [books, coverExtents]);
+  const slotOffsets = centralShelfOffsets(offsets, indices.map((index) => coverExtents[wrapIndex(index, books.length)]), position - start, opening);
 
   useEffect(() => {
     const page = pageRef.current;
@@ -109,8 +121,7 @@ export default function Shelf({ books }: { books: ShelfBook[] }) {
   }, [moveBy]);
 
   function select(index: number) {
-    const next = clamp(index);
-    moveTo(offsets[next]);
+    moveTo(rail.distanceAt(index));
   }
 
   function pointerDown(event: PointerEvent<HTMLElement>) {
@@ -132,8 +143,8 @@ export default function Shelf({ books }: { books: ShelfBook[] }) {
     preserveShelfFocus();
     setDragging(true);
     const scale = Number.parseFloat(getComputedStyle(event.currentTarget).getPropertyValue("--book-scale")) || 1;
-    const movement = dragDistance(dx, dy, scale);
-    jumpTo(distanceAt(start.position, offsets) - movement);
+    const movement = 2 * dragDistance(dx, dy, scale);
+    jumpTo(rail.distanceAt(start.position) - movement);
   }
 
   function pointerEnd(event: PointerEvent<HTMLElement>) {
@@ -161,22 +172,22 @@ export default function Shelf({ books }: { books: ShelfBook[] }) {
         onKeyDown={(event) => {
           if (event.key === "ArrowRight" || event.key === "ArrowLeft") {
             event.preventDefault();
-            const next = clamp(current + (event.key === "ArrowRight" ? 1 : -1));
+            const next = current + (event.key === "ArrowRight" ? 1 : -1);
             select(next);
             event.currentTarget.querySelector<HTMLButtonElement>(`[data-book-index="${next}"]`)?.focus({ preventScroll: true });
           }
           if (event.key === "Escape") stop();
         }}
       >
-        {books.slice(range.start, range.end).map((item, localIndex) => {
-          const index = range.start + localIndex;
-          const distance = slotOffsets[index] - focusDistance;
-          const railDistance = offsets[index] - focusDistance;
+        {indices.map((index, localIndex) => {
+          const item = books[wrapIndex(index, books.length)];
+          const distance = slotOffsets[localIndex] - focusDistance;
+          const railDistance = offsets[localIndex] - focusDistance;
           const reveal = popOutProgress(index, position);
           const open = index === current;
           return (
             <button
-              key={item.slug}
+              key={index}
               type="button"
               data-book-index={index}
               data-open={open}
@@ -194,7 +205,7 @@ export default function Shelf({ books }: { books: ShelfBook[] }) {
                 "--thickness": `${item.physical.thicknessMm}px`,
                 // Keep the same stacking order throughout the entire gesture.
                 // One continuous pull-out motion; neighbors keep their slots.
-                zIndex: books.length - index,
+                zIndex: end - index,
               } as CSSProperties}
               onClick={() => {
                 if (suppressClick.current) return;
@@ -223,7 +234,7 @@ export default function Shelf({ books }: { books: ShelfBook[] }) {
       </section>
 
       <footer className={styles.footer}>
-        <button className={styles.previous} type="button" onClick={() => select(current - 1)} disabled={current === 0} aria-label="Previous book">←</button>
+        <button className={styles.previous} type="button" onClick={() => select(current - 1)} aria-label="Previous book">←</button>
         <div className={styles.caption} aria-live="polite" aria-atomic="true">
           <p className={styles.title}>{book.title.toLowerCase()}</p>
           <p className={styles.author}>{book.author}</p>
@@ -231,7 +242,7 @@ export default function Shelf({ books }: { books: ShelfBook[] }) {
             <span aria-live="polite">{requestedSlug === book.slug ? "you know how!" : "request"}</span>
           </button>
         </div>
-        <button className={styles.next} type="button" onClick={() => select(current + 1)} disabled={current === books.length - 1} aria-label="Next book">→</button>
+        <button className={styles.next} type="button" onClick={() => select(current + 1)} aria-label="Next book">→</button>
       </footer>
     </PageLayout>
   );

@@ -60,7 +60,7 @@ for (const books of [dimensions, [...dimensions].reverse(), alternating]) {
 }
 
 const source = fs.readFileSync('app/library/prototype/shelf.tsx', 'utf8');
-assert.ok(source.includes('zIndex: books.length - index'), 'Layer order must stay stable');
+assert.ok(source.includes('zIndex: end - index'), 'Layer order must stay stable');
 console.log('PASS: slot order, moving-cover clearance, continuous return, physical spacing, and virtualization across three book orders and viewport sizes.');
 
 const { advanceMotion } = require('../app/library/prototype/motion.ts');
@@ -73,8 +73,8 @@ for (const fps of [30, 60, 120]) {
     const previousVelocity = state.velocity;
     advanceMotion(state, dt);
     assert.ok(Number.isFinite(state.value));
-    assert.ok(Math.abs(state.velocity) <= 600, 'Fast input must respect speed limit');
-    assert.ok(Math.abs(state.velocity - previousVelocity) <= 3200 * dt / 1000 + 0.1,
+    assert.ok(Math.abs(state.velocity) <= 1200, 'Fast input must respect speed limit');
+    assert.ok(Math.abs(state.velocity - previousVelocity) <= 6400 * dt / 1000 + 0.1,
       'Changing targets cannot jump velocity');
   }
   for (let frame = 0; frame < fps * 5; frame++) advanceMotion(state, dt);
@@ -82,3 +82,35 @@ for (const fps of [30, 60, 120]) {
   assert.equal(state.velocity, 0);
 }
 console.log('PASS: bounded acceleration, rapid reversal, speed limit, and settling at 30/60/120 fps.');
+
+const { loopingShelf, wrapIndex } = require('../app/library/prototype/loop.ts');
+for (const thicknesses of [[20], [12, 40], dimensions.map(book => book.thicknessMm)]) {
+  const rail = loopingShelf(thicknesses);
+  const count = thicknesses.length;
+  for (let position = -count * 3; position < count * 3; position += 0.125) {
+    assert.ok(Math.abs(rail.positionAt(rail.distanceAt(position)) - position) < 1e-8);
+    assert.ok(rail.distanceAt(position + 0.00001) > rail.distanceAt(position));
+    assert.ok(wrapIndex(Math.round(position), count) >= 0);
+    assert.ok(wrapIndex(Math.round(position), count) < count);
+  }
+  const seamGap = 38 + (thicknesses[count - 1] + thicknesses[0]) / 2;
+  assert.ok(Math.abs(rail.distanceAt(count) - rail.distanceAt(count - 1) - seamGap) < 1e-8);
+}
+console.log('PASS: continuous looping in both directions, seam spacing, and index wrapping.');
+
+// Repeating windows retain identical geometry across positive and negative laps.
+const rail = loopingShelf(dimensions.map(book => book.thicknessMm));
+const count = dimensions.length;
+const extents = dimensions.map(book => book.widthMm / 2 + book.thicknessMm + book.heightMm * 0.06);
+for (const center of [-0.001, 0, 0.001, count - 0.001, count, count + 0.001]) {
+  const start = Math.floor(center) - 20;
+  const indices = Array.from({ length: 42 }, (_, index) => start + index);
+  const slots = centralShelfOffsets(indices.map(rail.distanceAt), indices.map(index => extents[wrapIndex(index, count)]), center - start);
+  const nextSlots = centralShelfOffsets(indices.map(index => rail.distanceAt(index + count)), indices.map(index => extents[wrapIndex(index, count)]), center - start);
+  slots.forEach((slot, index) => {
+    assert.ok(Math.abs((slot - rail.distanceAt(center)) - (nextSlots[index] - rail.distanceAt(center + count))) < 1e-8,
+      'Repeated laps have identical relative cover positions');
+    if (index) assert.ok(slot > slots[index - 1], 'Loop seams retain stacking order');
+  });
+}
+console.log('PASS: repeated-lap layout and cover order at both loop seams.');

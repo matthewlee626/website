@@ -6,8 +6,8 @@ export function advanceMotion(state: Motion, milliseconds: number) {
   while (remaining > 0) {
     const dt = Math.min(remaining, 1 / 240);
     const error = state.target - state.value;
-    const acceleration = Math.max(-3200, Math.min(3200, 144 * error - 24 * state.velocity));
-    state.velocity = Math.max(-600, Math.min(600, state.velocity + acceleration * dt));
+    const acceleration = Math.max(-6400, Math.min(6400, 144 * error - 24 * state.velocity));
+    state.velocity = Math.max(-1200, Math.min(1200, state.velocity + acceleration * dt));
     state.value += state.velocity * dt;
     remaining -= dt;
   }
