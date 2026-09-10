@@ -31,3 +31,30 @@
 New venue coordinates retain their source and coordinate system in local-places.json. CABO and Long Time Ago use approximate street/complex pins; the exact Long Time Ago branch is unverified.
 
 Location references: [The Tree](https://r.visitbeijing.com.cn/leisure/534), [CABO near the Temple of Heaven](https://www.bjdch.gov.cn/ywdt/xdcb/202509/P020250902559114971260.pdf), [Oasis Lounge](https://www.visitbeijing.com.cn/article/4HUusOUcyL9), [Long Time Ago](https://maps.apple.com/place?_provider=57879&place-id=H2710I3F92679690C97).
+
+## Second batch
+
+16 photos added. User confirmed Modernista, Shifter, Donglaishun in Wangfujing, Cuihualou, Keneng Youshu and 798. User clarified upload 13 is d.lounge; only upload 16 is PH.
+
+| Upload | Location |
+| --- | --- |
+| 1 | Modernista |
+| 2 | Shifter |
+| 3 | Donglaishun, Wangfujing |
+| 4 | Ming City Wall Relics |
+| 5 | Tiananmen |
+| 6 | Qianmen |
+| 7 | Fangzhuanchang Noodles (additional photo) |
+| 8 | Cuihualou |
+| 9 | Keneng Youshu |
+| 10 | Bell Tower |
+| 11 | Drum Tower |
+| 12 | 798 Art Zone |
+| 13 | d.lounge |
+| 14 | Kaorouji (visual match to the dish described in the notes) |
+| 15 | Luckin Coffee, Oriental Plaza (receipt identifies branch) |
+| 16 | PH, Gongti |
+
+New pins: Shifter, Cuihualou, PH and Luckin Coffee. Existing text aliases link Shifter, Cuihualou and PH to their pins. Cuihualou uses the Chongwenmen flagship complex consistent with its mention in the notes; Luckin uses the Oriental Plaza complex. PH is approximate at the historic Gongti northwest location shown in the photo, rather than a newer listing elsewhere.
+
+References: [Shifter address and Gaode coordinates](https://www.trip.com/restaurant/china/beijing/detail/shifter-79749004/), [Cuihualou flagship](https://maps.apple.com/place?auid=1118840482842220&lsp=57879), [PH Gongti address](https://www.yexiyou.com/changdi/5717/). Coordinate sources also appear in local-places.json.

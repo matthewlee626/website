@@ -358,5 +358,74 @@
     "note": "Fascinating to see China’s perspective on its many armed engagements. Includes domestic vehicles and quite a few captured from the US/USSR/Japan.",
     "locationSource": "https://www.openstreetmap.org/relation/963097",
     "precision": "venue"
+  },
+  {
+    "id": "60",
+    "name": "Shifter",
+    "area": "East",
+    "coordinates": [
+      116.4215163,
+      39.9149524
+    ],
+    "coordinateSystem": "gcj02",
+    "category": "bar",
+    "aliases": [
+      "shifter"
+    ],
+    "note": "Jinbao Place, 88 Jinbao Street, beside the first-floor south entrance.",
+    "locationSource": "https://www.trip.com/restaurant/china/beijing/detail/shifter-79749004/",
+    "precision": "venue"
+  },
+  {
+    "id": "61",
+    "name": "Cuihualou",
+    "area": "East",
+    "coordinates": [
+      116.4118899,
+      39.896661
+    ],
+    "coordinateSystem": "wgs84",
+    "category": "food",
+    "aliases": [
+      "cuihualou",
+      "cuihualao"
+    ],
+    "note": "Chongwenmen New World flagship branch. Pin marks the shopping complex.",
+    "locationSource": "https://www.openstreetmap.org/way/478339774",
+    "precision": "street or complex"
+  },
+  {
+    "id": "62",
+    "name": "PH",
+    "area": "Chaoyang",
+    "coordinates": [
+      116.4385,
+      39.932
+    ],
+    "coordinateSystem": "wgs84",
+    "category": "bar",
+    "aliases": [
+      "PH"
+    ],
+    "note": "Gongti location shown in the photos. Approximate pin at the northwest corner of Workers’ Stadium.",
+    "locationSource": "https://www.yexiyou.com/changdi/5717/",
+    "precision": "street or complex"
+  },
+  {
+    "id": "63",
+    "name": "Luckin Coffee",
+    "area": "East",
+    "coordinates": [
+      116.4083301,
+      39.9084315
+    ],
+    "coordinateSystem": "wgs84",
+    "category": "coffee",
+    "aliases": [
+      "luckin coffee"
+    ],
+    "note": "Oriental Plaza branch, identified on the receipt. Pin marks the shopping complex.",
+    "locationSource": "https://www.openstreetmap.org/way/439874975",
+    "precision": "street or complex"
   }
 ]
