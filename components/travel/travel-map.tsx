@@ -174,7 +174,7 @@ export default function TravelMap({ config, embedded = false, area = "", locatio
       <div className={styles.title}><span className={styles.seal} lang={config.language}>{config.seal}</span><div><p><Link href="/thoughts" className={styles.backLink}>← thoughts</Link> / CITY ATLAS</p><h1>{config.title} <span lang={config.language}>{config.localTitle}</span></h1></div></div>
     </header>
     {error && <div className={styles.error} role="alert">{error}<button onClick={retryMap}>Retry</button></div>}
-    {embedded && (place || selected) && <aside className={styles.photoSpace} aria-label={`Photo space for ${place?.name || "selected building"}`}><h2 className={styles.photoTitle} aria-live="polite">{place?.name || String(name || "unnamed building")}</h2><div className={styles.photoPlaceholder} /></aside>}
+    {embedded && (place || selected) && <aside className={styles.photoSpace} aria-label="Selected location"><h2 className={styles.photoTitle} aria-live="polite">{place?.name || String(name || "unnamed building")}</h2></aside>}
     {!embedded && <aside className={styles.card} aria-label="Building details" aria-live="polite">
       <label className={styles.eyebrow} htmlFor="field-note">FIELD NOTES · {places.length} PLACES</label>
       <select id="field-note" className={styles.placeSelect} value={place?.id || ""} onChange={event => choosePlace.current(event.target.value)}>

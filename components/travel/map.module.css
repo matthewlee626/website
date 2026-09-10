@@ -304,6 +304,5 @@
 .photoSpace { position:absolute;left:24px;bottom:50px;width:min(280px,calc(100% - 90px));background:var(--color-canvas);color:var(--color-text);border:3px solid white;border-radius:8px;pointer-events:none;overflow:hidden; }
 @media(max-width:760px) { .photoSpace { width:100px;bottom:28px;left:24px; } }
 
-.photoTitle { margin:0;padding:12px 14px;border-bottom:1px solid #ffffff44;font-family:var(--font-body);font-size:16px;font-weight:400;line-height:1.4;text-transform:lowercase; }
-.photoPlaceholder { aspect-ratio:4 / 3; }
+.photoTitle { margin:0;padding:12px 14px;font-family:var(--font-body);font-size:16px;font-weight:400;line-height:1.4;text-transform:lowercase; }
 @media(max-width:760px) { .photoTitle { padding:6px 8px;font-size:12px; } }
