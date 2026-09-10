@@ -33,6 +33,5 @@ export default function BeijingReader() {
           return <ul key={i}><li data-map-location={id || undefined}>{inline(block.text, id ? () => selectLocation(id) : undefined, locationId === id, selectLocation, locationId)}{id && !block.text.startsWith("**") && <button className={styles.inlineMapLink} onClick={() => selectLocation(id)}>Show on map ↖</button>}</li></ul>;
         })}
       </section>)}
-      <footer><a href={beijingMap.sourceUrl}>Original notes on Notion ↗</a></footer>
     </>}</TravelReader>;
 }
