@@ -4,6 +4,7 @@ import { PageLayout } from "@/components/page-layout";
 import Image from "next/image";
 import { useEffect, useMemo, useRef, useState, type CSSProperties, type PointerEvent } from "react";
 import { wheelDistance, dragDistance, popOutProgress, centralShelfOffsets, SHELF_SLOPE } from "./geometry";
+import { swipePosition, swipeTarget } from "./swipe";
 import { loopingShelf, wrapIndex } from "./loop";
 import { useShelfMotion } from "./use-shelf-motion";
 import styles from "./shelf.module.css";
@@ -55,7 +56,7 @@ export default function Shelf({ books }: { books: ShelfBook[] }) {
   const [viewport, setViewport] = useState({ width: 1200, scale: 1 });
   const pageRef = useRef<HTMLElement>(null);
   const stageRef = useRef<HTMLElement>(null);
-  const drag = useRef<{ x: number; y: number; position: number; moved: boolean } | null>(null);
+  const drag = useRef<{ x: number; y: number; position: number; moved: boolean; touch: boolean; pointerId: number; movement: number } | null>(null);
   const suppressClick = useRef(false);
   const current = Math.round(position);
   const book = books[wrapIndex(current, books.length)];
@@ -125,15 +126,15 @@ export default function Shelf({ books }: { books: ShelfBook[] }) {
   }
 
   function pointerDown(event: PointerEvent<HTMLElement>) {
-    if (!event.isPrimary || event.button !== 0) return;
+    if (!event.isPrimary || event.button !== 0 || drag.current) return;
     stop();
     suppressClick.current = false;
-    drag.current = { x: event.clientX, y: event.clientY, position, moved: false };
+    drag.current = { x: event.clientX, y: event.clientY, position, moved: false, touch: event.pointerType === "touch", pointerId: event.pointerId, movement: 0 };
   }
 
   function pointerMove(event: PointerEvent<HTMLElement>) {
     const start = drag.current;
-    if (!start) return;
+    if (!start || start.pointerId !== event.pointerId) return;
     const dx = event.clientX - start.x;
     const dy = event.clientY - start.y;
     if (!start.moved && Math.hypot(dx, dy) < 6) return;
@@ -143,12 +144,22 @@ export default function Shelf({ books }: { books: ShelfBook[] }) {
     preserveShelfFocus();
     setDragging(true);
     const scale = Number.parseFloat(getComputedStyle(event.currentTarget).getPropertyValue("--book-scale")) || 1;
-    const movement = 2 * dragDistance(dx, dy, scale);
-    jumpTo(rail.distanceAt(start.position) - movement);
+    if (start.touch) {
+      // Follow the finger through the shared animation clock, then settle on release.
+      start.movement = dragDistance(dx, dy, 1);
+      moveTo(rail.distanceAt(swipePosition(start.position, start.movement, pageRef.current?.clientWidth ?? viewport.width)));
+    } else {
+      const movement = 2 * dragDistance(dx, dy, scale);
+      jumpTo(rail.distanceAt(start.position) - movement);
+    }
   }
 
   function pointerEnd(event: PointerEvent<HTMLElement>) {
-    if (!drag.current) return;
+    const start = drag.current;
+    if (!start || start.pointerId !== event.pointerId) return;
+    if (start.touch && start.moved) {
+      select(swipeTarget(start.position, start.movement, event.type === "pointercancel"));
+    }
     drag.current = null;
     setDragging(false);
     if (event.currentTarget.hasPointerCapture(event.pointerId)) {
@@ -181,8 +192,10 @@ export default function Shelf({ books }: { books: ShelfBook[] }) {
       >
         {indices.map((index, localIndex) => {
           const item = books[wrapIndex(index, books.length)];
-          const distance = slotOffsets[localIndex] - focusDistance;
           const railDistance = offsets[localIndex] - focusDistance;
+          const openingDistance = slotOffsets[localIndex] - offsets[localIndex];
+          const compact = viewport.width <= 700;
+          const distance = compact ? railDistance * 0.8 + openingDistance * 0.55 : railDistance + openingDistance;
           const reveal = popOutProgress(index, position);
           const open = index === current;
           return (

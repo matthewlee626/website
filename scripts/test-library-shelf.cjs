@@ -114,3 +114,20 @@ for (const center of [-0.001, 0, 0.001, count - 0.001, count, count + 0.001]) {
   });
 }
 console.log('PASS: repeated-lap layout and cover order at both loop seams.');
+
+const { swipePosition, swipeTarget } = require('../app/library/prototype/swipe.ts');
+for (const origin of [-1, 0, 4.3, count - 1]) {
+  for (const width of [320, 390, 700]) {
+    for (const movement of [-1000, -80, -10, 0, 10, 80, 1000]) {
+      const position = swipePosition(origin, movement, width);
+      assert.ok(Math.abs(position - Math.round(origin)) <= 1, 'Touch drag stays within one neighboring book');
+      assert.ok(Math.abs(swipeTarget(origin, movement) - Math.round(origin)) <= 1);
+      assert.equal(swipeTarget(origin, movement, true), Math.round(origin), 'Canceled swipes return to their starting book');
+    }
+    assert.equal(swipeTarget(origin, 20), Math.round(origin), 'Small gestures settle back');
+    assert.equal(swipeTarget(origin, -60), Math.round(origin) + 1);
+    assert.equal(swipeTarget(origin, 60), Math.round(origin) - 1);
+  }
+}
+assert.equal(swipePosition(3.2, 0, 390), 3.2, 'Interrupting a snap does not jump the shelf');
+console.log('PASS: single-book swipes, small gesture reset, cancellation, and interrupted snaps.');
