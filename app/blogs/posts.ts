@@ -5,7 +5,7 @@ type ThoughtPost = { slug: string; title: string; description: string; writtenOn
 export const posts: ThoughtPost[] = [
   {
     slug: "beijing",
-    title: "Beijing field notes",
+    title: "Beijing travel notes",
     description: "A city of concentric rings, hutongs, imperial history, and very good lamb.",
   },
   {
@@ -15,7 +15,7 @@ export const posts: ThoughtPost[] = [
   },
   {
     slug: "japan",
-    title: "Japan field notes",
+    title: "Japan travel notes",
     description: "Tokyo neighborhoods, Kansai day trips, and notes on food, shopping, and shrines.",
   },
 ];

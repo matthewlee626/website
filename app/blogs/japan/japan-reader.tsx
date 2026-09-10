@@ -11,7 +11,7 @@ const articleSections = (sections as TravelSection[]).map(section => ({
 }));
 export default function JapanReader() {
   return <TravelReader config={japanMap}>{(select, activeId) => <>
-    <h1>japan field notes</h1>
+    <h1>japan travel notes</h1>
     <TravelArticle sections={articleSections} aliases={aliases} select={select} activeId={activeId} />
   </>}</TravelReader>;
 }

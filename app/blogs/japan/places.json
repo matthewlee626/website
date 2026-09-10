@@ -10,7 +10,7 @@
     "aliases": [
       "Tokyo"
     ],
-    "note": "Neighborhood or city overview from the Japan field notes.",
+    "note": "Neighborhood or city overview from the Japan travel notes.",
     "precision": "area",
     "locationSource": "https://www.openstreetmap.org/relation/1543125",
     "category": "area"
@@ -26,7 +26,7 @@
     "aliases": [
       "Ginza"
     ],
-    "note": "Neighborhood or city overview from the Japan field notes.",
+    "note": "Neighborhood or city overview from the Japan travel notes.",
     "precision": "area",
     "locationSource": "https://www.openstreetmap.org/relation/4859036",
     "category": "area"
@@ -42,7 +42,7 @@
     "aliases": [
       "Roppongi"
     ],
-    "note": "Neighborhood or city overview from the Japan field notes.",
+    "note": "Neighborhood or city overview from the Japan travel notes.",
     "precision": "area",
     "locationSource": "https://www.openstreetmap.org/relation/8421156",
     "category": "area"
@@ -58,7 +58,7 @@
     "aliases": [
       "Shibuya"
     ],
-    "note": "Neighborhood or city overview from the Japan field notes.",
+    "note": "Neighborhood or city overview from the Japan travel notes.",
     "precision": "area",
     "locationSource": "https://www.openstreetmap.org/relation/1759477",
     "category": "area"
@@ -74,7 +74,7 @@
     "aliases": [
       "Shinjuku"
     ],
-    "note": "Neighborhood or city overview from the Japan field notes.",
+    "note": "Neighborhood or city overview from the Japan travel notes.",
     "precision": "area",
     "locationSource": "https://www.openstreetmap.org/relation/1758858",
     "category": "area"
@@ -90,7 +90,7 @@
     "aliases": [
       "Ikebukuro"
     ],
-    "note": "Neighborhood or city overview from the Japan field notes.",
+    "note": "Neighborhood or city overview from the Japan travel notes.",
     "precision": "area",
     "locationSource": "https://www.openstreetmap.org/relation/4869702",
     "category": "area"
@@ -106,7 +106,7 @@
     "aliases": [
       "Ueno"
     ],
-    "note": "Neighborhood or city overview from the Japan field notes.",
+    "note": "Neighborhood or city overview from the Japan travel notes.",
     "precision": "area",
     "locationSource": "https://www.openstreetmap.org/relation/18158684",
     "category": "area"
@@ -122,7 +122,7 @@
     "aliases": [
       "Ningyocho"
     ],
-    "note": "Neighborhood or city overview from the Japan field notes.",
+    "note": "Neighborhood or city overview from the Japan travel notes.",
     "precision": "area",
     "locationSource": "https://www.openstreetmap.org/relation/16184503",
     "category": "area"
@@ -138,7 +138,7 @@
     "aliases": [
       "Shimokitazawa"
     ],
-    "note": "Neighborhood or city overview from the Japan field notes.",
+    "note": "Neighborhood or city overview from the Japan travel notes.",
     "precision": "area",
     "locationSource": "https://www.openstreetmap.org/node/6808377675",
     "category": "area"
@@ -154,7 +154,7 @@
     "aliases": [
       "Tsukishima"
     ],
-    "note": "Neighborhood or city overview from the Japan field notes.",
+    "note": "Neighborhood or city overview from the Japan travel notes.",
     "precision": "area",
     "locationSource": "https://www.openstreetmap.org/relation/3788739",
     "category": "area"
@@ -170,7 +170,7 @@
     "aliases": [
       "Hakone"
     ],
-    "note": "Neighborhood or city overview from the Japan field notes.",
+    "note": "Neighborhood or city overview from the Japan travel notes.",
     "precision": "area",
     "locationSource": "https://www.openstreetmap.org/relation/2689439",
     "category": "area"
@@ -186,7 +186,7 @@
     "aliases": [
       "Yokohama"
     ],
-    "note": "Neighborhood or city overview from the Japan field notes.",
+    "note": "Neighborhood or city overview from the Japan travel notes.",
     "precision": "area",
     "locationSource": "https://www.openstreetmap.org/relation/2689482",
     "category": "area"
@@ -202,7 +202,7 @@
     "aliases": [
       "Kamakura"
     ],
-    "note": "Neighborhood or city overview from the Japan field notes.",
+    "note": "Neighborhood or city overview from the Japan travel notes.",
     "precision": "area",
     "locationSource": "https://www.openstreetmap.org/relation/2689445",
     "category": "area"
@@ -218,7 +218,7 @@
     "aliases": [
       "Osaka"
     ],
-    "note": "Neighborhood or city overview from the Japan field notes.",
+    "note": "Neighborhood or city overview from the Japan travel notes.",
     "precision": "area",
     "locationSource": "https://www.openstreetmap.org/relation/358674",
     "category": "area"
@@ -234,7 +234,7 @@
     "aliases": [
       "Kyoto"
     ],
-    "note": "Neighborhood or city overview from the Japan field notes.",
+    "note": "Neighborhood or city overview from the Japan travel notes.",
     "precision": "area",
     "locationSource": "https://www.openstreetmap.org/relation/357794",
     "category": "area"
@@ -250,7 +250,7 @@
     "aliases": [
       "The East Gardens of the Imperial Palace"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/relation/5415394",
     "category": "history"
@@ -266,7 +266,7 @@
     "aliases": [
       "Kabukiza"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/relation/4859313",
     "category": "entertainment"
@@ -282,7 +282,7 @@
     "aliases": [
       "Tsukiji Market"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/way/606978548",
     "category": "food"
@@ -298,7 +298,7 @@
     "aliases": [
       "Tokyo Tower"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/relation/4247312",
     "category": "landmark"
@@ -314,7 +314,7 @@
     "aliases": [
       "Roppongi Hills"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/way/153924771",
     "category": "shopping"
@@ -330,7 +330,7 @@
     "aliases": [
       "Toranomon Hills"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/node/8014829817",
     "category": "shopping"
@@ -346,7 +346,7 @@
     "aliases": [
       "Hie-Jinja Shrine"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/way/509411458",
     "category": "history"
@@ -362,7 +362,7 @@
     "aliases": [
       "Meiji Jingu"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/way/469908925",
     "category": "history"
@@ -378,7 +378,7 @@
     "aliases": [
       "Yoyogi Park"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/relation/19862716",
     "category": "park"
@@ -394,7 +394,7 @@
     "aliases": [
       "Shibuya Scramble"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/way/1335178864",
     "category": "area"
@@ -410,7 +410,7 @@
     "aliases": [
       "Shibuya Sky"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/node/6952876785",
     "category": "landmark"
@@ -426,7 +426,7 @@
     "aliases": [
       "Kabukicho"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/relation/17081657",
     "category": "area"
@@ -442,7 +442,7 @@
     "aliases": [
       "Shinjuku Gyoen Garden"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/way/15772074",
     "category": "park"
@@ -458,7 +458,7 @@
     "aliases": [
       "Senso-ji"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/way/173154847",
     "category": "history"
@@ -474,7 +474,7 @@
     "aliases": [
       "Ueno Park"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/relation/18158889",
     "category": "park"
@@ -490,7 +490,7 @@
     "aliases": [
       "Akihabara"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/relation/18158693",
     "category": "shopping"
@@ -506,7 +506,7 @@
     "aliases": [
       "Tokyo Skytree"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/way/288269147",
     "category": "landmark"
@@ -522,7 +522,7 @@
     "aliases": [
       "Osaka Castle"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/way/1550234049",
     "category": "history"
@@ -538,7 +538,7 @@
     "aliases": [
       "Dotonburi"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/node/4029007869",
     "category": "area"
@@ -554,7 +554,7 @@
     "aliases": [
       "Universal Studios Osaka"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/way/32560852",
     "category": "entertainment"
@@ -570,7 +570,7 @@
     "aliases": [
       "Osaka Aquarium"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/relation/6994284",
     "category": "aquarium"
@@ -586,7 +586,7 @@
     "aliases": [
       "Araishiyama"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/node/4648090890",
     "category": "park"
@@ -602,7 +602,7 @@
     "aliases": [
       "Kinkaku-ji"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/way/98115917",
     "category": "history"
@@ -618,7 +618,7 @@
     "aliases": [
       "Ginkaku-ji"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/way/105817561",
     "category": "history"
@@ -634,7 +634,7 @@
     "aliases": [
       "Yasaka Shrine"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/way/328903218",
     "category": "history"
@@ -650,7 +650,7 @@
     "aliases": [
       "Kiyomizu-dera Temple"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/way/336641107",
     "category": "history"
@@ -667,7 +667,7 @@
       "Fushimi-Inari",
       "Fushimi Inari"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/way/96291583",
     "category": "history"
@@ -683,7 +683,7 @@
     "aliases": [
       "Kyoto Imperial Palace"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/way/554879249",
     "category": "history"
@@ -699,7 +699,7 @@
     "aliases": [
       "Nishiki Market"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/way/772134672",
     "category": "food"
@@ -715,7 +715,7 @@
     "aliases": [
       "Higashi Hongan-ji"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/way/619901207",
     "category": "history"
@@ -731,7 +731,7 @@
     "aliases": [
       "Omotesando Hills"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "venue",
     "locationSource": "https://www.openstreetmap.org/way/139070534",
     "category": "shopping"
@@ -747,7 +747,7 @@
     "aliases": [
       "Ginza SIX"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "venue",
     "locationSource": "https://www.openstreetmap.org/way/488225309",
     "category": "shopping"
@@ -763,7 +763,7 @@
     "aliases": [
       "Uniqlo Flagship"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "venue",
     "locationSource": "https://www.openstreetmap.org/way/195551649",
     "category": "shopping"
@@ -779,7 +779,7 @@
     "aliases": [
       "MUJI Flagship"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "venue",
     "locationSource": "https://www.openstreetmap.org/node/7263246185",
     "category": "shopping"
@@ -795,7 +795,7 @@
     "aliases": [
       "Wako"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "venue",
     "locationSource": "https://www.openstreetmap.org/way/103509469",
     "category": "shopping"
@@ -811,7 +811,7 @@
     "aliases": [
       "Glitch Coffee"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "venue",
     "locationSource": "https://www.openstreetmap.org/node/12508568356",
     "category": "coffee"
@@ -827,7 +827,7 @@
     "aliases": [
       "NOA Cafe"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "venue",
     "locationSource": "https://www.openstreetmap.org/node/13567041141",
     "category": "coffee"
@@ -843,7 +843,7 @@
     "aliases": [
       "Tempura Abe Honten"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "venue",
     "locationSource": "https://www.openstreetmap.org/node/7440039118",
     "category": "food"
@@ -859,7 +859,7 @@
     "aliases": [
       "Oniyamma"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "venue",
     "locationSource": "https://www.openstreetmap.org/node/4736500125",
     "category": "food"
@@ -875,7 +875,7 @@
     "aliases": [
       "Ninenzaka"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/way/550360170",
     "category": "history"
@@ -891,7 +891,7 @@
     "aliases": [
       "Sannenzaka"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
     "locationSource": "https://www.openstreetmap.org/way/526198271",
     "category": "history"
@@ -907,7 +907,7 @@
     "aliases": [
       "Tenryu-ji"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "venue",
     "locationSource": "https://www.openstreetmap.org/way/409723494",
     "category": "history"
@@ -923,7 +923,7 @@
     "aliases": [
       "Hakone Kowakien Yunessun"
     ],
-    "note": "Mentioned in the Japan field notes.",
+    "note": "Mentioned in the Japan travel notes.",
     "precision": "venue",
     "locationSource": "https://www.openstreetmap.org/node/4711713689",
     "category": "spa"

@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import styles from "./site-header.module.css";
 
 const labels: Record<string, string> = {
-  "/blogs": "thoughts", "/thoughts": "thoughts", "/blogs/beijing": "beijing field notes",
+  "/blogs": "thoughts", "/thoughts": "thoughts", "/blogs/beijing": "beijing",
   "/blogs/beijing/map": "map", "/blogs/library": "library",
 };
 

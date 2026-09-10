@@ -86,7 +86,7 @@ export default function TravelMap({ config, embedded = false, area = "", locatio
       button.appendChild(createPlaceIcon(destination.category));
       button.dataset.category = destination.category || "area";
       button.title = `${destination.name} · ${placeIcon(destination.category).label}` + ("precision" in destination && destination.precision !== "venue" ? " (approximate location)" : "");
-      button.setAttribute("aria-label", `Field note: ${destination.name}`);
+      button.setAttribute("aria-label", `Travel note: ${destination.name}`);
       button.setAttribute("aria-pressed", "false");
       button.addEventListener("click", event => { event.stopPropagation(); choosePlace.current(destination.id); });
       const marker = new maplibregl.Marker({ element: button }).setLngLat(destination.coordinates as [number, number]).addTo(instance);
@@ -186,7 +186,7 @@ export default function TravelMap({ config, embedded = false, area = "", locatio
         {attributes.length ? <dl>{attributes.map(([key, value]) => <div key={key}><dt>{key.replaceAll("_", " ")}</dt><dd>{String(value)}</dd></div>)}</dl> : <p>No additional details are available for this footprint.</p>}
         <button className={styles.textButton} onClick={() => clear.current()}>Clear selection <span>↗</span></button>
       </> : <p>{ready ? "Choose a map icon for a field note, or zoom in and click a building." : status} Drag to move; scroll or use + / − to zoom.</p>}
-      <footer>Notes adapted from <a href={config.sourceUrl} target="_blank" rel="noreferrer">{config.title} field notes ↗</a>. Pins mark approximate locations, not entrances. Nearby recommendations may refer to different branches.</footer>
+      <footer>Notes adapted from <a href={config.sourceUrl} target="_blank" rel="noreferrer">{config.title} travel notes ↗</a>. Pins mark approximate locations, not entrances. Nearby recommendations may refer to different branches.</footer>
     </aside>}
   </div>;
 }
