@@ -11,7 +11,7 @@ const areas: Record<string, string> = { center: "all", "center-center": "Center"
 const bulletPlaces: Record<string, (string | null)[]> = {
   "center-center": ["1", "2", "3"], south: ["4", "5"], east: ["6", "7", "8", "9", null],
   north: ["10", "11", "12", "14", "17", "18", "19", "20"], west: ["21", "22", "23", "24"],
-  chaoyang: ["25", "26", "27", "28", "30"], wangjing: ["31", "32"], haidian: ["33", "34", null, null, null], misc: ["37", "53"]
+  chaoyang: ["25", "26", "27", "28", "30"], wangjing: ["31", "32"], haidian: ["33", "34", null, null, null], misc: ["37", "53", "59"]
 };
 const aliases = [...localPlaces.flatMap(place => place.aliases.map(alias => ({ alias, id: place.id }))),
   { alias: "drum", id: "15" }, { alias: "clock towers", id: "16" }, { alias: "mutianyu", id: "37" },

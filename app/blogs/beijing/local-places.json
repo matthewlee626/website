@@ -339,5 +339,24 @@
     "note": "Lamb skewers. Approximate pin at the Xueqing Road branch’s Shengxi No. 8 shopping complex; the photo’s exact branch is unverified.",
     "locationSource": "https://www.openstreetmap.org/node/3722961302",
     "precision": "street or complex"
+  },
+  {
+    "id": "59",
+    "name": "Military Museum of the Chinese People’s Revolution",
+    "area": "Haidian",
+    "coordinates": [
+      116.3178611,
+      39.9083591
+    ],
+    "coordinateSystem": "wgs84",
+    "category": "history",
+    "aliases": [
+      "military museum of the chinese people’s revolution",
+      "military museum of the chinese people's revolution",
+      "military museum"
+    ],
+    "note": "Fascinating to see China’s perspective on its many armed engagements. Includes domestic vehicles and quite a few captured from the US/USSR/Japan.",
+    "locationSource": "https://www.openstreetmap.org/relation/963097",
+    "precision": "venue"
   }
 ]
