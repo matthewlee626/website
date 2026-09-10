@@ -1,4 +1,4 @@
-export type Place = { id: string; name: string; area: string; coordinates: number[]; note: string; precision?: string; category?: string; aliases?: string[] };
+export type Place = { id: string; name: string; area: string; coordinates: number[]; note: string; precision?: string; category?: string; aliases?: string[]; photos?: { src: string; alt: string }[] };
 export type AreaHighlight = { label: string; center: [number, number]; radiusKm: number };
 export type AtlasConfig = {
   title: string; localTitle: string; language: string; seal: string; sourceUrl: string;

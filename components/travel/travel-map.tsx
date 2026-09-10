@@ -7,6 +7,7 @@ import { type GeoJSONSource, type MapGeoJSONFeature } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { areaHighlightFeatures } from "./area-highlights";
 import { createPlaceIcon, placeIcon } from "./place-icons";
+import PlacePhoto from "./place-photo";
 import styles from "./map.module.css";
 import type { AtlasConfig, MapSelectionProps } from "./types";
 
@@ -61,7 +62,7 @@ export default function TravelMap({ config, embedded = false, area = "", locatio
     instance.once("idle", () => window.clearTimeout(loadingTimeout));
     instance.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
     instance.addControl(new maplibregl.AttributionControl({ compact: true }), "bottom-right");
-    instance.addControl(new maplibregl.ScaleControl({ unit: "metric" }), "bottom-left");
+    instance.addControl(new maplibregl.ScaleControl({ unit: "metric" }), "top-right");
     let buildingLayers: string[] = [];
     const reset = () => {
       (instance.getSource("selection") as GeoJSONSource | undefined)?.setData(EMPTY);
@@ -174,7 +175,7 @@ export default function TravelMap({ config, embedded = false, area = "", locatio
       <div className={styles.title}><span className={styles.seal} lang={config.language}>{config.seal}</span><div><p><Link href="/thoughts" className={styles.backLink}>← thoughts</Link> / CITY ATLAS</p><h1>{config.title} <span lang={config.language}>{config.localTitle}</span></h1></div></div>
     </header>
     {error && <div className={styles.error} role="alert">{error}<button onClick={retryMap}>Retry</button></div>}
-    {embedded && (place || selected) && <aside className={styles.photoSpace} aria-label="Selected location"><h2 className={styles.photoTitle} aria-live="polite">{place?.name || String(name || "unnamed building")}</h2></aside>}
+    {embedded && (place || selected) && <PlacePhoto key={place?.id || String(name)} name={place?.name || String(name || "unnamed building")} photos={place?.photos} />}
     {!embedded && <aside className={styles.card} aria-label="Building details" aria-live="polite">
       <label className={styles.eyebrow} htmlFor="field-note">FIELD NOTES · {places.length} PLACES</label>
       <select id="field-note" className={styles.placeSelect} value={place?.id || ""} onChange={event => choosePlace.current(event.target.value)}>

@@ -237,5 +237,107 @@
     "coordinateSystem": "gcj02",
     "address": "中关村东路16号院龙湖唐宁ONE2号A126号商铺",
     "category": "bar"
+  },
+  {
+    "id": "53",
+    "name": "Beijing Zoo",
+    "area": "West",
+    "coordinates": [
+      116.32954,
+      39.94105
+    ],
+    "aliases": [
+      "beijing zoo"
+    ],
+    "note": "Good place to see pandas if you are lucky, although the zoo may not be at American standards.",
+    "locationSource": "https://www.openstreetmap.org/way/29222967",
+    "precision": "landmark",
+    "coordinateSystem": "wgs84",
+    "category": "park"
+  },
+  {
+    "id": "54",
+    "name": "The Tree",
+    "area": "Chaoyang",
+    "coordinates": [
+      116.5127771,
+      39.9233673
+    ],
+    "coordinateSystem": "wgs84",
+    "category": "food",
+    "aliases": [
+      "the tree"
+    ],
+    "note": "At Chaoyang Joy City. Pin marks the shopping complex.",
+    "locationSource": "https://r.visitbeijing.com.cn/leisure/534",
+    "precision": "street or complex"
+  },
+  {
+    "id": "55",
+    "name": "CABO Coffee",
+    "area": "South",
+    "coordinates": [
+      116.4175767,
+      39.8861395
+    ],
+    "coordinateSystem": "wgs84",
+    "category": "coffee",
+    "aliases": [
+      "cabo coffee"
+    ],
+    "note": "Near the Temple of Heaven, in the Beijing Street creative complex. Pin is approximate along Fahua Temple Street.",
+    "locationSource": "https://www.openstreetmap.org/way/30888443",
+    "precision": "street or complex"
+  },
+  {
+    "id": "56",
+    "name": "Oasis Lounge",
+    "area": "Chaoyang",
+    "coordinates": [
+      116.474451,
+      39.954025
+    ],
+    "coordinateSystem": "bd09",
+    "category": "bar",
+    "aliases": [
+      "oasis lounge"
+    ],
+    "note": "Overlooks the Liangma River at Liangma Gangwan.",
+    "locationSource": "https://bj.city8.com/cater/88a63781kg4pb37c4e",
+    "precision": "street or complex"
+  },
+  {
+    "id": "57",
+    "name": "Zhongguancun",
+    "area": "Haidian",
+    "coordinates": [
+      116.3099191,
+      39.9787481
+    ],
+    "coordinateSystem": "wgs84",
+    "category": "shopping",
+    "aliases": [
+      "zhongguancun"
+    ],
+    "note": "Zhongguancun shopping area; pin marks the ART PARK complex.",
+    "locationSource": "https://www.openstreetmap.org/way/638618711",
+    "precision": "street or complex"
+  },
+  {
+    "id": "58",
+    "name": "Long Time Ago",
+    "area": "Haidian",
+    "coordinates": [
+      116.347209,
+      40.0075781
+    ],
+    "coordinateSystem": "wgs84",
+    "category": "food",
+    "aliases": [
+      "long time ago"
+    ],
+    "note": "Lamb skewers. Approximate pin at the Xueqing Road branch’s Shengxi No. 8 shopping complex; the photo’s exact branch is unverified.",
+    "locationSource": "https://www.openstreetmap.org/node/3722961302",
+    "precision": "street or complex"
   }
 ]
