@@ -302,7 +302,7 @@
 .embedded .card h2 { margin:0 0 10px;font-size:22px; }
 @media(max-width:760px) { .embedded .reset { display:none; }.embedded .header { top:20px; }.embedded .card { max-height:45%;bottom:32px; }.embedded .card p { font-size:14px; } }
 .photoSpace { position:absolute;left:24px;bottom:50px;width:min(280px,calc(100% - 90px));background:var(--color-canvas);color:var(--color-text);border:3px solid white;border-radius:8px;pointer-events:none;overflow:hidden; }
-@media(max-width:760px) { .photoSpace { width:min(240px,calc(100% - 76px));bottom:16px;left:16px; } .photoSpace[data-has-photo="true"] { width:min(180px,calc(100% - 76px)); } }
+@media(max-width:760px) { .photoSpace { width:min(180px,calc(100% - 76px));bottom:16px;left:16px; } }
 
 .photoTitle { margin:0;padding:12px 14px;font-family:var(--font-body);font-size:16px;font-weight:400;line-height:1.4;text-transform:lowercase; }
 @media(max-width:760px) { .photoTitle { padding:8px 10px;font-size:14px;overflow-wrap:anywhere; } }
