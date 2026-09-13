@@ -1,3 +1,4 @@
+import { visiblePosts } from "@/app/thoughts/posts";
 import { Panel } from "@/components/ui/panel";
 import { PageHeading } from "@/components/ui/page-heading";
 import Image from "next/image";
@@ -25,7 +26,7 @@ export default function Home() {
             <Panel className="text-center">
               <ul>
                 <li><TextLink href="/thoughts" target="_self">thoughts</TextLink></li>
-                <li><TextLink href="/thoughts/library" target="_self">library</TextLink></li>
+                {visiblePosts.some(post => post.slug === "library") && <li><TextLink href="/thoughts/library" target="_self">library</TextLink></li>}
               </ul>
             </Panel>
             <Panel className="flex flex-row justify-center gap-5">

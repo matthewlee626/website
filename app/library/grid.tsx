@@ -10,7 +10,6 @@ import styles from "./library.module.css";
 const pageTitle = "library — matthew lee";
 const pageDescription = "A visual index of books from Matthew Lee's shelves.";
 const canonicalUrl = "https://matthewlee.xyz/thoughts/library";
-const socialImageUrl = "https://matthewlee.xyz/og.png";
 
 export const metadata: Metadata = {
   title: pageTitle,
@@ -18,26 +17,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: canonicalUrl,
   },
-  openGraph: {
-    title: pageTitle,
-    description: pageDescription,
-    url: canonicalUrl,
-    type: "website",
-    images: [
-      {
-        url: socialImageUrl,
-        width: 1200,
-        height: 630,
-        alt: "Matthew Lee Library",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: pageTitle,
-    description: pageDescription,
-    images: [socialImageUrl],
-  },
+
 };
 
 export const dynamic = "force-dynamic";

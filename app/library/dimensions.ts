@@ -25,7 +25,7 @@ const dimensions: Record<string, BookDimensions> = Object.fromEntries(
   Object.entries(frontEstimates).map(([slug, estimate]) => {
     const record = overrides[slug];
     const heightMm = record?.heightMm ?? estimate.heightMm;
-    const rawDepth = depths[slug];
+    const rawDepth = depths[slug] ?? record?.thicknessMm;
     if (!Number.isFinite(rawDepth) || rawDepth <= 0) {
       throw new Error(`Missing physical depth for ${slug}`);
     }

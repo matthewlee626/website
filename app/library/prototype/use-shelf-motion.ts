@@ -1,13 +1,12 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { advanceMotion, wheelProgress } from "./motion";
+import { advanceMotion } from "./motion";
 
-// One animation clock drives both the shelf and each cover's reveal. Wheel
-// input keeps a fractional target; only explicit book navigation centers it.
+// Navigation animates; wheel input follows the gesture directly, once per frame.
 export function useShelfMotion(initial: number) {
   const [distance, setDistance] = useState(initial);
-  const motion = useRef({ value: initial, target: initial, velocity: 0, frame: 0, last: 0, wheel: false, origin: initial, started: 0 });
+  const motion = useRef({ value: initial, target: initial, velocity: 0, frame: 0, last: 0, wheel: false });
 
   const stop = useCallback(() => {
     cancelAnimationFrame(motion.current.frame);
@@ -23,48 +22,40 @@ export function useShelfMotion(initial: number) {
     setDistance(next);
   }, [stop]);
 
-  const moveTo = useCallback((value: number, wheel = false) => {
+  const moveTo = useCallback((value: number) => {
     const next = value;
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       jumpTo(next);
       return;
     }
     const state = motion.current;
+    if (state.wheel) stop();
     state.target = next;
-    state.wheel = wheel;
-    state.origin = state.value;
-    state.started = performance.now();
+    state.wheel = false;
     if (state.frame) return;
     state.last = performance.now();
     function tick(now: number) {
       const dt = Math.max(0, Math.min(64, now - state.last));
       state.last = now;
-      let done: boolean;
-      if (state.wheel) {
-        const progress = Math.min(1, (now - state.started) / 420);
-        const previous = state.value;
-        state.value = state.origin + (state.target - state.origin) * wheelProgress(progress);
-        done = progress === 1;
-        state.velocity = done || dt === 0 ? 0 : (state.value - previous) * 1000 / dt;
-      } else {
-        done = advanceMotion(state, dt);
-      }
+      const done = advanceMotion(state, dt);
       setDistance(state.value);
       state.frame = done ? 0 : requestAnimationFrame(tick);
     }
     state.frame = requestAnimationFrame(tick);
-  }, [jumpTo]);
+  }, [jumpTo, stop]);
 
   const moveBy = useCallback((delta: number) => {
     const state = motion.current;
-    const pending = state.target - state.value;
-    // Reverse immediately instead of having to exhaust a queued gesture.
-    const origin = pending * delta < 0 ? state.value : state.target;
-    const softened = 180 * Math.tanh(delta / 90);
-    // Don't accumulate a long fling when wheel events arrive faster than frames.
-    const target = Math.max(state.value - 360, Math.min(state.value + 360, origin + softened));
-    moveTo(target, true);
-  }, [moveTo]);
+    const next = state.value + delta;
+    if (!state.wheel) stop();
+    state.wheel = true;
+    state.value = state.target = next;
+    if (state.frame) return;
+    state.frame = requestAnimationFrame(() => {
+      setDistance(state.value);
+      state.frame = 0;
+    });
+  }, [stop]);
   useEffect(() => stop, [stop]);
   return { distance, moveTo, moveBy, jumpTo, stop };
 }

@@ -822,5 +822,15 @@
     "width": 362,
     "height": 450,
     "source": "https://openlibrary.org/isbn/9783791389905"
-  }
+  },
+{
+  "title": "Vitra: The Anatomy of a Design Company",
+  "author": "Deyan Sudjic, with contributions by Karen Stein and Iwan Baan",
+  "isbn": "9781837290000",
+  "slug": "88-vitra-the-anatomy-of-a-design-company",
+  "cover": "/library/covers/88-vitra-the-anatomy-of-a-design-company.webp",
+  "width": 600,
+  "height": 600,
+  "source": "https://www.phaidon.com/en-us/products/vitra"
+}
 ]

@@ -514,5 +514,40 @@
     "note": "Peking duck at the Xianyukou branch, 65–77 Xianyukou Street near Qianmen.",
     "locationSource": "https://amap.com/place/B000A8ULHM",
     "precision": "venue"
+  },
+  {
+    "id": "69",
+    "name": "To Summer",
+    "area": "North",
+    "coordinates": [
+      116.411781,
+      39.945597
+    ],
+    "coordinateSystem": "gcj02",
+    "category": "shopping",
+    "aliases": [
+      "to summer"
+    ],
+    "note": "Chinese fragrance brand; Guozijian flagship in a courtyard at 23 Guozijian Street, near Wudaoying Hutong.",
+    "locationSource": "https://ditu.amap.com/place/B0H0A6SICJ",
+    "precision": "venue"
+  },
+  {
+    "id": "70",
+    "name": "Songmont",
+    "area": "East",
+    "coordinates": [
+      116.409348,
+      39.912576
+    ],
+    "coordinateSystem": "gcj02",
+    "category": "shopping",
+    "aliases": [
+      "songmont"
+    ],
+    "note": "Chinese bag brand at WF Central, B1-131a, Building 1, 269 Wangfujing Street.",
+    "locationSource": "https://songmontofficial.com/zh/pages/our-locations",
+    "coordinateSource": "https://maps.apple.com/place?auid=1118850530462148&lsp=57879",
+    "precision": "venue"
   }
 ]
