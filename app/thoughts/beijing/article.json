@@ -1,9 +1,9 @@
 {
-  "intro": "When I think of a city I could tourist for weeks, only a few cities come to mind. New York, London, Paris, and Tokyo rank among the top, but Beijing might just take the win. It is just an odd encapsulation of the past 1000 years of Chinese history, and while perhaps not the trendiest of cities, has a great deal of curious charm for those who look. I’m very much a geography person, and I see travel through a somewhat odd lens of trying to explore a map as possible. I’m hoping that through some of this digging, I can provide some curious gems of insight!",
+  "intro": "When I think of a city I could tourist for weeks, only a few cities come to mind. New York, London, Paris, and Tokyo rank among the top, but Beijing might just take the win. It is just an odd encapsulation of the past 1000 years of Chinese history, and while perhaps not the trendiest of cities, it has a great deal of curious charm for those who look. I’m very much a geography person, and I see travel through a somewhat odd lens of trying to explore as much of a map as possible. I’m hoping that through some of this digging, I can provide some curious gems of insight!",
   "geography": "Beijing, being the imperial capital of past and present, is a city defined first and foremost by concentric rings. The 1st Ring is the Forbidden Palace walls, the 2nd is the freeway that sits on the path of the old city walls, and the 3rd-6th move outward. When I was born, outside the 3rd Ring Road would have been quite remote. Now, there are apartments well into the 5th Ring Road and beyond. All this is to say that moving in between locations can easily be 1 hr+ if you try to race across the city. Group attractions carefully!",
   "history": [
     "Beijing’s history as a city spans over 3,000 years. One important early settlement was Ji (蓟), which became the capital of Yan (燕), one of the major powers of the Warring States period. For much of the next millennium, the area remained an important northern outpost, albeit far from imperial courts based in cities such as Luoyang and Chang’an (modern Xi’an).",
-    "The story of Beijing as a imperial capital begins with the southward expansion of northern tribes. The Khitan-led Liao (辽) made the city Nanjing (南京) in 938, and the Jurchen-led Jin (金) then expanded it into Zhongdu (中都) in 1153. Later, Kublai Khan began building a new capital nearby in 1267. Named Dadu (大都) in 1272, it became the imperial seat of the Yuan (元).",
+    "The story of Beijing as an imperial capital begins with the southward expansion of northern tribes. The Khitan-led Liao (辽) made the city Nanjing (南京) in 938, and the Jurchen-led Jin (金) then expanded it into Zhongdu (中都) in 1153. Later, Kublai Khan began building a new capital nearby in 1267. Named Dadu (大都) in 1272, it became the imperial seat of the Yuan (元).",
     "The Ming (明) captured Dadu in 1368 and renamed it Beiping (北平), while ruling from Nanjing in the south. That changed with Zhu Di (朱棣), whose father, the founding Ming emperor, had made him Prince of Yan with his base here. After seizing the throne in 1402, he rebuilt the city as his imperial seat. The Forbidden City was completed in 1420, and the capital formally moved to Beijing in 1421. This brought the court closer to both his own power base and the northern frontier.",
     "The Qing (清) moved their court from Shenyang to Beijing in 1644 upon seizing the city, keeping it as their capital and adding many of the palaces, gardens, and temples you can visit today as a tourist. Beijing remained the seat of the early Republic, before the Nationalist government shifted the capital south to Nanjing in 1928. In 1949, as Communist forces advanced south and consolidated control over the mainland, the PRC was proclaimed in Beijing, and the city became the capital again. The resulting concentration of political, economic, and scientific power has no direct analogue in the US, in my opinion."
   ],
@@ -22,7 +22,7 @@
         },
         {
           "type": "bullet",
-          "text": "**The Forbidden Palace (故宫): **The imperial seat of power for the Ming and Qing dynasties. You definitely know about this place. One note: you may see references to how hard booking a ticket on the WeChat miniapp is. True, but for foreigners, you actually get tickets through a separate website that is much easier ([https://bookingticket.dpm.org.cn/](https://bookingticket.dpm.org.cn/)). Tickets are availible at 8PM one week before the date."
+          "text": "**The Forbidden Palace (故宫): **The imperial seat of power for the Ming and Qing dynasties. You definitely know about this place. One note: you may see references to how hard booking a ticket on the WeChat miniapp is. True, but for foreigners, you actually get tickets through a separate website that is much easier ([https://bookingticket.dpm.org.cn/](https://bookingticket.dpm.org.cn/)). Tickets are available at 8PM one week before the date."
         },
         {
           "type": "bullet",
@@ -30,11 +30,11 @@
         },
         {
           "type": "bullet",
-          "text": "**Tiananmen Square:** so busy. Book on the mini-app. Has the The Chairman Mao Memorial Hall and the Monument to the People's Heroes."
+          "text": "**Tiananmen Square:** so busy. Book on the mini-app. Has the Chairman Mao Memorial Hall and the Monument to the People's Heroes."
         },
         {
           "type": "paragraph",
-          "text": "Outside of the three above, I would say most tickets can be purchased at the door or with a mini-app. Would err on the latter for language reasons. in general, you will need your passport for all tickets as most chinese attractions are coupled to an id."
+          "text": "Outside of the three above, I would say most tickets can be purchased at the door or with a mini-app. Would err on the latter for language reasons. In general, you will need your passport for all tickets as most Chinese attractions are coupled to an ID."
         }
       ]
     },
@@ -43,11 +43,11 @@
       "blocks": [
         {
           "type": "bullet",
-          "text": "**Qianmen**: Quite touristy of a shopping area. Has some very famous Peking duck locations like Bianyifang and Quanjude. Beijing’s center is dominated by hutongs, which are neighborhoods with alleyways and *siheyuan *(courtyard houses), and the ones east of here are quite fun to walk around. The MUJI hotel here looks gorgeous."
+          "text": "**Qianmen**: Quite a touristy shopping area. Has some very famous Peking duck locations like Bianyifang and Quanjude. Beijing’s center is dominated by hutongs, which are neighborhoods with alleyways and *siheyuan* (courtyard houses), and the ones east of here are quite fun to walk around. The MUJI hotel here looks gorgeous."
         },
         {
           "type": "bullet",
-          "text": "**Temple of Heaven**: A massive park around a set of religious buildings where the Emperor would perform rituals for good harvest. The most famous building is the Hall for Prayer of Good Harvests (祈年殿), but it’s also just a place where uncs are playing chess. Next to here is a really cute cafe, **CABO Coffee**. If you hear about Hongqiao Pearl Market, I’d say not worth going."
+          "text": "**Temple of Heaven**: A massive park around a set of religious buildings where the Emperor would perform rituals for good harvests. The most famous building is the Hall for Prayer of Good Harvests (祈年殿), but it’s also just a place where uncs are playing chess. Next to here is a really cute cafe, **CABO Coffee**. If you hear about Hongqiao Pearl Market, I’d say not worth going."
         }
       ]
     },
@@ -64,7 +64,7 @@
         },
         {
           "type": "bullet",
-          "text": "**Chongwenmen**: Where I stay lol. Like 3 Heytea’s. **Taohua Yin Alley **and** Cuihualou** are pretty tasty."
+          "text": "**Chongwenmen**: Where I stay lol. Like three Heyteas. **Taohua Yin Alley** and **Cuihualou** are pretty tasty."
         },
         {
           "type": "bullet",
@@ -81,7 +81,7 @@
       "blocks": [
         {
           "type": "bullet",
-          "text": "**Jingshan Park:** Mountain built from construction of the moats around the Forbidden Palace. Hike to the top for a spectacular view of the city. The last Ming emperor hung himself here!"
+          "text": "**Jingshan Park:** Mountain built from construction of the moats around the Forbidden Palace. Hike to the top for a spectacular view of the city. The last Ming emperor hanged himself here!"
         },
         {
           "type": "bullet",
@@ -89,7 +89,7 @@
         },
         {
           "type": "bullet",
-          "text": "**Shichahai:** Mostly the area around **Qianhai** and **Houhai**—insanely crowded, with a lot of bars with live music. You will see that these places are also streaming their performers on social media, a really Chinese thing. **Kaorouji** here has one of my favorite dishes in the world: thinly sliced lamb with onion and spices. Another great example of Chinese muslim food (noticing a trend here?). Drink **Yinsan Douzhi**. **Prince Kung’s Mansion** is interesting for seeing a luxurious traditional Chinese house that is not the Palace."
+          "text": "**Shichahai:** Mostly the area around **Qianhai** and **Houhai**—insanely crowded, with a lot of bars with live music. You will see that these places are also streaming their performers on social media, a really Chinese thing. **Kaorouji** here has one of my favorite dishes in the world: thinly sliced lamb with onion and spices. Another great example of Chinese Muslim food (noticing a trend here?). Drink **Yinsan Douzhi**. **Prince Kung’s Mansion** is interesting for seeing a luxurious traditional Chinese house that is not the Palace."
         },
         {
           "type": "bullet",
@@ -97,11 +97,11 @@
         },
         {
           "type": "bullet",
-          "text": "**Lama Temple: **Center of Tibetian Buddhism in Beijing. Spectacular art/statues and a working temple where you’ll see folks praying! Near this is Kaorouwan for lamb yum."
+          "text": "**Lama Temple: **Center of Tibetan Buddhism in Beijing. Spectacular art/statues and a working temple where you’ll see folks praying! Near this is Kaorouwan for lamb yum."
         },
         {
           "type": "bullet",
-          "text": "**Confucius Temple**: LARP being an imperial bureaucrat and imagine yourself grinding for the forerunner of the Gaokao/SAT. Really cool exhibit of steels from past successful candidates of the Imperial Examination."
+          "text": "**Confucius Temple**: LARP being an imperial bureaucrat and imagine yourself grinding for the forerunner of the Gaokao/SAT. Really cool exhibit of steles from past successful candidates of the Imperial Examination."
         },
         {
           "type": "bullet",
@@ -143,11 +143,11 @@
         },
         {
           "type": "bullet",
-          "text": "**Gongti/Worker’s Stadium**: Many of the nightclubs in Beijing are along a row here. Fair warning that Chinese clubbing is very table based and definitely more for the study-abroaders and fuerdai than the average person, which is quite different from what you might call a club in the US. PH is my favorite on the basis of music. Bar Dada is good for techno."
+          "text": "**Gongti/Workers’ Stadium**: Many of the nightclubs in Beijing are along a row here. Fair warning that Chinese clubbing is very table based and definitely more for the study-abroaders and fuerdai than the average person, which is quite different from what you might call a club in the US. PH is my favorite on the basis of music. Bar Dada is good for techno."
         },
         {
           "type": "bullet",
-          "text": "**Chaoyang Park: **Big park. They have the Labubu theme park! If you want a meme meal Slowboat is a burger and beerpub that’s actually quite gas. Oasis Lounge is quite good and overlooks the Liangma River canal."
+          "text": "**Chaoyang Park: **Big park. They have the Labubu theme park! If you want a meme meal Slowboat is a burger and beer pub that’s actually quite gas. Oasis Lounge is quite good and overlooks the Liangma River canal."
         },
         {
           "type": "bullet",
@@ -155,7 +155,7 @@
         },
         {
           "type": "bullet",
-          "text": "**chaoyang joy city** is an insanely large 10 story mall. The Tree here is pretty good LARP, probably one of the more aesthetic places I’ve been to!"
+          "text": "**chaoyang joy city** is an insanely large 10-story mall. The Tree here is pretty good LARP, probably one of the more aesthetic places I’ve been to!"
         }
       ]
     },
@@ -168,7 +168,7 @@
         },
         {
           "type": "bullet",
-          "text": "**798 Art Zone**: a decommissioned military factory complex that now hosts an contemporary artist community. Many folks here are pushing the margins of social discourse, away from the orthodoxy. There are many galleries for domestic and foreign artists, and the UCCA Center for Contemporary Art is an anchor."
+          "text": "**798 Art Zone**: a decommissioned military factory complex that now hosts a contemporary artist community. Many folks here are pushing the margins of social discourse, away from the orthodoxy. There are many galleries for domestic and foreign artists, and the UCCA Center for Contemporary Art is an anchor."
         }
       ]
     },
@@ -185,11 +185,11 @@
         },
         {
           "type": "bullet",
-          "text": "**Peking University and Tsinghua University: **You can’t get inside without an invite from an affiliate. Your best bet is to try to make a friend! I think that foreign students here can invite unlimited number of guests, but domestic students can’t (as everyone and their mom is trying to get inside). From this, you can understand why Chinese tourists visit Stanford, Harvard, and the like."
+          "text": "**Peking University and Tsinghua University: **You can’t get inside without an invite from an affiliate. Your best bet is to try to make a friend! I think that foreign students here can invite an unlimited number of guests, but domestic students can’t (as everyone and their mom is trying to get inside). From this, you can understand why Chinese tourists visit Stanford, Harvard, and the like."
         },
         {
           "type": "bullet",
-          "text": "zhongguancun is techbro central in Beijing. Tiktok, Moonshot AI, Zhipu AI, and Baidu all have a presence here. There is a bar called AGI Bar is here where all the drinks are AI themed, which is something that somehow SF has not even done."
+          "text": "zhongguancun is techbro central in Beijing. TikTok, Moonshot AI, Zhipu AI, and Baidu all have a presence here. There is a bar here called AGI Bar where all the drinks are AI themed, which is something that somehow SF has not even done."
         },
         {
           "type": "bullet",
@@ -202,15 +202,15 @@
       "blocks": [
         {
           "type": "bullet",
-          "text": "**Great Wall: **You’ve definitely heard of this. Mutianyu is more lowkey but harder to get, Badaling is an easy high speed rail away but busy!"
+          "text": "**Great Wall: **You’ve definitely heard of this. Mutianyu is more lowkey but harder to get to, Badaling is an easy high-speed rail ride away but busy!"
         },
         {
           "type": "bullet",
-          "text": "**Beijing Zoo (北京动物园):** good place to see pandas if you are lucky, although the zoo may not be at american standards."
+          "text": "**Beijing Zoo (北京动物园):** good place to see pandas if you are lucky, although the zoo may not be at American standards."
         },
         {
           "type": "bullet",
-          "text": "**Military Museum of the Chinese People’s Revolution (中国人民革命军事博物馆):** fascinating to see china’s perspective on its many armed engagements. includes domestic vehicles and quite a few captured from the us/ussr/japan."
+          "text": "**Military Museum of the Chinese People’s Revolution (中国人民革命军事博物馆):** fascinating to see China’s perspective on its many armed engagements. Includes domestic vehicles and quite a few captured from the US/USSR/Japan."
         },
         {
           "type": "bullet",

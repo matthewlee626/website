@@ -6,7 +6,7 @@
     "blocks": [
       {
         "type": "paragraph",
-        "text": "Japan is an amazing place to visit. Great combination of food/transportation/attractions/shopping at a price that is quite favorable from a USD perspective. In specific:"
+        "text": "Japan is an amazing place to visit. Great combination of food/transportation/attractions/shopping at a price that is quite favorable from a USD perspective. Specifically:"
       },
       {
         "type": "bullet",
@@ -14,11 +14,11 @@
       },
       {
         "type": "bullet",
-        "text": "**Osaka** is fun but in particular has less attractions than Tokyo so IMO it’s best used as a launchpad for Kansai in general.",
+        "text": "**Osaka** is fun but in particular has fewer attractions than Tokyo so IMO it’s best used as a launchpad for Kansai in general.",
         "children": [
           {
             "type": "bullet",
-            "text": "**Kyoto** has beautiful natures and shrine with a nasty over-tourism problem."
+            "text": "**Kyoto** has beautiful nature and shrines with a nasty over-tourism problem."
           }
         ]
       },
@@ -35,11 +35,11 @@
     "blocks": [
       {
         "type": "bullet",
-        "text": "I’m Chinese American spend most time in the SGV/Bay Area. If you have a similar background, much of the excitement in novelty you hear online may not apply to you. For me, this was most apparent with food and traditional architecture."
+        "text": "I’m Chinese American and spend most of my time in the SGV/Bay Area. If you have a similar background, much of the excitement and novelty you hear online may not apply to you. For me, this was most apparent with food and traditional architecture."
       },
       {
         "type": "bullet",
-        "text": "Enjoyment is 1000% better with some Japanese fluency. Being able to pull up anywhere up a lot; most people outside of touristy spots speak very minimal English."
+        "text": "Enjoyment is 1000% better with some Japanese fluency. Being able to pull up anywhere helps a lot; most people outside of touristy spots speak very minimal English."
       },
       {
         "type": "bullet",
@@ -59,7 +59,7 @@
       },
       {
         "type": "bullet",
-        "text": "Get a transit card on Apple Wallet and use subway for everything. Apple Maps and Google Maps are both fine. Subways end midnight-ish after which taxis are not cheap in Tokyo."
+        "text": "Get a transit card on Apple Wallet and use the subway for everything. Apple Maps and Google Maps are both fine. Subways end around midnight after which taxis are not cheap in Tokyo."
       }
     ]
   },
@@ -93,7 +93,7 @@
     "blocks": [
       {
         "type": "paragraph",
-        "text": "Most travel plans typically revolve some downtown where most of the action takes place. Unfortunately, Tokyo doesn’t have a single center! IMO there are six centers, many which you could spend days in if standalone. Where you live depends on where you want to focus, but as long as you are within this ring of centers (i.e. inside the JR Yamanote) you should never be far by subway to elsewhere. Listing out some highlights below, with <span underline=\"true\">underlined</span> key tourists spots as my priorities:"
+        "text": "Most travel plans typically revolve around some downtown where most of the action takes place. Unfortunately, Tokyo doesn’t have a single center! IMO there are six centers, many of which you could spend days in if standalone. Where you live depends on where you want to focus, but as long as you are within this ring of centers (i.e. inside the JR Yamanote) you should never be far by subway to elsewhere. Listing out some highlights below, with <span underline=\"true\">underlined</span> key tourist spots as my priorities:"
       }
     ],
     "area": "Tokyo"
@@ -139,11 +139,11 @@
       },
       {
         "type": "bullet",
-        "text": "[**NOA Cafe**](noacafe.jp/ginza): Cute cafe after a bit of shopping, down a basement. Yummy waffles!"
+        "text": "[**NOA Cafe**](noacafe.jp/ginza): Cute cafe after a bit of shopping, down in a basement. Yummy waffles!"
       },
       {
         "type": "bullet",
-        "text": "[**Sushi Yoshi Ginza**](https://sushiyoshiginza.com/ja/): As all omakase is, this place is quite pricey (200 USD for dinner, somewhat less for lunch). I note this place because the head chef is actually Taiwanese, which could work to your favor when having the food explained to you. Had a ridiculous situation where we had two Chinese, two Hong Kongers, two Taiwanese, the chef, and the assistant (Taiwanese) all speaking Japanese."
+        "text": "[**Sushi Yoshi Ginza**](https://sushiyoshiginza.com/ja/): As all omakase is, this place is quite pricey (200 USD for dinner, somewhat less for lunch). I note this place because the head chef is actually Taiwanese, which could work in your favor when having the food explained to you. Had a ridiculous situation where we had two Chinese, two Hong Kongers, two Taiwanese, the chef, and the assistant (Taiwanese) all speaking Japanese."
       },
       {
         "type": "bullet",
@@ -176,7 +176,7 @@
       },
       {
         "type": "bullet",
-        "text": "Ginza Mitsukoshi: All kinds of nicer brands, cafe at the roof"
+        "text": "Ginza Mitsukoshi: All kinds of nicer brands, cafe on the roof"
       },
       {
         "type": "bullet",
@@ -226,7 +226,7 @@
       },
       {
         "type": "bullet",
-        "text": "**Streamers**: chain coffee place, nice for iced Americano and what not"
+        "text": "**Streamers**: chain coffee place, nice for iced Americano and whatnot"
       },
       {
         "type": "bullet",
@@ -255,7 +255,7 @@
       },
       {
         "type": "bullet",
-        "text": "Ginza Mitsukoshi: All kinds of nicer brands, cafe at the roof"
+        "text": "Ginza Mitsukoshi: All kinds of nicer brands, cafe on the roof"
       },
       {
         "type": "bullet",
@@ -301,7 +301,7 @@
       },
       {
         "type": "bullet",
-        "text": "**Kiraku**: Highest rated gyoza place on Tokyo. Super lowkey, cash only, line is an hour long with only Japanese people at 12. Two main orders: 1. chukamen 中华面 which is Japanese style Chinese noodles similar shoyu ramen and 2. gyoza."
+        "text": "**Kiraku**: Highest rated gyoza place in Tokyo. Super lowkey, cash only, line is an hour long with only Japanese people at 12. Two main orders: 1. chukamen 中华面 which is Japanese style Chinese noodles similar to shoyu ramen and 2. gyoza."
       },
       {
         "type": "bullet",
@@ -344,11 +344,11 @@
           },
           {
             "type": "bullet",
-            "text": "First Arrows: They make Native American inspired jewelry (feathers, turquoise). Definitely inspired by Goro’s (Japanese dude went to the Lakota Nation and learned silversmithing) but way more accessible (Goro’s is basically impossible to get in if you aren’t Japanese because of scalper limitations, it’s a iykyk fashion brand). I bought a nice .925 silver feather pendant here for ~25000¥."
+            "text": "First Arrows: They make Native American inspired jewelry (feathers, turquoise). Definitely inspired by Goro’s (Japanese dude went to the Lakota Nation and learned silversmithing) but way more accessible (Goro’s is basically impossible to get in if you aren’t Japanese because of scalper limitations, it’s an iykyk fashion brand). I bought a nice .925 silver feather pendant here for ~25000¥."
           },
           {
             "type": "bullet",
-            "text": "Gentle Monster Aoyama: with tax free and the exchange rate, it’s cheaper to buy here than Korea"
+            "text": "Gentle Monster Aoyama: with tax free and the exchange rate, it’s cheaper to buy here than in Korea"
           },
           {
             "type": "bullet",
@@ -421,7 +421,7 @@
     "blocks": [
       {
         "type": "paragraph",
-        "text": "I lied, I don’t have actually too much to say about here because I haven’t visited extensively. It has a nice collection of restaurants and bars and it’s well connected to the rest of the city. Not too much touristy stuff, I will say."
+        "text": "I lied, I don’t actually have too much to say about here because I haven’t visited extensively. It has a nice collection of restaurants and bars and it’s well connected to the rest of the city. Not too much touristy stuff, I will say."
       },
       {
         "type": "bullet",
@@ -591,7 +591,7 @@
     "blocks": [
       {
         "type": "paragraph",
-        "text": "As above, I would recommend **Osaka** as a central launchpad for the Kansai region, the main places which I’ve listed below. **Nara** has deer, **Uji** has matcha, **Himeji** has the castle, **Kobe** has beef, and **Kyoto** has insane culture. Kyoto has enough for it’s own section below!"
+        "text": "As above, I would recommend **Osaka** as a central launchpad for the Kansai region. I’ve listed the main places below. **Nara** has deer, **Uji** has matcha, **Himeji** has the castle, **Kobe** has beef, and **Kyoto** has insane culture. Kyoto has enough for its own section below!"
       },
       {
         "type": "heading",
@@ -608,7 +608,7 @@
       },
       {
         "type": "bullet",
-        "text": "<span underline=\"true\">**Dotonburi**</span>: where the Glico man is. Central shopping/market area along a river."
+        "text": "<span underline=\"true\">**Dotonbori**</span>: where the Glico man is. Central shopping/market area along a river."
       },
       {
         "type": "paragraph",
@@ -629,7 +629,7 @@
       },
       {
         "type": "bullet",
-        "text": "Osaka specialities are takoyaki and okonomiyaki. The Umeda and Dotonoburi areas are both popular for restaurants."
+        "text": "Osaka specialities are takoyaki and okonomiyaki. The Umeda and Dotonbori areas are both popular for restaurants."
       },
       {
         "type": "heading",
@@ -659,11 +659,11 @@
       },
       {
         "type": "paragraph",
-        "text": "I’m roughly moving clockwise starting from Araishiyama in the far northwest of Kyoto, and then moving to the center after Fushimi Inari. Note that I’m missing tens of temples (as a cursory glance of Apple maps would tell you) and many of those have storied histories and/or tranquil views away from tourists."
+        "text": "I’m roughly moving clockwise starting from Arashiyama in the far northwest of Kyoto, and then moving to the center after Fushimi Inari. Note that I’m missing tens of temples (as a cursory glance at Apple Maps would tell you) and many of those have storied histories and/or tranquil views away from tourists."
       },
       {
         "type": "bullet",
-        "text": "<span underline=\"true\">**Araishiyama**</span>: Walk through Tenryu-ji and look at the lushness of the hills in spring/summer. You’ll make you way to the famous bamboo forest. There is also the Monkey Park on the other side of the river, which requires a challenge hike of a hill but is well worth for the view."
+        "text": "<span underline=\"true\">**Arashiyama**</span>: Walk through Tenryu-ji and look at the lushness of the hills in spring/summer. You’ll make your way to the famous bamboo forest. There is also the Monkey Park on the other side of the river, which requires a challenging hike up a hill but is well worth it for the view."
       },
       {
         "type": "bullet",
@@ -683,11 +683,11 @@
       },
       {
         "type": "bullet",
-        "text": "<span underline=\"true\">**Kiyomizu-dera Temple**</span>: An amazing Buddhist template in the hills on the east of Kyoto. Walk to Taisan-ji for my favorite view of Kyoto: the header of this page. The views of Kyoto around the main temple are breath-taking."
+        "text": "<span underline=\"true\">**Kiyomizu-dera Temple**</span>: An amazing Buddhist temple in the hills on the east of Kyoto. Walk to Taisan-ji for my favorite view of Kyoto: the header of this page. The views of Kyoto around the main temple are breathtaking."
       },
       {
         "type": "bullet",
-        "text": "<span underline=\"true\">**Fushimi-Inari**</span>: The famous series of red torii-gates, made funnier when you can read the torii gate inscriptions and realize that the new gates are funded as donations from corporations. If you aren’t climbing up to the top of the mountain to the top shrine and around the loop, you only need an hour or so to take a torii gate picture. However the climb up and around the loop (many, many inclines) is well worth with friends. I hiked at night; what an experience!"
+        "text": "<span underline=\"true\">**Fushimi-Inari**</span>: The famous series of red torii-gates, made funnier when you can read the torii gate inscriptions and realize that the new gates are funded as donations from corporations. If you aren’t climbing up to the top of the mountain to the top shrine and around the loop, you only need an hour or so to take a torii gate picture. However the climb up and around the loop (many, many inclines) is well worth it with friends. I hiked at night; what an experience!"
       },
       {
         "type": "bullet",
@@ -712,7 +712,7 @@
       },
       {
         "type": "bullet",
-        "text": "**Meat & Vegetable Hachibe**: Forgot the food in Nishiki Market! Walk out the east side to this lowkey shop for this amazing steak and grilled veggie rice bowl ever. I would w go back; 10/10 and my favorite restaurant in the world."
+        "text": "**Meat & Vegetable Hachibe**: Forget the food in Nishiki Market! Walk out the east side to this lowkey shop for an amazing steak and grilled veggie rice bowl. I would go back; 10/10 and my favorite restaurant in the world."
       },
       {
         "type": "bullet",

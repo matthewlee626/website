@@ -529,14 +529,14 @@
   },
   {
     "id": "34",
-    "name": "Dotonburi",
+    "name": "Dotonbori",
     "area": "Osaka",
     "coordinates": [
       135.5015715,
       34.6690306
     ],
     "aliases": [
-      "Dotonburi"
+      "Dotonbori"
     ],
     "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
@@ -577,14 +577,14 @@
   },
   {
     "id": "37",
-    "name": "Araishiyama",
+    "name": "Arashiyama",
     "area": "Kyoto",
     "coordinates": [
       135.6744961,
       35.0090473
     ],
     "aliases": [
-      "Araishiyama"
+      "Arashiyama"
     ],
     "note": "Mentioned in the Japan travel notes.",
     "precision": "landmark",
