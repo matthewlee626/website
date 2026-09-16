@@ -9,14 +9,14 @@ export const posts: ThoughtPost[] = [
     slug: "beijing",
     writtenOn: "2026-08-29",
     title: "Beijing travel notes",
-    description: "A city of concentric rings, hutongs, imperial history, and very good lamb.",
+    description: "the imperial capital has much to see",
   },
   {
     visible: true,
     slug: "library",
     writtenOn: "2026-08-26",
     title: "library",
-    description: "A bookshelf to browse.",
+    description: "books are a reflection of the soul",
   },
   {
     visible: true,

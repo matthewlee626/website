@@ -6,7 +6,7 @@ import { visiblePosts } from "@/app/thoughts/posts";
 
 export const metadata: Metadata = {
   title: "thoughts · matthew lee",
-  description: "Notes on places, books, and other things.",
+  description: "musings of a brief spark of being",
 };
 
 export default function ThoughtsPage() {
