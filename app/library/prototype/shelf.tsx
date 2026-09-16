@@ -251,7 +251,7 @@ export default function Shelf({ books }: { books: ShelfBook[] }) {
         <div className={styles.caption} aria-live="polite" aria-atomic="true">
           <p className={styles.title}>{book.title.toLowerCase()}</p>
           <p className={styles.author}>{book.author}</p>
-          <a className={styles.request} href="mailto:hello@matthewlee.xyz">
+          <a className={styles.request} href="https://x.com/matthewlee626/status/2100088530034917415">
             request
           </a>
         </div>
