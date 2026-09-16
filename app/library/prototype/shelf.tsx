@@ -39,20 +39,6 @@ export default function Shelf({ books }: { books: ShelfBook[] }) {
   const { distance: focusDistance, moveTo, moveBy, jumpTo, stop } = useShelfMotion(rail.distanceAt(initial));
   const position = rail.positionAt(focusDistance);
   const [dragging, setDragging] = useState(false);
-  const [requestedSlug, setRequestedSlug] = useState<string | null>(null);
-  const requestTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
-  useEffect(() => () => {
-    if (requestTimer.current) clearTimeout(requestTimer.current);
-  }, []);
-
-  function requestBook(slug: string) {
-    if (requestTimer.current) clearTimeout(requestTimer.current);
-    setRequestedSlug(slug);
-    requestTimer.current = setTimeout(() => {
-      setRequestedSlug(null);
-      requestTimer.current = null;
-    }, 2000);
-  }
   const [viewport, setViewport] = useState({ width: 1200, scale: 1 });
   const pageRef = useRef<HTMLElement>(null);
   const stageRef = useRef<HTMLElement>(null);
@@ -125,6 +111,29 @@ export default function Shelf({ books }: { books: ShelfBook[] }) {
     moveTo(rail.distanceAt(index));
   }
 
+  useEffect(() => {
+    function keyDown(event: KeyboardEvent) {
+      if (event.defaultPrevented || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || drag.current) return;
+      const target = event.target;
+      if (target instanceof HTMLElement && (target.isContentEditable || target.closest("input, textarea, select, [role='textbox']"))) return;
+      if (event.key === "Escape") {
+        stop();
+        return;
+      }
+      if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
+
+      event.preventDefault();
+      const next = current + (event.key === "ArrowRight" ? 1 : -1);
+      moveTo(rail.distanceAt(next));
+      const stage = stageRef.current;
+      if (stage?.contains(document.activeElement)) {
+        stage.querySelector<HTMLButtonElement>(`[data-book-index="${next}"]`)?.focus({ preventScroll: true });
+      }
+    }
+    window.addEventListener("keydown", keyDown);
+    return () => window.removeEventListener("keydown", keyDown);
+  }, [current, moveTo, rail, stop]);
+
   function pointerDown(event: PointerEvent<HTMLElement>) {
     if (!event.isPrimary || event.button !== 0 || drag.current) return;
     stop();
@@ -180,15 +189,6 @@ export default function Shelf({ books }: { books: ShelfBook[] }) {
         onPointerMove={pointerMove}
         onPointerUp={pointerEnd}
         onPointerCancel={pointerEnd}
-        onKeyDown={(event) => {
-          if (event.key === "ArrowRight" || event.key === "ArrowLeft") {
-            event.preventDefault();
-            const next = current + (event.key === "ArrowRight" ? 1 : -1);
-            select(next);
-            event.currentTarget.querySelector<HTMLButtonElement>(`[data-book-index="${next}"]`)?.focus({ preventScroll: true });
-          }
-          if (event.key === "Escape") stop();
-        }}
       >
         {indices.map((index, localIndex) => {
           const item = books[wrapIndex(index, books.length)];
@@ -251,9 +251,9 @@ export default function Shelf({ books }: { books: ShelfBook[] }) {
         <div className={styles.caption} aria-live="polite" aria-atomic="true">
           <p className={styles.title}>{book.title.toLowerCase()}</p>
           <p className={styles.author}>{book.author}</p>
-          <button type="button" className={styles.request} onClick={() => requestBook(book.slug)}>
-            <span aria-live="polite">{requestedSlug === book.slug ? "you know how!" : "request"}</span>
-          </button>
+          <a className={styles.request} href="mailto:hello@matthewlee.xyz">
+            request
+          </a>
         </div>
         <button className={styles.next} type="button" onClick={() => select(current + 1)} aria-label="Next book">→</button>
       </footer>
