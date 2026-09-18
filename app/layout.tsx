@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { SiteHeader } from "@/components/site-header";
+import { Analytics } from "@vercel/analytics/next";
 
 const PPNikkeiMaru = localFont({
   src: "./fonts/PPNikkeiMaru-Regular.otf",
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body className="antialiased">
         <SiteHeader />
         {children}
+        <Analytics />
       </body>
     </html>
   );
