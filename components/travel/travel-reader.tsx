@@ -42,6 +42,8 @@ export default function TravelReader({ config, children }: { config: AtlasConfig
       (notes.current?.querySelector(`[data-map-location="${id}"]`) || notes.current?.querySelector(`[data-inline-location="${id}"]`))?.scrollIntoView({ behavior: "smooth", block: "center" });
     }} /></div>
     <article ref={notes} className={styles.notes}>
+      {/* The render prop passes selectLocation to click handlers; it does not call it during render. */}
+      {/* eslint-disable-next-line react-hooks/refs */}
       {children(selectLocation, locationId)}
     </article>
   </PageLayout>;

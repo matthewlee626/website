@@ -1,8 +1,6 @@
+@import "tailwindcss";
 @import "../styles/tokens.css";
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@config "../tailwind.config.ts";
 
 @layer base {
   body {
