@@ -68,6 +68,8 @@ export default function LibraryGrid() {
   const shuffledBooks = [...books];
 
   for (let index = shuffledBooks.length - 1; index > 0; index -= 1) {
+    // This server-rendered page intentionally gives each request a new book order.
+    // eslint-disable-next-line react-hooks/purity
     const swapIndex = Math.floor(Math.random() * (index + 1));
     [shuffledBooks[index], shuffledBooks[swapIndex]] = [
       shuffledBooks[swapIndex],

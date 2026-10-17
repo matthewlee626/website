@@ -1,16 +1,11 @@
 const assert = require('node:assert/strict');
 const { test } = require('node:test');
-const { readFileSync } = require('node:fs');
-const ts = require('typescript');
 const React = require('react');
 const { renderToStaticMarkup } = require('react-dom/server');
-// Compile the leaf renderer in memory; CSS class names don't affect semantics.
-const compiled = ts.transpileModule(readFileSync('components/travel/rich-text.tsx', 'utf8'), {
-  compilerOptions: { module: ts.ModuleKind.CommonJS, jsx: ts.JsxEmit.ReactJSX, esModuleInterop: true },
-}).outputText;
-const renderer = { exports: {} };
-new Function('require', 'module', 'exports', compiled)(name => name.endsWith('.css') ? {} : require(name), renderer, renderer.exports);
-const render = props => renderToStaticMarkup(React.createElement(renderer.exports.RichText, props));
+// tsx loads the real renderer; CSS class names don't affect these semantics.
+require.extensions['.css'] = module => { module.exports = {}; };
+const { RichText } = require('../components/travel/rich-text.tsx');
+const render = props => renderToStaticMarkup(React.createElement(RichText, props));
 
 test('Notion link labels retain bold formatting and bare domains become HTTPS', () => {
   const html = render({ text: '[**Glitch Coffee**](glitchcoffee.com): a flight.' });

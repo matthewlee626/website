@@ -8,32 +8,44 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint app components lib tests *.mjs tailwind.config.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test scripts/test-travel-rich-text.cjs scripts/test-beijing-coordinates.mjs scripts/test-library-shelf.cjs",
+    "test:e2e": "playwright test",
+    "test:visual": "VISUAL_CHECK=1 playwright test --grep \"homepage and thoughts\""
   },
   "dependencies": {
-    "@radix-ui/react-hover-card": "^1.1.2",
-    "@radix-ui/react-icons": "^1.3.0",
-    "@radix-ui/react-popover": "^1.1.2",
+    "@radix-ui/react-hover-card": "^1.2.1",
+    "@radix-ui/react-icons": "^1.3.2",
+    "@radix-ui/react-popover": "^1.3.1",
     "@vercel/analytics": "^2.0.1",
-    "class-variance-authority": "^0.7.0",
+    "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "coordtransform": "^2.1.2",
-    "maplibre-gl": "^6.7.0",
-    "next": "15.6.0-canary.60",
-    "react": "^18",
-    "react-dom": "^18",
-    "tailwind-merge": "^2.5.4",
+    "maplibre-gl": "^6.14.0",
+    "next": "16.4.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tailwind-merge": "^3.7.0",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.15",
-    "mini-css-extract-plugin": "^2.9.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
-  }
+    "@playwright/test": "^1.64.1",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@typescript/native": "npm:typescript@^7.0.2",
+    "eslint": "10.13.0",
+    "eslint-config-next": "16.4.2",
+    "mini-css-extract-plugin": "^2.10.2",
+    "postcss": "^8.5.30",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
+    "typescript": "npm:@typescript/typescript6@^6.0.2"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "packageManager": "pnpm@12.14.0"
 }

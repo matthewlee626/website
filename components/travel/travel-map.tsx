@@ -28,7 +28,7 @@ function containsPoint(ring: number[][], point: [number, number]) {
 export default function TravelMap({ config, embedded = false, area = "", locationId = "", onPlaceSelect }: MapSelectionProps & { config: AtlasConfig }) {
   const { places } = config;
   const placeCallback = useRef(onPlaceSelect);
-  placeCallback.current = onPlaceSelect;
+  useEffect(() => { placeCallback.current = onPlaceSelect; }, [onPlaceSelect]);
   const container = useRef<HTMLDivElement>(null);
   const map = useRef<maplibregl.Map | null>(null);
   const [selected, setSelected] = useState<Record<string, unknown> | null>(null);
@@ -53,6 +53,8 @@ export default function TravelMap({ config, embedded = false, area = "", locatio
         center: config.center, zoom: config.zoom, minZoom: config.minZoom ?? 3, maxZoom: 19,
         maxBounds: config.bounds, attributionControl: false });
     } catch {
+      // Report an external WebGL initialization failure in the rendered UI.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setError("The map could not start. Try a browser with WebGL enabled.");
       return;
     }

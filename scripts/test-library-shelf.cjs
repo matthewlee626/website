@@ -1,13 +1,5 @@
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
-const ts = require('typescript');
-
-require.extensions['.ts'] = (module, filename) => {
-  const result = ts.transpileModule(fs.readFileSync(filename, 'utf8'), {
-    compilerOptions: { module: ts.ModuleKind.CommonJS, esModuleInterop: true },
-  });
-  module._compile(result.outputText, filename);
-};
 
 const dimensions = Object.values(require('../app/library/dimensions.ts').default);
 const { shelfOffsets, centralShelfOffsets, distanceAt, popOutProgress, visibleBookRange } = require('../app/library/prototype/geometry.ts');
